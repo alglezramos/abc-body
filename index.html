@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ABC BODY · Alfabetización física escolar</title>
+  <meta name="description" content="Prototipo de plataforma de alfabetización física para colegios: aprende, practica y demuestra.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="logo">ABC</span><div><b>ABC BODY</b><small>Aprender a moverse · entrenar · cuidarse</small></div></div>
+    <nav class="roles" aria-label="Vistas">
+      <button class="role-tab" data-role="student">🎒 Estudiante</button>
+      <button class="role-tab" data-role="teacher">🧑‍🏫 Docente</button>
+      <button class="role-tab" data-role="school">🏫 Colegio</button>
+      <button class="role-tab" data-role="family">👨‍👩‍👧 Familia</button>
+    </nav>
+  </header>
+
+  <main id="main" class="container"></main>
+
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <button id="modal-close" class="close" aria-label="Cerrar">×</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <footer class="container footer">
+    <p>Prototipo v0.1 · Datos ficticios guardados solo en este navegador · Inspirado en el marco de alfabetización física de Sport for Life (sin afiliación).</p>
+    <button id="reset" class="btn ghost small">Restablecer demo</button>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
