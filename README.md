@@ -4,7 +4,7 @@
 
 Plataforma de alfabetización física para colegios privados de Costa Rica. Un estudiante que se gradúa a los 17 años sale entendiendo su cuerpo y sabiendo cómo manejar su salud con actividad física, alimentación y descanso. Puede entrenar de forma autónoma y, si tiene talento, cuenta con un perfil deportivo documentado.
 
-> Prototipo v0.1: sin servidor y con datos ficticios. Sirve para mostrar el concepto a directores, docentes y familias.
+> Prototipo v0.2: sin servidor y con datos ficticios. El currículo de 1° a 11° está alineado al programa oficial de Educación Física del MEP. Ver **[CURRICULO.md](CURRICULO.md)**.
 
 ---
 
@@ -14,17 +14,19 @@ Plataforma de alfabetización física para colegios privados de Costa Rica. Un e
 
 **Principio clave.** La edad define la experiencia. La competencia define el nivel.
 
+**Alineación con el MEP.** Cada grado sigue las unidades del programa oficial de Educación Física: I y II Ciclos (2013) y III Ciclo y Educación Diversificada ("Ética, Estética y Ciudadanía", vigente desde 2011). Son 32 unidades oficiales, cada una con su capa ABC BODY, más 2 extensiones propias en 11°. El detalle está en [CURRICULO.md](CURRICULO.md).
+
 | Nivel | Nombre | Grados | Edad | Meta |
 |---|---|---|---|---|
-| PL1 | Descubrir | 1°–2° | 6–8 | Confianza y disfrute del movimiento |
-| PL2 | Moverse | 3°–4° | 8–10 | Habilidades motrices fundamentales |
-| PL3 | Jugar | 5°–6° | 10–12 | Aplicar habilidades en juegos y deportes |
+| PL1 | Descubrir | 1°–2° | 6–8 | Conocer el cuerpo y disfrutar el movimiento |
+| PL2 | Moverse | 3°–4° | 8–10 | Habilidades motrices fundamentales en el juego |
+| PL3 | Jugar | 5°–6° | 10–12 | Juegos predeportivos y salud |
 | PL4 | Entrenar | 7°–8° | 12–14 | Técnica y seguridad en el entrenamiento |
-| PL5 | Comprender | 9° | 14–15 | Cómo responde el cuerpo |
-| PL6 | Diseñar | 10° | 15–16 | Diseñar sesiones, semanas y hábitos |
-| PL7 | Autonomía | 11° | 16–17 | Proyecto Self-Coach + ruta opcional de alto rendimiento |
+| PL5 | Comprender | 9° | 14–15 | Principios del entrenamiento y prevención de lesiones |
+| PL6 | Diseñar | 10° | 15–16 | Promover la salud y diseñar desafíos para otros |
+| PL7 | Autonomía | 11° | 16–17 | Salud comunitaria + proyecto Self-Coach + ruta opcional de alto rendimiento |
 
-**Seis dominios:** Movimiento · Condición física · Cuerpo humano · Alimentación y recuperación · Entrenamiento · Autogestión.
+**Siete áreas:** Movimiento · Condición física · Cuerpo humano · Alimentación y recuperación · Entrenamiento · Autogestión y liderazgo · Juego y deporte.
 
 **Cada unidad pide tres evidencias:**
 1. **Teoría**: quiz que se corrige solo.
@@ -46,15 +48,17 @@ Plataforma de alfabetización física para colegios privados de Costa Rica. Un e
 | 🧑‍🏫 Docente | Profesor de EF | Matriz del grupo para validar competencias con un toque, más las rúbricas del nivel |
 | 🏫 Colegio | Dirección | Sello, avance por grado y por dominio, y perfil del graduado |
 | 👨‍👩‍👧 Familia | Padres | Pasaporte del estudiante con insignias, competencias, perfil deportivo e impresión |
+| 📚 Currículo | Todos | Mapa por grado: unidad oficial del MEP, competencia ABC, práctica y valor agregado, con las fuentes |
 
 **Estructura**
 ```
 index.html        página principal
 css/styles.css    estilos
-js/data.js        currículo (niveles, unidades, quizzes, rúbricas) y datos de demostración
+js/data.js        currículo 1°–11° alineado al MEP (unidades, quizzes, rúbricas) y datos de demostración
+CURRICULO.md      currículo completo en formato documento
 js/app.js         lógica y vistas
 ```
-Para editar el currículo se modifica `js/data.js`. Cada unidad tiene `lesson`, `quiz`, `practice`, `competency` y `mep` (la alineación con el programa del MEP, pendiente).
+Para editar el currículo se modifica `js/data.js`. Cada unidad tiene `grade`, `tri`, `mep` (título oficial), `mepContents`, `competency`, `lesson`, `quiz`, `practice` y `abc` (valor agregado).
 
 ## 3. Tutorial
 
@@ -66,15 +70,16 @@ Para editar el currículo se modifica `js/data.js`. Cada unidad tiene `lesson`, 
 3. En uno o dos minutos la app queda disponible en `https://<usuario>.github.io/abc-body/`.
 
 **Demo sugerida para un director (5 minutos)**
-1. **Estudiante:** abre "Patrones de fuerza", haz el quiz y registra una práctica.
-2. **Docente:** en el grupo 7°A, valida competencias tocando las celdas.
-3. **Colegio:** muestra el sello y el perfil del graduado.
-4. **Familia:** abre el pasaporte de un estudiante de 11°A que tenga perfil deportivo.
+1. **Currículo:** elige un grado y muestra la unidad del MEP junto con la capa ABC BODY.
+2. **Estudiante:** abre "Cuidándome y entrenándome: jugando, bailando y creando" (7°), haz el quiz y registra una práctica.
+3. **Docente:** en el grupo 7°A, valida competencias tocando las celdas.
+4. **Colegio:** muestra el sello y el perfil del graduado.
+5. **Familia:** abre el pasaporte de un estudiante de 11°A que tenga perfil deportivo.
 
 ## Hoja de ruta
-- [ ] Mapear cada unidad con el programa oficial de Educación Física del MEP
+- [x] Alinear cada unidad con el programa oficial de Educación Física del MEP (v0.2)
 - [ ] Validar contenidos y rúbricas con docentes colegiados
-- [ ] Completar las unidades por nivel (hoy hay 24 de muestra)
+- [ ] Ampliar cada unidad a varias lecciones (hoy hay 1 lección y 1 quiz por unidad)
 - [ ] Backend con usuarios reales (colegio, docente, estudiante, familia), por ejemplo con Supabase
 - [ ] Consentimientos, privacidad de datos de menores y protocolos de seguridad
 - [ ] Instrumentos de medición validados (PLAY tools, CAPL-2) para investigación
