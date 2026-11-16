@@ -57,3 +57,33 @@
 4. `python3 tools/validar_curriculo.py` hasta ver «✓ Validación correcta».
 5. Si el cambio es intencional y bajaron las repeticiones: `python3 tools/validar_curriculo.py --actualizar-linea-base`.
 6. Commit y pull request: GitHub Actions vuelve a validar.
+
+## V18.3 – V18.5 (resumen)
+- **V18.3**: panel Kinetic y Ruta Anual (`tools/apply_kinetic_v18_3.py`).
+- **V18.4**: identidad ABC HUMAN V1.0 (`brand-v18-4.css`).
+- **V18.5**: lección guiada en 4 pasos — Aprende, Observa, Comprueba, Practica (`learning-flow-v18-5.js/.css`).
+
+## V18.6 — Cuestionario fiable y reflexión recuperada (Claude)
+
+### Teoría: qué cambió y por qué
+- **Las respuestas ya no siguen un patrón.** En V18.5 la correcta estaba siempre en la posición B, B, A: se aprobaba sin leer. Ahora el orden se baraja por ficha (estable al recargar) y la correcta queda en cada posición ≈⅓ de las veces.
+- **Distractores reales.** Las opciones incorrectas son textos de *otras* fichas de la misma ruta y de otro dominio (teoría, consignas, criterios del docente), no frases absurdas. Se elimina de cada opción el nombre de la propia ficha para que el título no delate la respuesta, y todas las opciones se recortan igual (por palabra completa, con «…»).
+- **Preguntas:** 1) idea de la teoría, 2) consigna de la actividad, 3) qué revisará el docente (en YOUTH, cuyo criterio es genérico, se usa el objetivo). Se quitó «¿Qué habilidad trabajamos?», que ya respondía el título.
+- **Reflexión recuperada.** La pregunta propia de cada ficha (`question`) vuelve en el paso Comprueba y se guarda en el mismo campo que antes (`answer`), así que vuelve a aparecer en «Mi Trayectoria».
+- **Detalles:** mensajes dentro de la página en lugar de `alert()`; la lección vuelve a «Aprende» al cambiar de semana; se dibuja una sola vez por actualización; pie de página V18.6.
+- **Progreso anterior:** los resultados de cuestionario guardados con V18.5 se ignoran (eran otras preguntas); siguen en el respaldo. Las reflexiones y los registros de práctica no cambian.
+- Sin cambios en `index.html` ni en el currículo (`curriculumVersion` sigue en 18.2.0).
+
+### Hallazgos de contenido (para revisión pedagógica)
+- `safety` es la misma para todas las fichas de una ruta (64 textos para 1.144 fichas): no sirve para preguntas por ficha.
+- En YOUTH, `rubric` es genérica («Participa de forma segura en la actividad «…»»).
+- El cuestionario sigue siendo **automático**: comprueba lectura, no comprensión profunda. El siguiente paso es un banco de preguntas redactado por dominio.
+
+### Pruebas (Chrome real servido por HTTP, escritorio 1280 px y móvil 390 px)
+- 1.144/1.144 fichas con 3 preguntas, sin opciones duplicadas, sin el título en la respuesta correcta; correcta en posición 1/2/3: 1.107 / 1.186 / 1.139 de 3.432.
+- Reflexión: guardar, recargar y verla en «Mi Trayectoria». Cuestionario incompleto, 3/3, 0/3, registros V18.5 ignorados, cambio de semana. Sin errores JS ni diálogos.
+
+### Tutorial: publicar
+1. Sube `learning-flow-v18-5.js`, `learning-flow-v18-5.css` y `README.md` a `main` (o por pull request).
+2. El workflow «Publish ABC BODY guided learning V18.5» se ejecuta, comprueba el JS y no toca `index.html` (ya enlaza estos archivos).
+3. Abre la app, entra a Academia → Comprueba y verifica que el pie diga V18.6.
