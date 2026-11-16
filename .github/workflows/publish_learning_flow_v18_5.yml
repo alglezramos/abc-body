@@ -1,0 +1,42 @@
+name: Publish ABC BODY guided learning V18.5
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish_learning_flow_v18_5.yml'
+      - 'learning-flow-v18-5.js'
+      - 'learning-flow-v18-5.css'
+      - 'tools/install_learning_flow_v18_5.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: abc-body-learning-v18-5
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install learning flow safely
+        run: python3 tools/install_learning_flow_v18_5.py
+      - name: Validate lesson code and references
+        run: |
+          node --check learning-flow-v18-5.js
+          python3 - <<'PY'
+          from pathlib import Path
+          s=Path('index.html').read_text()
+          assert 'learning-flow-v18-5.js' in s and 'learning-flow-v18-5.css' in s
+          assert s.count('id="dataset"')==1
+          assert s.count('id="curriculum-meta"')==1
+          assert s.count('id="academia"')==1
+          assert s.count('id="evidencia"')==1
+          print('Verified guided lesson and preserved original curriculum.')
+          PY
+          git diff --check
+      - name: Publish index
+        run: |
+          git add index.html
+          if git diff --cached --quiet; then exit 0; fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "feat(app): publish guided learning V18.5"
+          git push origin HEAD:main
