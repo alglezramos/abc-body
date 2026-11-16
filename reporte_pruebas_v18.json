@@ -1,0 +1,15 @@
+{
+  "version": "18",
+  "curriculum_count": 1144,
+  "routes": 22,
+  "route_complete": true,
+  "ids_unique": true,
+  "variants_complete": true,
+  "mandatory_fields_complete": true,
+  "exact_repeated_steps": 468,
+  "exact_repeated_rubrics": 468,
+  "editorial_edits": 160,
+  "browser_smoke": "12 checks passed in Chromium set_content with simulated localStorage; no natural reload/IndexedDB E2E",
+  "manual_or_field_validation": "not performed",
+  "professional_validation": "not performed"
+}
