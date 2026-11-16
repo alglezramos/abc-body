@@ -1,0 +1,43 @@
+name: Apply ABC HUMAN brand manual V18.4
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/apply_brand_v18_4.yml'
+      - 'tools/apply_brand_v18_4.py'
+      - 'brand-v18-4.css'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: abc-human-brand-v18-4
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply version guarded visual update
+        run: python3 tools/apply_brand_v18_4.py
+      - name: Verify branding and preserve data integrity
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          t=Path('index.html').read_text()
+          c=Path('brand-v18-4.css').read_text()
+          assert 'brand-v18-4.css' in t and '#0B2438' in c and '#FF7043' in c and '#F4F7FA' in c
+          assert 'id="dataset"' in t and 'id="curriculum-meta"' in t
+          assert 'BEYOND YOUR LIMITS' in t and '<div class="logo">ABC<em>HUMAN</em></div>' in t
+          print('Brand update OK: curriculum and logo untouched')
+          PY
+      - run: git diff --check
+      - name: Commit updated app entrypoint
+        run: |
+          git add index.html
+          if git diff --cached --quiet; then exit 0; fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "style(app): apply ABC HUMAN V1.0 brand identity to V18.4"
+          git push origin HEAD:main
