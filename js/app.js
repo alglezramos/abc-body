@@ -1,4 +1,4 @@
-/* ABC BODY — Prototipo v0.2 (sin servidor; datos guardados en este navegador) */
+/* ABC BODY — Prototipo v0.3 (sin servidor; datos guardados en este navegador, con respaldo JSON) */
 (function () {
   "use strict";
 
@@ -70,11 +70,76 @@
   }
 
   let state;
-  function load() {
-    try { const raw = localStorage.getItem(STORE_KEY); state = raw ? JSON.parse(raw) : seedState(); }
-    catch (e) { state = seedState(); }
+  let storageOk = true;
+  const REMIND_EVERY = 20; // cambios sin respaldo antes de recordar
+
+  function notice(msg, kind) {
+    const el = $("#notice");
+    if (!el) return;
+    el.className = "notice " + (kind || "warn");
+    el.innerHTML = msg + ' <button class="close" aria-label="Cerrar aviso">×</button>';
+    el.querySelector(".close").onclick = () => el.classList.add("hidden");
   }
-  function save() { try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch (e) { /* sin almacenamiento */ } }
+
+  function load() {
+    let raw = null;
+    try { raw = localStorage.getItem(STORE_KEY); }
+    catch (e) { storageOk = false; }
+    if (!raw) { state = seedState(); return; }
+    try { state = JSON.parse(raw); }
+    catch (e) {
+      // No sobrescribir datos dañados: se guardan aparte para poder recuperarlos
+      try { localStorage.setItem(STORE_KEY + ".danado." + Date.now(), raw); } catch (_) {}
+      state = seedState();
+      notice("Los datos guardados estaban dañados. Se cargó la demo y se conservó una copia de los datos anteriores.", "error");
+    }
+  }
+
+  function save() {
+    state.meta = state.meta || { changes: 0, lastBackup: null };
+    state.meta.changes++;
+    try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); storageOk = true; }
+    catch (e) {
+      if (storageOk) notice("⚠️ No se pudo guardar en este navegador (modo privado o almacenamiento lleno). Descarga un respaldo para no perder el progreso.", "error");
+      storageOk = false;
+      return;
+    }
+    if (state.meta.changes >= REMIND_EVERY) {
+      notice("Llevas " + state.meta.changes + " cambios sin respaldo. Usa «Descargar respaldo» al pie de la página.");
+    }
+  }
+
+  function exportBackup() {
+    state.meta = state.meta || {};
+    state.meta.changes = 0;
+    state.meta.lastBackup = new Date().toISOString();
+    const blob = new Blob([JSON.stringify({ app: "abc-body", version: STORE_KEY, exported: state.meta.lastBackup, state }, null, 2)], { type: "application/json" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "abc-body-respaldo-" + state.meta.lastBackup.slice(0, 10) + ".json";
+    a.click();
+    URL.revokeObjectURL(a.href);
+    try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch (e) {}
+    $("#notice").classList.add("hidden");
+  }
+
+  function importBackup(file) {
+    const reader = new FileReader();
+    reader.onload = () => {
+      try {
+        const data = JSON.parse(reader.result);
+        if (data.app !== "abc-body" || !data.state || !data.state.students) throw new Error("formato");
+        state = data.state;
+        state.meta = { changes: 0, lastBackup: data.exported || null };
+        try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch (e) {}
+        render();
+        notice("Respaldo restaurado (" + (data.exported || "sin fecha").slice(0, 10) + ").", "ok");
+      } catch (e) {
+        notice("El archivo no es un respaldo válido de ABC BODY. No se cambió nada.", "error");
+      }
+    };
+    reader.readAsText(file);
+  }
 
   /* ---------- Métricas ---------- */
   function unitProgress(s, u) {
@@ -362,6 +427,10 @@
     document.querySelectorAll(".role-tab").forEach(b => b.onclick = () => { state.role = b.dataset.role; save(); render(); });
     $("#modal-close").onclick = () => { $("#modal").classList.add("hidden"); render(); };
     $("#modal").onclick = e => { if (e.target.id === "modal") { $("#modal").classList.add("hidden"); render(); } };
+    $("#export").onclick = exportBackup;
+    $("#import").onclick = () => $("#import-file").click();
+    $("#import-file").onchange = e => { if (e.target.files[0]) importBackup(e.target.files[0]); e.target.value = ""; };
+    if (!storageOk) notice("⚠️ Este navegador no permite guardar datos. El progreso se perderá al cerrar la página; descarga un respaldo antes de salir.", "error");
     $("#reset").onclick = () => { if (window.confirm("¿Restablecer los datos de demostración?")) { state = seedState(); save(); render(); } };
     render();
   }

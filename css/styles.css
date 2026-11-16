@@ -117,4 +117,12 @@ details { border-top: 1px solid var(--line); padding: 8px 0; } summary { cursor:
   .node.left { transform: translateX(-20px); } .node.right { transform: translateX(20px); }
   .bar { grid-template-columns: 110px 1fr 40px; }
 }
-@media print { .topbar, .footer, .btn, form { display: none !important; } .card { break-inside: avoid; } }
+/* Avisos de guardado y respaldo */
+.notice { max-width: 1100px; margin: 12px auto 0; padding: 10px 40px 10px 14px; border-radius: 12px; position: relative; font-size: .9rem; }
+.notice.warn { background: #fff7e0; border: 1px solid #f0c94a; }
+.notice.error { background: #fdecec; border: 1px solid #e57373; }
+.notice.ok { background: #e8f6ec; border: 1px solid #66bb6a; }
+.notice.hidden { display: none; }
+.notice .close { position: absolute; right: 8px; top: 6px; background: none; border: 0; font-size: 1.2rem; cursor: pointer; }
+.footer-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+@media print { .topbar, .footer, .btn, form, .notice { display: none !important; } .card { break-inside: avoid; } }

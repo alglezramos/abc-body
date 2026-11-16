@@ -4,7 +4,7 @@
 
 Plataforma de alfabetización física para colegios privados de Costa Rica. Un estudiante que se gradúa a los 17 años sale entendiendo su cuerpo y sabiendo cómo manejar su salud con actividad física, alimentación y descanso. Puede entrenar de forma autónoma y, si tiene talento, cuenta con un perfil deportivo documentado.
 
-> Prototipo v0.2: sin servidor y con datos ficticios. El currículo de 1° a 11° está alineado al programa oficial de Educación Física del MEP. Ver **[CURRICULO.md](CURRICULO.md)**.
+> Prototipo v0.3: sin servidor y con datos ficticios. El currículo de 1° a 11° está alineado al programa oficial de Educación Física del MEP. Ver **[CURRICULO.md](CURRICULO.md)**.
 
 ---
 
@@ -76,8 +76,14 @@ Para editar el currículo se modifica `js/data.js`. Cada unidad tiene `grade`, `
 4. **Colegio:** muestra el sello y el perfil del graduado.
 5. **Familia:** abre el pasaporte de un estudiante de 11°A que tenga perfil deportivo.
 
+## Cambios
+- **v0.3** · Guardado seguro: aviso si el navegador no puede guardar (modo privado o almacenamiento lleno), copia de datos dañados en lugar de borrarlos, botones *Descargar respaldo* y *Restaurar respaldo* (JSON) y recordatorio cada 20 cambios sin respaldo.
+- **v0.2** · Currículo 1°–11° alineado al programa de Educación Física del MEP.
+
 ## Hoja de ruta
 - [x] Alinear cada unidad con el programa oficial de Educación Física del MEP (v0.2)
+- [x] Respaldo y restauración de datos en JSON (v0.3)
+- [ ] Integrar fichas útiles de la V18 (ChatGPT) como lecciones extra de las 34 unidades
 - [ ] Validar contenidos y rúbricas con docentes colegiados
 - [ ] Ampliar cada unidad a varias lecciones (hoy hay 1 lección y 1 quiz por unidad)
 - [ ] Backend con usuarios reales (colegio, docente, estudiante, familia), por ejemplo con Supabase

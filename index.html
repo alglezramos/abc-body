@@ -19,6 +19,8 @@
     </nav>
   </header>
 
+  <div id="notice" class="notice hidden" role="status" aria-live="polite"></div>
+
   <main id="main" class="container"></main>
 
   <div id="modal" class="modal hidden" role="dialog" aria-modal="true">
@@ -29,8 +31,13 @@
   </div>
 
   <footer class="container footer">
-    <p>Prototipo v0.2 · Datos ficticios guardados solo en este navegador · Inspirado en el marco de alfabetización física de Sport for Life (sin afiliación). Alineado al programa oficial de Educación Física del MEP.</p>
-    <button id="reset" class="btn ghost small">Restablecer demo</button>
+    <p>Prototipo v0.3 · Datos ficticios guardados solo en este navegador · Inspirado en el marco de alfabetización física de Sport for Life (sin afiliación). Alineado al programa oficial de Educación Física del MEP.</p>
+    <div class="footer-actions">
+      <button id="export" class="btn ghost small">⬇️ Descargar respaldo</button>
+      <button id="import" class="btn ghost small">⬆️ Restaurar respaldo</button>
+      <input id="import-file" type="file" accept="application/json,.json" hidden>
+      <button id="reset" class="btn ghost small">Restablecer demo</button>
+    </div>
   </footer>
 
   <script src="js/data.js"></script>
