@@ -1,0 +1,262 @@
+{
+ "fuente": "Prototipo ABC BODY v0.2 (js/data.js), alineado a los programas oficiales de Educación Física del MEP: I y II Ciclos (2013) y III Ciclo y Educación Diversificada «Ética, Estética y Ciudadanía» (2011).",
+ "estado": "propuesta: pendiente de revisión por docentes de Educación Física colegiados",
+ "unidades": [
+  {
+   "id": "g1t1",
+   "grade": "1°",
+   "tri": 1,
+   "mep": "Conociendo mi cuerpo",
+   "competency": "Flexiona, extiende y gira partes del cuerpo cuando se le indica, y se mueve en el espacio general sin chocar.",
+   "area_abc": "Cuerpo humano"
+  },
+  {
+   "id": "g1t2",
+   "grade": "1°",
+   "tri": 2,
+   "mep": "Cómo se mueve mi cuerpo",
+   "competency": "Se desplaza en distintas direcciones (adelante, atrás, lados) y niveles (alto, medio, bajo) respondiendo a señales sonoras.",
+   "area_abc": "Movimiento"
+  },
+  {
+   "id": "g1t3",
+   "grade": "1°",
+   "tri": 3,
+   "mep": "Disfrutando del Movimiento",
+   "competency": "Corre, salta, lanza y gira con control, distinguiendo movimientos locomotores, manipulativos y no locomotores.",
+   "area_abc": "Movimiento"
+  },
+  {
+   "id": "g2t1",
+   "grade": "2°",
+   "tri": 1,
+   "mep": "¡Moviéndome! Gimnasia y actividades complementarias I",
+   "competency": "Mantiene equilibrios con distintos apoyos y realiza una caída segura hacia atrás (ukemi) con el mentón al pecho.",
+   "area_abc": "Movimiento"
+  },
+  {
+   "id": "g2t2",
+   "grade": "2°",
+   "tri": 2,
+   "mep": "¡Moviéndome! Gimnasia y actividades complementarias II",
+   "competency": "Realiza el rol hacia adelante con mentón al pecho y apoyo de manos, y caídas laterales seguras.",
+   "area_abc": "Movimiento"
+  },
+  {
+   "id": "g2t3",
+   "grade": "2°",
+   "tri": 3,
+   "mep": "¡Moviéndome! Gimnasia y actividades complementarias III",
+   "competency": "Se desplaza sobre una banca o viga baja con control y combina movimientos siguiendo distintos ritmos.",
+   "area_abc": "Movimiento"
+  },
+  {
+   "id": "g3t1",
+   "grade": "3°",
+   "tri": 1,
+   "mep": "A divertirme y aprender jugando",
+   "competency": "Combina movimientos locomotores y no locomotores en juegos y coordina ojo-mano al atrapar y lanzar.",
+   "area_abc": "Juego y deporte"
+  },
+  {
+   "id": "g3t2",
+   "grade": "3°",
+   "tri": 2,
+   "mep": "A jugar utilizando la música",
+   "competency": "Sigue el ritmo de la música con desplazamientos y manipulación de objetos (bola, aro o cuerda).",
+   "area_abc": "Movimiento"
+  },
+  {
+   "id": "g3t3",
+   "grade": "3°",
+   "tri": 3,
+   "mep": "El juego en mi vida",
+   "competency": "Mantiene el equilibrio estático (10 s en un pie, cada lado) y dinámico (desplazándose sobre una línea) en juegos.",
+   "area_abc": "Cuerpo humano"
+  },
+  {
+   "id": "g4t1",
+   "grade": "4°",
+   "tri": 1,
+   "mep": "Aprovechando mi tiempo libre jugando I",
+   "competency": "Trota y corre con braceo coordinado, regula su intensidad con la prueba del habla y explica qué es la recreación.",
+   "area_abc": "Condición física"
+  },
+  {
+   "id": "g4t2",
+   "grade": "4°",
+   "tri": 2,
+   "mep": "Aprovechando mi tiempo libre jugando II",
+   "competency": "Conduce, pasa y recibe un balón con los pies en juegos predeportivos, respetando reglas y juego limpio.",
+   "area_abc": "Juego y deporte"
+  },
+  {
+   "id": "g4t3",
+   "grade": "4°",
+   "tri": 3,
+   "mep": "Aprovechando mi tiempo libre jugando III",
+   "competency": "Bota, pasa y recibe con una y dos manos, y enseña un juego tradicional a sus compañeros.",
+   "area_abc": "Juego y deporte"
+  },
+  {
+   "id": "g5t1",
+   "grade": "5°",
+   "tri": 1,
+   "mep": "Ejercitándome por medio del juego I",
+   "competency": "Lanza con técnica (de lado, paso con el pie contrario, fuerza desde la cadera) y sigue una rutina de acondicionamiento con música.",
+   "area_abc": "Condición física"
+  },
+  {
+   "id": "g5t2",
+   "grade": "5°",
+   "tri": 2,
+   "mep": "Ejercitándome por medio del juego II",
+   "competency": "Golpea y lanza en juegos tipo béisbol/sóftbol, explica qué es el acondicionamiento físico y planifica su hidratación.",
+   "area_abc": "Alimentación y recuperación"
+  },
+  {
+   "id": "g5t3",
+   "grade": "5°",
+   "tri": 3,
+   "mep": "Activando mi Escuela: mini torneos y pre deportivos",
+   "competency": "Participa en un mini torneo asumiendo roles de jugador, árbitro y organizador, con respeto a las reglas.",
+   "area_abc": "Autogestión y liderazgo"
+  },
+  {
+   "id": "g6t1",
+   "grade": "6°",
+   "tri": 1,
+   "mep": "Beneficio mi salud practicando juegos pre deportivos",
+   "competency": "Salta y aterriza con técnica (rodillas flexionadas y alineadas) y explica cuatro factores que afectan la salud.",
+   "area_abc": "Alimentación y recuperación"
+  },
+  {
+   "id": "g6t2",
+   "grade": "6°",
+   "tri": 2,
+   "mep": "La música, pre deportivos y recreación, en Mi Salud",
+   "competency": "Realiza voleo y golpe de antebrazo en juegos predeportivos y crea en grupo una rutina con música.",
+   "area_abc": "Juego y deporte"
+  },
+  {
+   "id": "g6t3",
+   "grade": "6°",
+   "tri": 3,
+   "mep": "Festivales para ponerse en movimiento",
+   "competency": "Golpea con raqueta controlando la dirección y coorganiza un festival deportivo inclusivo.",
+   "area_abc": "Autogestión y liderazgo"
+  },
+  {
+   "id": "g7t1",
+   "grade": "7°",
+   "tri": 1,
+   "mep": "Cuidándome y entrenándome en casa",
+   "competency": "Evalúa sus hábitos (actividad física, sueño, pantallas) y diseña una rutina segura para hacer en casa con buena postura y respiración.",
+   "area_abc": "Autogestión y liderazgo"
+  },
+  {
+   "id": "g7t2",
+   "grade": "7°",
+   "tri": 2,
+   "mep": "Poniéndome en acción: juegos y deportes",
+   "competency": "Crea o adapta un juego para que participen personas con distintas capacidades, con el espacio y los materiales disponibles.",
+   "area_abc": "Juego y deporte"
+  },
+  {
+   "id": "g7t3",
+   "grade": "7°",
+   "tri": 3,
+   "mep": "Cuidándome y entrenándome: jugando, bailando y creando",
+   "competency": "Crea y dirige una rutina de baile como ejercicio, controlando la intensidad con la escala de esfuerzo (RPE).",
+   "area_abc": "Condición física"
+  },
+  {
+   "id": "g8t1",
+   "grade": "8°",
+   "tri": 1,
+   "mep": "Cuidándome y entrenándome en el colegio",
+   "competency": "Diseña y ejecuta una sesión con calentamiento, parte principal y vuelta a la calma, con técnica correcta en sentadilla, bisagra, empuje y tracción.",
+   "area_abc": "Entrenamiento"
+  },
+  {
+   "id": "g8t2",
+   "grade": "8°",
+   "tri": 2,
+   "mep": "Poniendo al colegio en acción: deporte y baile en el colegio I",
+   "competency": "Juega y arbitra partidos de baloncesto o fútbol aplicando reglas básicas, y se prepara con calentamiento e hidratación.",
+   "area_abc": "Juego y deporte"
+  },
+  {
+   "id": "g8t3",
+   "grade": "8°",
+   "tri": 3,
+   "mep": "Poniendo al colegio en acción: deporte y baile en el colegio II",
+   "competency": "Ejecuta una prueba de atletismo (carrera, salto o lanzamiento) con técnica básica y ayuda a organizar un torneo corto inclusivo.",
+   "area_abc": "Juego y deporte"
+  },
+  {
+   "id": "g9t1",
+   "grade": "9°",
+   "tri": 1,
+   "mep": "Cuidándome y entrenándome en mi entorno",
+   "competency": "Aplica los principios FITT y de progresión en un plan de 4 semanas e identifica señales de alerta para detenerse y avisar.",
+   "area_abc": "Entrenamiento"
+  },
+  {
+   "id": "g9t2",
+   "grade": "9°",
+   "tri": 2,
+   "mep": "Poniendo al colegio en acción: haciendo juegos, deportes y baile",
+   "competency": "Participa como deportista, juez o director técnico y coorganiza un evento deportivo con reglamento y roles definidos.",
+   "area_abc": "Juego y deporte"
+  },
+  {
+   "id": "g9t3",
+   "grade": "9°",
+   "tri": 3,
+   "mep": "Poniendo al colegio en acción: haciendo juegos, deportes y ejercicio con música",
+   "competency": "Practica un deporte de raqueta y diseña una sesión con música como entrenamiento, con calentamiento, hidratación e intensidad controlada.",
+   "area_abc": "Condición física"
+  },
+  {
+   "id": "g10t1",
+   "grade": "10°",
+   "tri": 1,
+   "mep": "Promoviendo salud: mi colegio y yo activos y saludables",
+   "competency": "Evalúa su estilo de vida con una herramienta y organiza una actividad de promoción de la salud en el colegio.",
+   "area_abc": "Alimentación y recuperación"
+  },
+  {
+   "id": "g10t2",
+   "grade": "10°",
+   "tri": 2,
+   "mep": "Venciendo desafíos deportivos y de baile en el colegio I",
+   "competency": "Diseña y dirige, en equipo, un desafío físico-deportivo para estudiantes de otro nivel, con una meta SMART.",
+   "area_abc": "Autogestión y liderazgo"
+  },
+  {
+   "id": "g10t3",
+   "grade": "10°",
+   "tri": 3,
+   "mep": "Venciendo desafíos deportivos y de baile en el colegio II",
+   "competency": "Planifica y dirige una sesión de 45 minutos de recreación física en un entorno urbano o natural, considerando clima, ambiente y seguridad.",
+   "area_abc": "Entrenamiento"
+  },
+  {
+   "id": "g11t1",
+   "grade": "11°",
+   "tri": 1,
+   "mep": "Promoviendo salud: mi comunidad y yo activos y saludables",
+   "competency": "Diseña un proyecto de promoción de actividad física para un grupo de su comunidad, adaptado a sus condiciones y con derivación a profesionales de salud cuando corresponde.",
+   "area_abc": "Cuerpo humano"
+  },
+  {
+   "id": "g11t2",
+   "grade": "11°",
+   "tri": 2,
+   "mep": "Venciendo desafíos deportivos y de baile en mi comunidad",
+   "competency": "Organiza un desafío deportivo-recreativo comunitario con planificación por bloques y gestión de riesgos.",
+   "area_abc": "Entrenamiento"
+  }
+ ]
+}
