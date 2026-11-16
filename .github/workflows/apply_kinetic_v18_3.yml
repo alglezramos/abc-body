@@ -1,0 +1,39 @@
+name: Apply ABC BODY V18.3 visual update
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/apply_kinetic_v18_3.yml'
+      - 'tools/apply_kinetic_v18_3.py'
+      - 'tools/kinetic_v18_3_patch.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apply-kinetic-v18-3
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Apply patch and verify exact Git SHA
+        run: python3 tools/apply_kinetic_v18_3.py
+      - name: Check whitespace
+        run: git diff --check
+      - name: Commit visual update to GitHub Pages
+        run: |
+          git add index.html
+          if git diff --cached --quiet; then
+            echo "Already updated"
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "feat(ui): publish V18.3 Kinetic dashboard and annual roadmap"
+          git push origin HEAD:main
