@@ -1,0 +1,93 @@
+/* ABC HUMAN | Identidad visual V1.0, noviembre 2026. Solo estilos; no altera datos. */
+:root{--navy:#0B2438;--navy2:#1B2A39;--coral:#FF7043;--mint:#FF7043;--ink:#1B2A39;--muted:#66798A;--bg:#F4F7FA;--canvas:#F4F7FA;--line:#DDE5EC;--shadow:0 5px 24px rgba(11,36,56,.055)}
+html{scroll-behavior:smooth}
+body{background:#F4F7FA;color:#1B2A39;font-family:Lato,'Segoe UI',Arial,sans-serif;font-size:15px;line-height:1.52;letter-spacing:0}
+button,input,select,textarea{font-family:inherit}
+:where(button,a,input,select,textarea,summary):focus-visible{outline:3px solid #FF7043;outline-offset:3px}
+.shell{grid-template-columns:232px minmax(0,1fr)}
+.side{background:#0B2438;border-right:1px solid #263E50;box-shadow:none;gap:27px;padding:30px 17px 24px}
+.logo{font-family:Lato,Arial,sans-serif;font-size:27px;font-weight:900;letter-spacing:-1.3px;line-height:1;color:white;text-shadow:none!important;filter:none!important}
+.logo em{font-style:normal;color:#FF7043}
+.side .sub{color:#AFC1CF;font-size:10px;font-weight:700;letter-spacing:1.5px;margin-top:19px;line-height:1.4}
+.side nav{gap:5px}
+.nav{color:#CAD5DF;font-weight:700;padding:12px 15px;border-radius:10px;transition:background .18s,color .18s}
+.nav.active,.nav:hover{background:#263D50;color:#fff;box-shadow:none}
+.nav.active{border-left:3px solid #FF7043;padding-left:12px}
+.side .note{background:#193447;border:1px solid #334B5C;border-radius:12px;color:#CDD8E1}
+.main{max-width:1500px;padding:36px clamp(20px,3.1vw,52px) 44px}
+.eyebrow{color:#AE4B2F;font-weight:900;letter-spacing:1.55px;font-size:11px}
+.dashboard-heading h1,.route-intro h1{color:#0B2438;font-weight:900;letter-spacing:-1.15px}
+.dashboard-heading p,.route-intro p,.context-caption{color:#66798A}
+.avatar-action{color:#0B2438;border:1px solid #DDE5EC;box-shadow:none}
+.avatar-action:hover{border-color:#FF7043}
+.card,.visual-metric,.cycle-card,.route-week-detail,.route-filters{background:#fff;border:1px solid #DBE4EA;border-radius:16px;box-shadow:0 4px 14px rgba(11,36,56,.035)}
+.card h2,.card h3,.visual-metric h3,.next-copy h3,.cycle-overview h3{color:#1B2A39}
+.pill,.state-chip,.route-count,.route-stage-tag{background:#F0F3F6;color:#1B2A39}
+.btn,.hero-btn{background:#FF7043;color:#0B2438;font-weight:900;border-radius:10px;box-shadow:none}
+.btn:hover,.hero-btn:hover{background:#F36034;filter:none}
+.btn.alt{background:#E6EDF2;color:#0B2438}
+.hero-outline{border-color:#6C8090;background:transparent;color:#fff}
+.hero-outline:hover{background:#263D50}
+.learning-hero{background:#0B2438;border:1px solid #0B2438;border-radius:20px;min-height:278px;box-shadow:none}
+.learning-hero:before{background:#FF7043;opacity:.11;transform:skewX(-24deg);right:21%;top:-160px;width:150px;height:620px}
+.hero-decoration{display:none}
+.hero-kicker{color:#FEA389;letter-spacing:1.3px}
+.hero-content h2{color:#fff;letter-spacing:-1.45px}
+.hero-content h2 em,.wave,.title-accent,.highlight{color:#FF7043}
+.hero-description{color:#D1DCE5}
+.progress-ring{background:conic-gradient(#FF7043 calc(var(--progress)*1%),#345064 0)}
+.progress-ring>div{background:#0B2438}
+.progress-ring small{color:#D0DCE5}
+.dashboard-section-head h2{color:#0B2438;font-weight:900}
+.visual-metric{padding:19px 18px}
+.metric-icon{background:#FFF0E9;color:#C8512D;border-radius:10px}
+.visual-metric strong{font-size:26px;font-weight:900;color:#0B2438}
+.visual-metric h3{font-weight:800}
+.bar{background:#E7EEF3}
+.bar>span{background:#FF7043}
+.mini-icon,.coral-icon{background:#FFF0E9;color:#DD6039}
+.round-arrow{background:#FFF0E9;color:#D65330}
+.cycle-overview{background:#EEF2F5;border:1px solid #D7E1E8;box-shadow:none}
+.method-details,.route-detail{box-shadow:none;border-color:#DDE5EC}
+.route-count{border:1px solid #D8E4EB}
+.route-count strong{color:#0B2438}
+.route-filters label{color:#475B6C}
+select,input[type=date],input[type=text],input[type=number],textarea{border:1px solid #C9D5DD;border-radius:10px;color:#1B2A39}
+.cycle-card{transition:border-color .18s,transform .18s}
+.cycle-card:hover{border-color:#FF7043;transform:translateY(-1px)}
+.cycle-card.active,.cycle-card.selected{border-color:#FF7043;box-shadow:inset 3px 0 #FF7043}
+.cycle-card .state-chip.done,.state-chip.done{background:#E9F1EE;color:#226953}
+.weeks button{min-height:31px;border-radius:7px;background:#EDF2F6;color:#344C5F}
+.weeks button.active,.weeks button.selected{background:#FF7043;color:#0B2438}
+.route-week-detail .btn,.route-week-detail .hero-btn{color:#0B2438}
+.legacy-weeks{display:none!important}
+.medal{background:white;border-radius:12px}
+.medal:not(.light){border-color:#F9C9B9}
+.result{background:#EDF2F6;border-left-color:#FF7043}
+.help,.metric{background:#EFF3F6}
+.warn{background:#FFF1E8;color:#754028}
+.footer{border-top:1px solid #DDE5EC;padding-top:20px}
+@media(max-width:920px){
+.shell{display:block}
+.side{height:auto;position:relative;padding:17px 16px 13px;gap:14px;border-right:0}
+.side nav{display:flex;gap:7px;overflow-x:auto;scrollbar-width:thin;padding:0 0 5px}
+.side .sub,.side .note{display:none}
+.nav{width:auto;white-space:nowrap;padding:10px 12px;background:#1B384C;border-radius:9px;font-size:13px}
+.nav.active{padding-left:12px;border-left:0;border-bottom:3px solid #FF7043}
+.main{padding:20px 16px 35px}
+.dashboard-heading h1,.route-intro h1{letter-spacing:-.7px}
+.learning-hero{min-height:0;padding:25px 22px}
+.learning-hero:before{right:4%;opacity:.08}
+.hero-content h2{font-size:clamp(32px,8vw,43px)}
+.visual-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}
+.visual-metric{padding:14px}
+.card{padding:17px}
+.weeks button{font-size:11px;min-height:35px}
+}
+@media(max-width:400px){
+.visual-metrics{gap:9px}
+.visual-metric strong{font-size:22px}
+.hero-actions{flex-direction:column;align-items:stretch}
+.hero-actions button{width:100%}
+}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
