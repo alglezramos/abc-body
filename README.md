@@ -27,3 +27,33 @@
 - Recordatorio para descargar un respaldo cada 20 cambios; exportar reinicia el contador.
 - Probado en Chrome real servido por HTTP (no `set_content`): 17/17, incluidas recarga con localStorage nativo, video en IndexedDB tras recargar, exportar, borrar datos y restaurar, almacenamiento lleno, almacenamiento bloqueado, datos dañados y móvil de 390 px.
 - No cambia ninguna ficha ni el dataset.
+
+## V18.2 — Contenido diferenciado, validación docente, MEP y validador (Claude)
+
+### Teoría: qué cambió y por qué
+- **Validador de contenido** (`tools/validar_curriculo.py`): impide que vuelvan las fichas repetidas y protege el progreso guardado. Falla si hay IDs duplicados, rutas sin 52 semanas, campos vacíos, IDs o `domain_id` eliminados o cambiados, contenido modificado sin subir `curriculumVersion`, más repeticiones que la línea base o referencias MEP incompletas.
+- **Versión del currículo** (`curriculumVersion` en `<script id="curriculum-meta">`, hoy 18.2.0): la app migra el progreso al abrir una versión nueva; lo que apunte a fichas retiradas se archiva en el respaldo, no se borra.
+- **KIDS 9–12 diferenciado**: 13 dominios × 4 actividades propias × 4 edades (9 adapta, 10 aplica en juego, 11 refina, 12 diseña y enseña). Antes eran 13 juegos de pasos para 208 fichas.
+- **YOUTH 13–18**: objetivo propio por etapa (Foundations → Autonomy) y semana.
+- **Validación docente**: el docente registra nivel (Inicial, En desarrollo, Competente, Consolidada), nombre y fecha por competencia. La autoevaluación no cuenta; la medalla de competencia validada solo se obtiene con validación Competente o Consolidada. Es un registro local, no una certificación oficial.
+- **MEP como datos**: 572 fichas de 6–16 años con grado, periodo, unidad oficial, programa y competencia ABC, en estado «propuesta» (grado = edad típica − 5).
+- **ATHLETE, ACTIVE y LONGEVITY**: actividad principal y nota de seguridad propias de cada ruta.
+- Resultado: 1.144 de 1.144 fichas con pasos distintos (antes 468 repeticiones). Todo sigue **pendiente de validación profesional**.
+
+### Herramienta
+| Archivo | Para qué |
+|---|---|
+| `tools/validar_curriculo.py` | Valida el currículo; `--actualizar-linea-base` tras un cambio intencional |
+| `tools/linea_base.json` | IDs, versión y repeticiones aceptadas (solo pueden bajar) |
+| `tools/contenido/*.py` | Contenido fuente (KIDS 9–12, rutas de adultos) y `aplicar.py`, que lo incrusta en `index.html` |
+| `tools/contenido/mep_unidades.json` | Las 32 unidades del MEP del prototipo v0.2 |
+| `tests/test_validador.py` | 12 casos que rompen el currículo a propósito |
+| `.github/workflows/validar.yml` | Corre validador y pruebas en cada push y pull request |
+
+### Tutorial: cambiar una ficha
+1. Edita el módulo en `tools/contenido/` (o la ficha en `index.html`).
+2. `python3 tools/contenido/aplicar.py` (si usaste los módulos).
+3. Sube `curriculumVersion` en `index.html` (por ejemplo 18.2.0 → 18.3.0).
+4. `python3 tools/validar_curriculo.py` hasta ver «✓ Validación correcta».
+5. Si el cambio es intencional y bajaron las repeticiones: `python3 tools/validar_curriculo.py --actualizar-linea-base`.
+6. Commit y pull request: GitHub Actions vuelve a validar.

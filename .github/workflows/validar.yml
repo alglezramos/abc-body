@@ -1,0 +1,16 @@
+name: Validar currículo
+on:
+  push:
+  pull_request:
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validar fichas, IDs, versión y repeticiones
+        run: python3 tools/validar_curriculo.py
+      - name: Pruebas del validador
+        run: python3 tests/test_validador.py
