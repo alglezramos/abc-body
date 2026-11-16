@@ -1,0 +1,1145 @@
+id,programa,edad_o_ruta,semana,ciclo,dominio,titulo,alertas,validacion_profesional
+K6-W01,ABC KIDS,6,1,1,Evaluación y metas,El mapa de mis movimientos,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W02,ABC KIDS,6,2,1,Conciencia corporal,Estatuas de animales,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W03,ABC KIDS,6,3,1,Equilibrio,Islas de equilibrio,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W04,ABC KIDS,6,4,1,Desplazamientos,El tren de caminos,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W05,ABC KIDS,6,5,1,Coordinación,El espejo viajero,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W06,ABC KIDS,6,6,1,Manipulación y transporte,Empujar la pared,pendiente_revision_individual|clasificacion_corregida|inventario_materiales_por_clase_pendiente,pendiente
+K6-W07,ABC KIDS,6,7,1,Lanzar y recibir,Semáforo caminante,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W08,ABC KIDS,6,8,1,Agilidad y reacción,Atrapa la señal,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W09,ABC KIDS,6,9,1,Fuerza funcional,El robot elástico,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W10,ABC KIDS,6,10,1,Resistencia lúdica,La pausa del explorador,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W11,ABC KIDS,6,11,1,Movilidad y recuperación,Mi merienda de juego,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W12,ABC KIDS,6,12,1,Juego y cooperación,Construimos un circuito,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W13,ABC KIDS,6,13,1,Integración de ciclo,Festival del descubrimiento,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W14,ABC KIDS,6,14,2,Evaluación y metas,La misión de las huellas,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W15,ABC KIDS,6,15,2,Conciencia corporal,Gigantes y pequeños,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W16,ABC KIDS,6,16,2,Equilibrio,Puentes y riberas,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W17,ABC KIDS,6,17,2,Desplazamientos,El cartero veloz,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W18,ABC KIDS,6,18,2,Coordinación,Pelota viajera,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W19,ABC KIDS,6,19,2,Manipulación y transporte,Los constructores,pendiente_revision_individual|clasificacion_corregida|inventario_materiales_por_clase_pendiente,pendiente
+K6-W20,ABC KIDS,6,20,2,Lanzar y recibir,El paseo conversado,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W21,ABC KIDS,6,21,2,Agilidad y reacción,Estrellas y cometas,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W22,ABC KIDS,6,22,2,Fuerza funcional,El molino suave,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W23,ABC KIDS,6,23,2,Resistencia lúdica,Detectives del descanso,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W24,ABC KIDS,6,24,2,Movilidad y recuperación,La fuente de agua,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W25,ABC KIDS,6,25,2,Juego y cooperación,El juego de los turnos,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W26,ABC KIDS,6,26,2,Integración de ciclo,Demostramos y elegimos,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W27,ABC KIDS,6,27,3,Evaluación y metas,La expedición de colores,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W28,ABC KIDS,6,28,3,Conciencia corporal,Robot y explorador,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W29,ABC KIDS,6,29,3,Equilibrio,La cuerda imaginaria,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W30,ABC KIDS,6,30,3,Desplazamientos,El bosque de obstáculos,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W31,ABC KIDS,6,31,3,Coordinación,La lluvia de globos,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W32,ABC KIDS,6,32,3,Manipulación y transporte,Llevamos el tesoro,pendiente_revision_individual|clasificacion_corregida|inventario_materiales_por_clase_pendiente,pendiente
+K6-W33,ABC KIDS,6,33,3,Lanzar y recibir,La misión de explorar,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W34,ABC KIDS,6,34,3,Agilidad y reacción,A la señal del capitán,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W35,ABC KIDS,6,35,3,Fuerza funcional,Alcanzar las estrellas,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W36,ABC KIDS,6,36,3,Resistencia lúdica,Mi termómetro de energía,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W37,ABC KIDS,6,37,3,Movilidad y recuperación,La cocina de colores,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W38,ABC KIDS,6,38,3,Juego y cooperación,Diseña el juego,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W39,ABC KIDS,6,39,3,Integración de ciclo,Festival de soluciones,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W40,ABC KIDS,6,40,4,Evaluación y metas,Mi ruta favorita,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W41,ABC KIDS,6,41,4,Conciencia corporal,Posturas con propósito,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W42,ABC KIDS,6,42,4,Equilibrio,Reto de estaciones estables,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W43,ABC KIDS,6,43,4,Desplazamientos,El recorrido con historia,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W44,ABC KIDS,6,44,4,Coordinación,Los mensajeros del balón,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W45,ABC KIDS,6,45,4,Manipulación y transporte,La construcción colectiva,pendiente_revision_individual|clasificacion_corregida|inventario_materiales_por_clase_pendiente,pendiente
+K6-W46,ABC KIDS,6,46,4,Lanzar y recibir,Exploradores de ritmos,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W47,ABC KIDS,6,47,4,Agilidad y reacción,Salida y llegada segura,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W48,ABC KIDS,6,48,4,Fuerza funcional,Movimiento con música,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W49,ABC KIDS,6,49,4,Resistencia lúdica,Mis señales de bienestar,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W50,ABC KIDS,6,50,4,Movilidad y recuperación,Nuestra fiesta de alimentos,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W51,ABC KIDS,6,51,4,Juego y cooperación,Inventamos un deporte,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K6-W52,ABC KIDS,6,52,4,Integración de ciclo,Feria de mi año,pendiente_revision_individual|inventario_materiales_por_clase_pendiente,pendiente
+K7-W01,ABC KIDS,7,1,1,Metas y autoconocimiento,Mi mapa de destrezas · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W02,ABC KIDS,7,2,1,Control corporal,Robot de articulaciones · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W03,ABC KIDS,7,3,1,Equilibrio,Líneas de exploración · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W04,ABC KIDS,7,4,1,Locomoción,Cuatro caminos · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W05,ABC KIDS,7,5,1,Coordinación manipulativa,Lanza al lago · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W06,ABC KIDS,7,6,1,Saltos y aterrizajes,Saltos sobre marcas · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W07,ABC KIDS,7,7,1,Agilidad y reacción,Semáforo de acciones · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W08,ABC KIDS,7,8,1,Fuerza funcional,Transportes del explorador · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W09,ABC KIDS,7,9,1,Resistencia lúdica,Exploración con pausas · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W10,ABC KIDS,7,10,1,Movilidad y recuperación,Movimientos articulares · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W11,ABC KIDS,7,11,1,Alimentación e hidratación,Detectives del agua · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W12,ABC KIDS,7,12,1,Cooperación y juego,Turnos y acuerdos · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W13,ABC KIDS,7,13,1,Integración y reflexión,Estaciones favoritas · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W14,ABC KIDS,7,14,2,Metas y autoconocimiento,Reto de elección · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W15,ABC KIDS,7,15,2,Control corporal,Espejos alternados · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W16,ABC KIDS,7,16,2,Equilibrio,Puentes con paradas · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W17,ABC KIDS,7,17,2,Locomoción,Mensajeros de dirección · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W18,ABC KIDS,7,18,2,Coordinación manipulativa,Pase y recepción · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W19,ABC KIDS,7,19,2,Saltos y aterrizajes,Islas con aterrizaje · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W20,ABC KIDS,7,20,2,Agilidad y reacción,Cambios de camino · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W21,ABC KIDS,7,21,2,Fuerza funcional,Empuja y atrae · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W22,ABC KIDS,7,22,2,Resistencia lúdica,Relevos que colaboran · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W23,ABC KIDS,7,23,2,Movilidad y recuperación,Movimiento y pausa · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W24,ABC KIDS,7,24,2,Alimentación e hidratación,La mesa variada · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W25,ABC KIDS,7,25,2,Cooperación y juego,Juego con nuevas reglas · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W26,ABC KIDS,7,26,2,Integración y reflexión,Reto combinado · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W27,ABC KIDS,7,27,3,Metas y autoconocimiento,La ruta que diseño · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W28,ABC KIDS,7,28,3,Control corporal,Código de movimiento · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W29,ABC KIDS,7,29,3,Equilibrio,Estaciones con objeto · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W30,ABC KIDS,7,30,3,Locomoción,Búsqueda de orientación · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W31,ABC KIDS,7,31,3,Coordinación manipulativa,Pelota viajera · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W32,ABC KIDS,7,32,3,Saltos y aterrizajes,Secuencia de saltos · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W33,ABC KIDS,7,33,3,Agilidad y reacción,"Dos señales, una elección · 7 años",inventario_materiales_por_clase_pendiente,pendiente
+K7-W34,ABC KIDS,7,34,3,Fuerza funcional,Circuito de apoyos · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W35,ABC KIDS,7,35,3,Resistencia lúdica,Ritmo variable · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W36,ABC KIDS,7,36,3,Movilidad y recuperación,Preparar y recuperar · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W37,ABC KIDS,7,37,3,Alimentación e hidratación,Mi energía para jugar · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W38,ABC KIDS,7,38,3,Cooperación y juego,Resolver juntos · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W39,ABC KIDS,7,39,3,Integración y reflexión,Festival de soluciones · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W40,ABC KIDS,7,40,4,Metas y autoconocimiento,Feria de progreso · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W41,ABC KIDS,7,41,4,Control corporal,Coreografía cooperativa · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W42,ABC KIDS,7,42,4,Equilibrio,Ruta de estabilidad elegida · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W43,ABC KIDS,7,43,4,Locomoción,Ruta con decisiones · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W44,ABC KIDS,7,44,4,Coordinación manipulativa,Circuito de precisión · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W45,ABC KIDS,7,45,4,Saltos y aterrizajes,Despegue y frenado · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W46,ABC KIDS,7,46,4,Agilidad y reacción,Juego de decisiones · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W47,ABC KIDS,7,47,4,Fuerza funcional,Construcción compartida · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W48,ABC KIDS,7,48,4,Resistencia lúdica,Juego de esfuerzo y recuperación · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W49,ABC KIDS,7,49,4,Movilidad y recuperación,Rutina que puedo elegir · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W50,ABC KIDS,7,50,4,Alimentación e hidratación,Decisiones de hidratación · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W51,ABC KIDS,7,51,4,Cooperación y juego,Inventar un juego inclusivo · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K7-W52,ABC KIDS,7,52,4,Integración y reflexión,Proyecto final del año · 7 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W01,ABC KIDS,8,1,1,Metas y autoconocimiento,Mi mapa de destrezas · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W02,ABC KIDS,8,2,1,Control corporal,Robot de articulaciones · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W03,ABC KIDS,8,3,1,Equilibrio,Líneas de exploración · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W04,ABC KIDS,8,4,1,Locomoción,Cuatro caminos · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W05,ABC KIDS,8,5,1,Coordinación manipulativa,Lanza al lago · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W06,ABC KIDS,8,6,1,Saltos y aterrizajes,Saltos sobre marcas · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W07,ABC KIDS,8,7,1,Agilidad y reacción,Semáforo de acciones · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W08,ABC KIDS,8,8,1,Fuerza funcional,Transportes del explorador · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W09,ABC KIDS,8,9,1,Resistencia lúdica,Exploración con pausas · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W10,ABC KIDS,8,10,1,Movilidad y recuperación,Movimientos articulares · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W11,ABC KIDS,8,11,1,Alimentación e hidratación,Detectives del agua · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W12,ABC KIDS,8,12,1,Cooperación y juego,Turnos y acuerdos · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W13,ABC KIDS,8,13,1,Integración y reflexión,Estaciones favoritas · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W14,ABC KIDS,8,14,2,Metas y autoconocimiento,Reto de elección · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W15,ABC KIDS,8,15,2,Control corporal,Espejos alternados · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W16,ABC KIDS,8,16,2,Equilibrio,Puentes con paradas · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W17,ABC KIDS,8,17,2,Locomoción,Mensajeros de dirección · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W18,ABC KIDS,8,18,2,Coordinación manipulativa,Pase y recepción · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W19,ABC KIDS,8,19,2,Saltos y aterrizajes,Islas con aterrizaje · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W20,ABC KIDS,8,20,2,Agilidad y reacción,Cambios de camino · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W21,ABC KIDS,8,21,2,Fuerza funcional,Empuja y atrae · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W22,ABC KIDS,8,22,2,Resistencia lúdica,Relevos que colaboran · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W23,ABC KIDS,8,23,2,Movilidad y recuperación,Movimiento y pausa · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W24,ABC KIDS,8,24,2,Alimentación e hidratación,La mesa variada · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W25,ABC KIDS,8,25,2,Cooperación y juego,Juego con nuevas reglas · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W26,ABC KIDS,8,26,2,Integración y reflexión,Reto combinado · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W27,ABC KIDS,8,27,3,Metas y autoconocimiento,La ruta que diseño · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W28,ABC KIDS,8,28,3,Control corporal,Código de movimiento · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W29,ABC KIDS,8,29,3,Equilibrio,Estaciones con objeto · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W30,ABC KIDS,8,30,3,Locomoción,Búsqueda de orientación · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W31,ABC KIDS,8,31,3,Coordinación manipulativa,Pelota viajera · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W32,ABC KIDS,8,32,3,Saltos y aterrizajes,Secuencia de saltos · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W33,ABC KIDS,8,33,3,Agilidad y reacción,"Dos señales, una elección · 8 años",inventario_materiales_por_clase_pendiente,pendiente
+K8-W34,ABC KIDS,8,34,3,Fuerza funcional,Circuito de apoyos · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W35,ABC KIDS,8,35,3,Resistencia lúdica,Ritmo variable · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W36,ABC KIDS,8,36,3,Movilidad y recuperación,Preparar y recuperar · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W37,ABC KIDS,8,37,3,Alimentación e hidratación,Mi energía para jugar · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W38,ABC KIDS,8,38,3,Cooperación y juego,Resolver juntos · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W39,ABC KIDS,8,39,3,Integración y reflexión,Festival de soluciones · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W40,ABC KIDS,8,40,4,Metas y autoconocimiento,Feria de progreso · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W41,ABC KIDS,8,41,4,Control corporal,Coreografía cooperativa · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W42,ABC KIDS,8,42,4,Equilibrio,Ruta de estabilidad elegida · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W43,ABC KIDS,8,43,4,Locomoción,Ruta con decisiones · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W44,ABC KIDS,8,44,4,Coordinación manipulativa,Circuito de precisión · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W45,ABC KIDS,8,45,4,Saltos y aterrizajes,Despegue y frenado · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W46,ABC KIDS,8,46,4,Agilidad y reacción,Juego de decisiones · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W47,ABC KIDS,8,47,4,Fuerza funcional,Construcción compartida · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W48,ABC KIDS,8,48,4,Resistencia lúdica,Juego de esfuerzo y recuperación · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W49,ABC KIDS,8,49,4,Movilidad y recuperación,Rutina que puedo elegir · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W50,ABC KIDS,8,50,4,Alimentación e hidratación,Decisiones de hidratación · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W51,ABC KIDS,8,51,4,Cooperación y juego,Inventar un juego inclusivo · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K8-W52,ABC KIDS,8,52,4,Integración y reflexión,Proyecto final del año · 8 años,inventario_materiales_por_clase_pendiente,pendiente
+K9-W01,ABC KIDS,9,1,1,Metas y autoconocimiento,Circuito de preferencias · Adapt,pendiente_revision_individual,pendiente
+K9-W02,ABC KIDS,9,2,1,Control corporal,Siluetas en movimiento · Adapt,pendiente_revision_individual,pendiente
+K9-W03,ABC KIDS,9,3,1,Equilibrio,Camino de líneas · Adapt,pendiente_revision_individual,pendiente
+K9-W04,ABC KIDS,9,4,1,Locomoción,Rutas y direcciones · Adapt,pendiente_revision_individual,pendiente
+K9-W05,ABC KIDS,9,5,1,Coordinación manipulativa,Pelota al objetivo · Adapt,pendiente_revision_individual,pendiente
+K9-W06,ABC KIDS,9,6,1,Saltos y aterrizajes,Saltos sobre marcas · Adapt,pendiente_revision_individual,pendiente
+K9-W07,ABC KIDS,9,7,1,Agilidad y reacción,Semáforo de acciones · Adapt,pendiente_revision_individual,pendiente
+K9-W08,ABC KIDS,9,8,1,Fuerza funcional,Transporte de objetos blandos · Adapt,pendiente_revision_individual,pendiente
+K9-W09,ABC KIDS,9,9,1,Resistencia lúdica,Exploración continua · Adapt,pendiente_revision_individual,pendiente
+K9-W10,ABC KIDS,9,10,1,Movilidad y recuperación,Movimientos articulares · Adapt,pendiente_revision_individual,pendiente
+K9-W11,ABC KIDS,9,11,1,Alimentación e hidratación,Detectives del agua · Adapt,pendiente_revision_individual,pendiente
+K9-W12,ABC KIDS,9,12,1,Cooperación y juego,Turnos y acuerdos · Adapt,pendiente_revision_individual,pendiente
+K9-W13,ABC KIDS,9,13,1,Integración y reflexión,Estaciones favoritas · Adapt,pendiente_revision_individual,pendiente
+K9-W14,ABC KIDS,9,14,2,Metas y autoconocimiento,Mapa de destrezas · Adapt,pendiente_revision_individual,pendiente
+K9-W15,ABC KIDS,9,15,2,Control corporal,Secuencias de posturas · Adapt,pendiente_revision_individual,pendiente
+K9-W16,ABC KIDS,9,16,2,Equilibrio,Islas y transiciones · Adapt,pendiente_revision_individual,pendiente
+K9-W17,ABC KIDS,9,17,2,Locomoción,Zigzag con señales · Adapt,pendiente_revision_individual,pendiente
+K9-W18,ABC KIDS,9,18,2,Coordinación manipulativa,Pases variados · Adapt,pendiente_revision_individual,pendiente
+K9-W19,ABC KIDS,9,19,2,Saltos y aterrizajes,Aterrizaje controlado · Adapt,pendiente_revision_individual,pendiente
+K9-W20,ABC KIDS,9,20,2,Agilidad y reacción,Cambio de dirección · Adapt,pendiente_revision_individual,pendiente
+K9-W21,ABC KIDS,9,21,2,Fuerza funcional,Empujar y traccionar · Adapt,pendiente_revision_individual,pendiente
+K9-W22,ABC KIDS,9,22,2,Resistencia lúdica,Relevos cooperativos · Adapt,pendiente_revision_individual,pendiente
+K9-W23,ABC KIDS,9,23,2,Movilidad y recuperación,Rangos cómodos · Adapt,pendiente_revision_individual,pendiente
+K9-W24,ABC KIDS,9,24,2,Alimentación e hidratación,Comidas variadas · Adapt,pendiente_revision_individual,pendiente
+K9-W25,ABC KIDS,9,25,2,Cooperación y juego,Juego con reglas flexibles · Adapt,pendiente_revision_individual,pendiente
+K9-W26,ABC KIDS,9,26,2,Integración y reflexión,Reto combinado · Adapt,pendiente_revision_individual,pendiente
+K9-W27,ABC KIDS,9,27,3,Metas y autoconocimiento,Circuito por elección · Adapt,pendiente_revision_individual,pendiente
+K9-W28,ABC KIDS,9,28,3,Control corporal,Espejos por parejas · Adapt,pendiente_revision_individual,pendiente
+K9-W29,ABC KIDS,9,29,3,Equilibrio,Equilibrio con objetos · Adapt,pendiente_revision_individual,pendiente
+K9-W30,ABC KIDS,9,30,3,Locomoción,Carreras de orientación · Adapt,pendiente_revision_individual,pendiente
+K9-W31,ABC KIDS,9,31,3,Coordinación manipulativa,Recepción en movimiento · Adapt,pendiente_revision_individual,pendiente
+K9-W32,ABC KIDS,9,32,3,Saltos y aterrizajes,Saltos encadenados · Adapt,pendiente_revision_individual,pendiente
+K9-W33,ABC KIDS,9,33,3,Agilidad y reacción,Señales combinadas · Adapt,pendiente_revision_individual,pendiente
+K9-W34,ABC KIDS,9,34,3,Fuerza funcional,Circuito de apoyos · Adapt,pendiente_revision_individual,pendiente
+K9-W35,ABC KIDS,9,35,3,Resistencia lúdica,Ruta de ritmo variable · Adapt,pendiente_revision_individual,pendiente
+K9-W36,ABC KIDS,9,36,3,Movilidad y recuperación,Preparación y pausa · Adapt,pendiente_revision_individual,pendiente
+K9-W37,ABC KIDS,9,37,3,Alimentación e hidratación,Alimentación para jugar · Adapt,pendiente_revision_individual,pendiente
+K9-W38,ABC KIDS,9,38,3,Cooperación y juego,Resolver juntos · Adapt,pendiente_revision_individual,pendiente
+K9-W39,ABC KIDS,9,39,3,Integración y reflexión,Festival de habilidades · Adapt,pendiente_revision_individual,pendiente
+K9-W40,ABC KIDS,9,40,4,Metas y autoconocimiento,Feria personal de habilidades · Adapt,pendiente_revision_individual,pendiente
+K9-W41,ABC KIDS,9,41,4,Control corporal,Coreografía de acciones · Adapt,pendiente_revision_individual,pendiente
+K9-W42,ABC KIDS,9,42,4,Equilibrio,Ruta de estabilidad elegida · Adapt,pendiente_revision_individual,pendiente
+K9-W43,ABC KIDS,9,43,4,Locomoción,Búsqueda multiterreno · Adapt,pendiente_revision_individual,pendiente
+K9-W44,ABC KIDS,9,44,4,Coordinación manipulativa,Circuito de lanzamientos · Adapt,pendiente_revision_individual,pendiente
+K9-W45,ABC KIDS,9,45,4,Saltos y aterrizajes,Secuencia de despegue y frenado · Adapt,pendiente_revision_individual,pendiente
+K9-W46,ABC KIDS,9,46,4,Agilidad y reacción,Decisiones en juegos · Adapt,pendiente_revision_individual,pendiente
+K9-W47,ABC KIDS,9,47,4,Fuerza funcional,Construcción colaborativa · Adapt,pendiente_revision_individual,pendiente
+K9-W48,ABC KIDS,9,48,4,Resistencia lúdica,Juego de esfuerzo y pausas · Adapt,pendiente_revision_individual,pendiente
+K9-W49,ABC KIDS,9,49,4,Movilidad y recuperación,Secuencia de recuperación · Adapt,pendiente_revision_individual,pendiente
+K9-W50,ABC KIDS,9,50,4,Alimentación e hidratación,Rutina de hidratación · Adapt,pendiente_revision_individual,pendiente
+K9-W51,ABC KIDS,9,51,4,Cooperación y juego,Crear un juego inclusivo · Adapt,pendiente_revision_individual,pendiente
+K9-W52,ABC KIDS,9,52,4,Integración y reflexión,Proyecto y reflexión de ciclo · Adapt,pendiente_revision_individual,pendiente
+K10-W01,ABC KIDS,10,1,1,Metas y autoconocimiento,Circuito de preferencias · Apply,pendiente_revision_individual,pendiente
+K10-W02,ABC KIDS,10,2,1,Control corporal,Siluetas en movimiento · Apply,pendiente_revision_individual,pendiente
+K10-W03,ABC KIDS,10,3,1,Equilibrio,Camino de líneas · Apply,pendiente_revision_individual,pendiente
+K10-W04,ABC KIDS,10,4,1,Locomoción,Rutas y direcciones · Apply,pendiente_revision_individual,pendiente
+K10-W05,ABC KIDS,10,5,1,Coordinación manipulativa,Pelota al objetivo · Apply,pendiente_revision_individual,pendiente
+K10-W06,ABC KIDS,10,6,1,Saltos y aterrizajes,Saltos sobre marcas · Apply,pendiente_revision_individual,pendiente
+K10-W07,ABC KIDS,10,7,1,Agilidad y reacción,Semáforo de acciones · Apply,pendiente_revision_individual,pendiente
+K10-W08,ABC KIDS,10,8,1,Fuerza funcional,Transporte de objetos blandos · Apply,pendiente_revision_individual,pendiente
+K10-W09,ABC KIDS,10,9,1,Resistencia lúdica,Exploración continua · Apply,pendiente_revision_individual,pendiente
+K10-W10,ABC KIDS,10,10,1,Movilidad y recuperación,Movimientos articulares · Apply,pendiente_revision_individual,pendiente
+K10-W11,ABC KIDS,10,11,1,Alimentación e hidratación,Detectives del agua · Apply,pendiente_revision_individual,pendiente
+K10-W12,ABC KIDS,10,12,1,Cooperación y juego,Turnos y acuerdos · Apply,pendiente_revision_individual,pendiente
+K10-W13,ABC KIDS,10,13,1,Integración y reflexión,Estaciones favoritas · Apply,pendiente_revision_individual,pendiente
+K10-W14,ABC KIDS,10,14,2,Metas y autoconocimiento,Mapa de destrezas · Apply,pendiente_revision_individual,pendiente
+K10-W15,ABC KIDS,10,15,2,Control corporal,Secuencias de posturas · Apply,pendiente_revision_individual,pendiente
+K10-W16,ABC KIDS,10,16,2,Equilibrio,Islas y transiciones · Apply,pendiente_revision_individual,pendiente
+K10-W17,ABC KIDS,10,17,2,Locomoción,Zigzag con señales · Apply,pendiente_revision_individual,pendiente
+K10-W18,ABC KIDS,10,18,2,Coordinación manipulativa,Pases variados · Apply,pendiente_revision_individual,pendiente
+K10-W19,ABC KIDS,10,19,2,Saltos y aterrizajes,Aterrizaje controlado · Apply,pendiente_revision_individual,pendiente
+K10-W20,ABC KIDS,10,20,2,Agilidad y reacción,Cambio de dirección · Apply,pendiente_revision_individual,pendiente
+K10-W21,ABC KIDS,10,21,2,Fuerza funcional,Empujar y traccionar · Apply,pendiente_revision_individual,pendiente
+K10-W22,ABC KIDS,10,22,2,Resistencia lúdica,Relevos cooperativos · Apply,pendiente_revision_individual,pendiente
+K10-W23,ABC KIDS,10,23,2,Movilidad y recuperación,Rangos cómodos · Apply,pendiente_revision_individual,pendiente
+K10-W24,ABC KIDS,10,24,2,Alimentación e hidratación,Comidas variadas · Apply,pendiente_revision_individual,pendiente
+K10-W25,ABC KIDS,10,25,2,Cooperación y juego,Juego con reglas flexibles · Apply,pendiente_revision_individual,pendiente
+K10-W26,ABC KIDS,10,26,2,Integración y reflexión,Reto combinado · Apply,pendiente_revision_individual,pendiente
+K10-W27,ABC KIDS,10,27,3,Metas y autoconocimiento,Circuito por elección · Apply,pendiente_revision_individual,pendiente
+K10-W28,ABC KIDS,10,28,3,Control corporal,Espejos por parejas · Apply,pendiente_revision_individual,pendiente
+K10-W29,ABC KIDS,10,29,3,Equilibrio,Equilibrio con objetos · Apply,pendiente_revision_individual,pendiente
+K10-W30,ABC KIDS,10,30,3,Locomoción,Carreras de orientación · Apply,pendiente_revision_individual,pendiente
+K10-W31,ABC KIDS,10,31,3,Coordinación manipulativa,Recepción en movimiento · Apply,pendiente_revision_individual,pendiente
+K10-W32,ABC KIDS,10,32,3,Saltos y aterrizajes,Saltos encadenados · Apply,pendiente_revision_individual,pendiente
+K10-W33,ABC KIDS,10,33,3,Agilidad y reacción,Señales combinadas · Apply,pendiente_revision_individual,pendiente
+K10-W34,ABC KIDS,10,34,3,Fuerza funcional,Circuito de apoyos · Apply,pendiente_revision_individual,pendiente
+K10-W35,ABC KIDS,10,35,3,Resistencia lúdica,Ruta de ritmo variable · Apply,pendiente_revision_individual,pendiente
+K10-W36,ABC KIDS,10,36,3,Movilidad y recuperación,Preparación y pausa · Apply,pendiente_revision_individual,pendiente
+K10-W37,ABC KIDS,10,37,3,Alimentación e hidratación,Alimentación para jugar · Apply,pendiente_revision_individual,pendiente
+K10-W38,ABC KIDS,10,38,3,Cooperación y juego,Resolver juntos · Apply,pendiente_revision_individual,pendiente
+K10-W39,ABC KIDS,10,39,3,Integración y reflexión,Festival de habilidades · Apply,pendiente_revision_individual,pendiente
+K10-W40,ABC KIDS,10,40,4,Metas y autoconocimiento,Feria personal de habilidades · Apply,pendiente_revision_individual,pendiente
+K10-W41,ABC KIDS,10,41,4,Control corporal,Coreografía de acciones · Apply,pendiente_revision_individual,pendiente
+K10-W42,ABC KIDS,10,42,4,Equilibrio,Ruta de estabilidad elegida · Apply,pendiente_revision_individual,pendiente
+K10-W43,ABC KIDS,10,43,4,Locomoción,Búsqueda multiterreno · Apply,pendiente_revision_individual,pendiente
+K10-W44,ABC KIDS,10,44,4,Coordinación manipulativa,Circuito de lanzamientos · Apply,pendiente_revision_individual,pendiente
+K10-W45,ABC KIDS,10,45,4,Saltos y aterrizajes,Secuencia de despegue y frenado · Apply,pendiente_revision_individual,pendiente
+K10-W46,ABC KIDS,10,46,4,Agilidad y reacción,Decisiones en juegos · Apply,pendiente_revision_individual,pendiente
+K10-W47,ABC KIDS,10,47,4,Fuerza funcional,Construcción colaborativa · Apply,pendiente_revision_individual,pendiente
+K10-W48,ABC KIDS,10,48,4,Resistencia lúdica,Juego de esfuerzo y pausas · Apply,pendiente_revision_individual,pendiente
+K10-W49,ABC KIDS,10,49,4,Movilidad y recuperación,Secuencia de recuperación · Apply,pendiente_revision_individual,pendiente
+K10-W50,ABC KIDS,10,50,4,Alimentación e hidratación,Rutina de hidratación · Apply,pendiente_revision_individual,pendiente
+K10-W51,ABC KIDS,10,51,4,Cooperación y juego,Crear un juego inclusivo · Apply,pendiente_revision_individual,pendiente
+K10-W52,ABC KIDS,10,52,4,Integración y reflexión,Proyecto y reflexión de ciclo · Apply,pendiente_revision_individual,pendiente
+K11-W01,ABC KIDS,11,1,1,Metas y autoconocimiento,Circuito de preferencias · Refine,pendiente_revision_individual,pendiente
+K11-W02,ABC KIDS,11,2,1,Control corporal,Siluetas en movimiento · Refine,pendiente_revision_individual,pendiente
+K11-W03,ABC KIDS,11,3,1,Equilibrio,Camino de líneas · Refine,pendiente_revision_individual,pendiente
+K11-W04,ABC KIDS,11,4,1,Locomoción,Rutas y direcciones · Refine,pendiente_revision_individual,pendiente
+K11-W05,ABC KIDS,11,5,1,Coordinación manipulativa,Pelota al objetivo · Refine,pendiente_revision_individual,pendiente
+K11-W06,ABC KIDS,11,6,1,Saltos y aterrizajes,Saltos sobre marcas · Refine,pendiente_revision_individual,pendiente
+K11-W07,ABC KIDS,11,7,1,Agilidad y reacción,Semáforo de acciones · Refine,pendiente_revision_individual,pendiente
+K11-W08,ABC KIDS,11,8,1,Fuerza funcional,Transporte de objetos blandos · Refine,pendiente_revision_individual,pendiente
+K11-W09,ABC KIDS,11,9,1,Resistencia lúdica,Exploración continua · Refine,pendiente_revision_individual,pendiente
+K11-W10,ABC KIDS,11,10,1,Movilidad y recuperación,Movimientos articulares · Refine,pendiente_revision_individual,pendiente
+K11-W11,ABC KIDS,11,11,1,Alimentación e hidratación,Detectives del agua · Refine,pendiente_revision_individual,pendiente
+K11-W12,ABC KIDS,11,12,1,Cooperación y juego,Turnos y acuerdos · Refine,pendiente_revision_individual,pendiente
+K11-W13,ABC KIDS,11,13,1,Integración y reflexión,Estaciones favoritas · Refine,pendiente_revision_individual,pendiente
+K11-W14,ABC KIDS,11,14,2,Metas y autoconocimiento,Mapa de destrezas · Refine,pendiente_revision_individual,pendiente
+K11-W15,ABC KIDS,11,15,2,Control corporal,Secuencias de posturas · Refine,pendiente_revision_individual,pendiente
+K11-W16,ABC KIDS,11,16,2,Equilibrio,Islas y transiciones · Refine,pendiente_revision_individual,pendiente
+K11-W17,ABC KIDS,11,17,2,Locomoción,Zigzag con señales · Refine,pendiente_revision_individual,pendiente
+K11-W18,ABC KIDS,11,18,2,Coordinación manipulativa,Pases variados · Refine,pendiente_revision_individual,pendiente
+K11-W19,ABC KIDS,11,19,2,Saltos y aterrizajes,Aterrizaje controlado · Refine,pendiente_revision_individual,pendiente
+K11-W20,ABC KIDS,11,20,2,Agilidad y reacción,Cambio de dirección · Refine,pendiente_revision_individual,pendiente
+K11-W21,ABC KIDS,11,21,2,Fuerza funcional,Empujar y traccionar · Refine,pendiente_revision_individual,pendiente
+K11-W22,ABC KIDS,11,22,2,Resistencia lúdica,Relevos cooperativos · Refine,pendiente_revision_individual,pendiente
+K11-W23,ABC KIDS,11,23,2,Movilidad y recuperación,Rangos cómodos · Refine,pendiente_revision_individual,pendiente
+K11-W24,ABC KIDS,11,24,2,Alimentación e hidratación,Comidas variadas · Refine,pendiente_revision_individual,pendiente
+K11-W25,ABC KIDS,11,25,2,Cooperación y juego,Juego con reglas flexibles · Refine,pendiente_revision_individual,pendiente
+K11-W26,ABC KIDS,11,26,2,Integración y reflexión,Reto combinado · Refine,pendiente_revision_individual,pendiente
+K11-W27,ABC KIDS,11,27,3,Metas y autoconocimiento,Circuito por elección · Refine,pendiente_revision_individual,pendiente
+K11-W28,ABC KIDS,11,28,3,Control corporal,Espejos por parejas · Refine,pendiente_revision_individual,pendiente
+K11-W29,ABC KIDS,11,29,3,Equilibrio,Equilibrio con objetos · Refine,pendiente_revision_individual,pendiente
+K11-W30,ABC KIDS,11,30,3,Locomoción,Carreras de orientación · Refine,pendiente_revision_individual,pendiente
+K11-W31,ABC KIDS,11,31,3,Coordinación manipulativa,Recepción en movimiento · Refine,pendiente_revision_individual,pendiente
+K11-W32,ABC KIDS,11,32,3,Saltos y aterrizajes,Saltos encadenados · Refine,pendiente_revision_individual,pendiente
+K11-W33,ABC KIDS,11,33,3,Agilidad y reacción,Señales combinadas · Refine,pendiente_revision_individual,pendiente
+K11-W34,ABC KIDS,11,34,3,Fuerza funcional,Circuito de apoyos · Refine,pendiente_revision_individual,pendiente
+K11-W35,ABC KIDS,11,35,3,Resistencia lúdica,Ruta de ritmo variable · Refine,pendiente_revision_individual,pendiente
+K11-W36,ABC KIDS,11,36,3,Movilidad y recuperación,Preparación y pausa · Refine,pendiente_revision_individual,pendiente
+K11-W37,ABC KIDS,11,37,3,Alimentación e hidratación,Alimentación para jugar · Refine,pendiente_revision_individual,pendiente
+K11-W38,ABC KIDS,11,38,3,Cooperación y juego,Resolver juntos · Refine,pendiente_revision_individual,pendiente
+K11-W39,ABC KIDS,11,39,3,Integración y reflexión,Festival de habilidades · Refine,pendiente_revision_individual,pendiente
+K11-W40,ABC KIDS,11,40,4,Metas y autoconocimiento,Feria personal de habilidades · Refine,pendiente_revision_individual,pendiente
+K11-W41,ABC KIDS,11,41,4,Control corporal,Coreografía de acciones · Refine,pendiente_revision_individual,pendiente
+K11-W42,ABC KIDS,11,42,4,Equilibrio,Ruta de estabilidad elegida · Refine,pendiente_revision_individual,pendiente
+K11-W43,ABC KIDS,11,43,4,Locomoción,Búsqueda multiterreno · Refine,pendiente_revision_individual,pendiente
+K11-W44,ABC KIDS,11,44,4,Coordinación manipulativa,Circuito de lanzamientos · Refine,pendiente_revision_individual,pendiente
+K11-W45,ABC KIDS,11,45,4,Saltos y aterrizajes,Secuencia de despegue y frenado · Refine,pendiente_revision_individual,pendiente
+K11-W46,ABC KIDS,11,46,4,Agilidad y reacción,Decisiones en juegos · Refine,pendiente_revision_individual,pendiente
+K11-W47,ABC KIDS,11,47,4,Fuerza funcional,Construcción colaborativa · Refine,pendiente_revision_individual,pendiente
+K11-W48,ABC KIDS,11,48,4,Resistencia lúdica,Juego de esfuerzo y pausas · Refine,pendiente_revision_individual,pendiente
+K11-W49,ABC KIDS,11,49,4,Movilidad y recuperación,Secuencia de recuperación · Refine,pendiente_revision_individual,pendiente
+K11-W50,ABC KIDS,11,50,4,Alimentación e hidratación,Rutina de hidratación · Refine,pendiente_revision_individual,pendiente
+K11-W51,ABC KIDS,11,51,4,Cooperación y juego,Crear un juego inclusivo · Refine,pendiente_revision_individual,pendiente
+K11-W52,ABC KIDS,11,52,4,Integración y reflexión,Proyecto y reflexión de ciclo · Refine,pendiente_revision_individual,pendiente
+K12-W01,ABC KIDS,12,1,1,Metas y autoconocimiento,Circuito de preferencias · Transition,pendiente_revision_individual,pendiente
+K12-W02,ABC KIDS,12,2,1,Control corporal,Siluetas en movimiento · Transition,pendiente_revision_individual,pendiente
+K12-W03,ABC KIDS,12,3,1,Equilibrio,Camino de líneas · Transition,pendiente_revision_individual,pendiente
+K12-W04,ABC KIDS,12,4,1,Locomoción,Rutas y direcciones · Transition,pendiente_revision_individual,pendiente
+K12-W05,ABC KIDS,12,5,1,Coordinación manipulativa,Pelota al objetivo · Transition,pendiente_revision_individual,pendiente
+K12-W06,ABC KIDS,12,6,1,Saltos y aterrizajes,Saltos sobre marcas · Transition,pendiente_revision_individual,pendiente
+K12-W07,ABC KIDS,12,7,1,Agilidad y reacción,Semáforo de acciones · Transition,pendiente_revision_individual,pendiente
+K12-W08,ABC KIDS,12,8,1,Fuerza funcional,Transporte de objetos blandos · Transition,pendiente_revision_individual,pendiente
+K12-W09,ABC KIDS,12,9,1,Resistencia lúdica,Exploración continua · Transition,pendiente_revision_individual,pendiente
+K12-W10,ABC KIDS,12,10,1,Movilidad y recuperación,Movimientos articulares · Transition,pendiente_revision_individual,pendiente
+K12-W11,ABC KIDS,12,11,1,Alimentación e hidratación,Detectives del agua · Transition,pendiente_revision_individual,pendiente
+K12-W12,ABC KIDS,12,12,1,Cooperación y juego,Turnos y acuerdos · Transition,pendiente_revision_individual,pendiente
+K12-W13,ABC KIDS,12,13,1,Integración y reflexión,Estaciones favoritas · Transition,pendiente_revision_individual,pendiente
+K12-W14,ABC KIDS,12,14,2,Metas y autoconocimiento,Mapa de destrezas · Transition,pendiente_revision_individual,pendiente
+K12-W15,ABC KIDS,12,15,2,Control corporal,Secuencias de posturas · Transition,pendiente_revision_individual,pendiente
+K12-W16,ABC KIDS,12,16,2,Equilibrio,Islas y transiciones · Transition,pendiente_revision_individual,pendiente
+K12-W17,ABC KIDS,12,17,2,Locomoción,Zigzag con señales · Transition,pendiente_revision_individual,pendiente
+K12-W18,ABC KIDS,12,18,2,Coordinación manipulativa,Pases variados · Transition,pendiente_revision_individual,pendiente
+K12-W19,ABC KIDS,12,19,2,Saltos y aterrizajes,Aterrizaje controlado · Transition,pendiente_revision_individual,pendiente
+K12-W20,ABC KIDS,12,20,2,Agilidad y reacción,Cambio de dirección · Transition,pendiente_revision_individual,pendiente
+K12-W21,ABC KIDS,12,21,2,Fuerza funcional,Empujar y traccionar · Transition,pendiente_revision_individual,pendiente
+K12-W22,ABC KIDS,12,22,2,Resistencia lúdica,Relevos cooperativos · Transition,pendiente_revision_individual,pendiente
+K12-W23,ABC KIDS,12,23,2,Movilidad y recuperación,Rangos cómodos · Transition,pendiente_revision_individual,pendiente
+K12-W24,ABC KIDS,12,24,2,Alimentación e hidratación,Comidas variadas · Transition,pendiente_revision_individual,pendiente
+K12-W25,ABC KIDS,12,25,2,Cooperación y juego,Juego con reglas flexibles · Transition,pendiente_revision_individual,pendiente
+K12-W26,ABC KIDS,12,26,2,Integración y reflexión,Reto combinado · Transition,pendiente_revision_individual,pendiente
+K12-W27,ABC KIDS,12,27,3,Metas y autoconocimiento,Circuito por elección · Transition,pendiente_revision_individual,pendiente
+K12-W28,ABC KIDS,12,28,3,Control corporal,Espejos por parejas · Transition,pendiente_revision_individual,pendiente
+K12-W29,ABC KIDS,12,29,3,Equilibrio,Equilibrio con objetos · Transition,pendiente_revision_individual,pendiente
+K12-W30,ABC KIDS,12,30,3,Locomoción,Carreras de orientación · Transition,pendiente_revision_individual,pendiente
+K12-W31,ABC KIDS,12,31,3,Coordinación manipulativa,Recepción en movimiento · Transition,pendiente_revision_individual,pendiente
+K12-W32,ABC KIDS,12,32,3,Saltos y aterrizajes,Saltos encadenados · Transition,pendiente_revision_individual,pendiente
+K12-W33,ABC KIDS,12,33,3,Agilidad y reacción,Señales combinadas · Transition,pendiente_revision_individual,pendiente
+K12-W34,ABC KIDS,12,34,3,Fuerza funcional,Circuito de apoyos · Transition,pendiente_revision_individual,pendiente
+K12-W35,ABC KIDS,12,35,3,Resistencia lúdica,Ruta de ritmo variable · Transition,pendiente_revision_individual,pendiente
+K12-W36,ABC KIDS,12,36,3,Movilidad y recuperación,Preparación y pausa · Transition,pendiente_revision_individual,pendiente
+K12-W37,ABC KIDS,12,37,3,Alimentación e hidratación,Alimentación para jugar · Transition,pendiente_revision_individual,pendiente
+K12-W38,ABC KIDS,12,38,3,Cooperación y juego,Resolver juntos · Transition,pendiente_revision_individual,pendiente
+K12-W39,ABC KIDS,12,39,3,Integración y reflexión,Festival de habilidades · Transition,pendiente_revision_individual,pendiente
+K12-W40,ABC KIDS,12,40,4,Metas y autoconocimiento,Feria personal de habilidades · Transition,pendiente_revision_individual,pendiente
+K12-W41,ABC KIDS,12,41,4,Control corporal,Coreografía de acciones · Transition,pendiente_revision_individual,pendiente
+K12-W42,ABC KIDS,12,42,4,Equilibrio,Ruta de estabilidad elegida · Transition,pendiente_revision_individual,pendiente
+K12-W43,ABC KIDS,12,43,4,Locomoción,Búsqueda multiterreno · Transition,pendiente_revision_individual,pendiente
+K12-W44,ABC KIDS,12,44,4,Coordinación manipulativa,Circuito de lanzamientos · Transition,pendiente_revision_individual,pendiente
+K12-W45,ABC KIDS,12,45,4,Saltos y aterrizajes,Secuencia de despegue y frenado · Transition,pendiente_revision_individual,pendiente
+K12-W46,ABC KIDS,12,46,4,Agilidad y reacción,Decisiones en juegos · Transition,pendiente_revision_individual,pendiente
+K12-W47,ABC KIDS,12,47,4,Fuerza funcional,Construcción colaborativa · Transition,pendiente_revision_individual,pendiente
+K12-W48,ABC KIDS,12,48,4,Resistencia lúdica,Juego de esfuerzo y pausas · Transition,pendiente_revision_individual,pendiente
+K12-W49,ABC KIDS,12,49,4,Movilidad y recuperación,Secuencia de recuperación · Transition,pendiente_revision_individual,pendiente
+K12-W50,ABC KIDS,12,50,4,Alimentación e hidratación,Rutina de hidratación · Transition,pendiente_revision_individual,pendiente
+K12-W51,ABC KIDS,12,51,4,Cooperación y juego,Crear un juego inclusivo · Transition,pendiente_revision_individual,pendiente
+K12-W52,ABC KIDS,12,52,4,Integración y reflexión,Proyecto y reflexión de ciclo · Transition,pendiente_revision_individual,pendiente
+Y13-W01,ABC YOUTH,13,1,1,Evaluación formativa,Autoevaluación de movimiento · Foundations,pendiente_revision_individual,pendiente
+Y13-W02,ABC YOUTH,13,2,1,Técnica de movimiento,Bisagra y sentadilla sin carga · Foundations,pendiente_revision_individual,pendiente
+Y13-W03,ABC YOUTH,13,3,1,Equilibrio y control,Estabilidad en apoyos · Foundations,pendiente_revision_individual,pendiente
+Y13-W04,ABC YOUTH,13,4,1,Velocidad y dirección,Salidas desde señales · Foundations,pendiente_revision_individual,pendiente
+Y13-W05,ABC YOUTH,13,5,1,Coordinación deportiva,Lanzamiento a precisión · Foundations,pendiente_revision_individual,pendiente
+Y13-W06,ABC YOUTH,13,6,1,Fuerza general,Circuito de autocarga · Foundations,pendiente_revision_individual,pendiente
+Y13-W07,ABC YOUTH,13,7,1,Capacidad aeróbica,Ritmos conversacionales · Foundations,pendiente_revision_individual,pendiente
+Y13-W08,ABC YOUTH,13,8,1,Movilidad y preparación,Calentamiento dinámico · Foundations,pendiente_revision_individual,pendiente
+Y13-W09,ABC YOUTH,13,9,1,Carga y recuperación,Mapa de actividades semanales · Foundations,pendiente_revision_individual,pendiente
+Y13-W10,ABC YOUTH,13,10,1,Sueño y salud,Diario voluntario de energía · Foundations,pendiente_revision_individual,pendiente
+Y13-W11,ABC YOUTH,13,11,1,Nutrición e hidratación,Alimentación suficiente y variada · Foundations,pendiente_revision_individual,pendiente
+Y13-W12,ABC YOUTH,13,12,1,Psicología y cooperación,Confianza y error · Foundations,pendiente_revision_individual,pendiente
+Y13-W13,ABC YOUTH,13,13,1,Autonomía y proyecto,Meta personal y evaluación · Foundations,pendiente_revision_individual,pendiente
+Y13-W14,ABC YOUTH,13,14,2,Evaluación formativa,Perfil de capacidades · Foundations,pendiente_revision_individual,pendiente
+Y13-W15,ABC YOUTH,13,15,2,Técnica de movimiento,"Empuje, tracción y apoyos · Foundations",pendiente_revision_individual,pendiente
+Y13-W16,ABC YOUTH,13,16,2,Equilibrio y control,Desaceleración controlada · Foundations,pendiente_revision_individual,pendiente
+Y13-W17,ABC YOUTH,13,17,2,Velocidad y dirección,Aceleración y frenado · Foundations,pendiente_revision_individual,pendiente
+Y13-W18,ABC YOUTH,13,18,2,Coordinación deportiva,Pases con desplazamiento · Foundations,pendiente_revision_individual,pendiente
+Y13-W19,ABC YOUTH,13,19,2,Fuerza general,Control excéntrico básico · Foundations,pendiente_revision_individual,pendiente
+Y13-W20,ABC YOUTH,13,20,2,Capacidad aeróbica,Intervalos lúdicos autoseleccionados · Foundations,pendiente_revision_individual,pendiente
+Y13-W21,ABC YOUTH,13,21,2,Movilidad y preparación,Movilidad específica · Foundations,pendiente_revision_individual,pendiente
+Y13-W22,ABC YOUTH,13,22,2,Carga y recuperación,Fatiga y descanso · Foundations,pendiente_revision_individual,pendiente
+Y13-W23,ABC YOUTH,13,23,2,Sueño y salud,Hábitos de descanso · Foundations,pendiente_revision_individual,pendiente
+Y13-W24,ABC YOUTH,13,24,2,Nutrición e hidratación,Elecciones antes de actividad · Foundations,pendiente_revision_individual,pendiente
+Y13-W25,ABC YOUTH,13,25,2,Psicología y cooperación,Comunicación en equipo · Foundations,pendiente_revision_individual,pendiente
+Y13-W26,ABC YOUTH,13,26,2,Autonomía y proyecto,Diseño de actividad segura · Foundations,pendiente_revision_individual,pendiente
+Y13-W27,ABC YOUTH,13,27,3,Evaluación formativa,Revisión de metas · Foundations,pendiente_revision_individual,pendiente
+Y13-W28,ABC YOUTH,13,28,3,Técnica de movimiento,Patrones combinados · Foundations,pendiente_revision_individual,pendiente
+Y13-W29,ABC YOUTH,13,29,3,Equilibrio y control,Control ante perturbaciones leves · Foundations,pendiente_revision_individual,pendiente
+Y13-W30,ABC YOUTH,13,30,3,Velocidad y dirección,Cambio de dirección reactivo · Foundations,pendiente_revision_individual,pendiente
+Y13-W31,ABC YOUTH,13,31,3,Coordinación deportiva,Recepción y decisión · Foundations,pendiente_revision_individual,pendiente
+Y13-W32,ABC YOUTH,13,32,3,Fuerza general,Resistencia externa ligera supervisada · Foundations,pendiente_revision_individual,pendiente
+Y13-W33,ABC YOUTH,13,33,3,Capacidad aeróbica,Esfuerzos en equipo · Foundations,pendiente_revision_individual,pendiente
+Y13-W34,ABC YOUTH,13,34,3,Movilidad y preparación,Preparación para un juego · Foundations,pendiente_revision_individual,pendiente
+Y13-W35,ABC YOUTH,13,35,3,Carga y recuperación,Carga deportiva total · Foundations,pendiente_revision_individual,pendiente
+Y13-W36,ABC YOUTH,13,36,3,Sueño y salud,Sueño y escuela/deporte · Foundations,pendiente_revision_individual,pendiente
+Y13-W37,ABC YOUTH,13,37,3,Nutrición e hidratación,Hidratación y calor · Foundations,pendiente_revision_individual,pendiente
+Y13-W38,ABC YOUTH,13,38,3,Psicología y cooperación,Motivación y presión · Foundations,pendiente_revision_individual,pendiente
+Y13-W39,ABC YOUTH,13,39,3,Autonomía y proyecto,Conducción de juego cooperativo · Foundations,pendiente_revision_individual,pendiente
+Y13-W40,ABC YOUTH,13,40,4,Evaluación formativa,Balance del ciclo · Foundations,pendiente_revision_individual,pendiente
+Y13-W41,ABC YOUTH,13,41,4,Técnica de movimiento,Análisis de una secuencia · Foundations,pendiente_revision_individual,pendiente
+Y13-W42,ABC YOUTH,13,42,4,Equilibrio y control,Transferencia al juego · Foundations,pendiente_revision_individual,pendiente
+Y13-W43,ABC YOUTH,13,43,4,Velocidad y dirección,Lectura de situaciones · Foundations,pendiente_revision_individual,pendiente
+Y13-W44,ABC YOUTH,13,44,4,Coordinación deportiva,Resolución multideportiva · Foundations,pendiente_revision_individual,pendiente
+Y13-W45,ABC YOUTH,13,45,4,Fuerza general,Selección de variantes · Foundations,pendiente_revision_individual,pendiente
+Y13-W46,ABC YOUTH,13,46,4,Capacidad aeróbica,Plan de participación aeróbica · Foundations,pendiente_revision_individual,pendiente
+Y13-W47,ABC YOUTH,13,47,4,Movilidad y preparación,Diseño de calentamiento · Foundations,pendiente_revision_individual,pendiente
+Y13-W48,ABC YOUTH,13,48,4,Carga y recuperación,Ajuste por bienestar · Foundations,pendiente_revision_individual,pendiente
+Y13-W49,ABC YOUTH,13,49,4,Sueño y salud,Plan de autocuidado · Foundations,pendiente_revision_individual,pendiente
+Y13-W50,ABC YOUTH,13,50,4,Nutrición e hidratación,Caso de nutrición deportiva general · Foundations,pendiente_revision_individual,pendiente
+Y13-W51,ABC YOUTH,13,51,4,Psicología y cooperación,Liderazgo inclusivo · Foundations,pendiente_revision_individual,pendiente
+Y13-W52,ABC YOUTH,13,52,4,Autonomía y proyecto,Presentación de proyecto anual · Foundations,pendiente_revision_individual,pendiente
+Y14-W01,ABC YOUTH,14,1,1,Evaluación formativa,Autoevaluación de movimiento · Control,pendiente_revision_individual,pendiente
+Y14-W02,ABC YOUTH,14,2,1,Técnica de movimiento,Bisagra y sentadilla sin carga · Control,pendiente_revision_individual,pendiente
+Y14-W03,ABC YOUTH,14,3,1,Equilibrio y control,Estabilidad en apoyos · Control,pendiente_revision_individual,pendiente
+Y14-W04,ABC YOUTH,14,4,1,Velocidad y dirección,Salidas desde señales · Control,pendiente_revision_individual,pendiente
+Y14-W05,ABC YOUTH,14,5,1,Coordinación deportiva,Lanzamiento a precisión · Control,pendiente_revision_individual,pendiente
+Y14-W06,ABC YOUTH,14,6,1,Fuerza general,Circuito de autocarga · Control,pendiente_revision_individual,pendiente
+Y14-W07,ABC YOUTH,14,7,1,Capacidad aeróbica,Ritmos conversacionales · Control,pendiente_revision_individual,pendiente
+Y14-W08,ABC YOUTH,14,8,1,Movilidad y preparación,Calentamiento dinámico · Control,pendiente_revision_individual,pendiente
+Y14-W09,ABC YOUTH,14,9,1,Carga y recuperación,Mapa de actividades semanales · Control,pendiente_revision_individual,pendiente
+Y14-W10,ABC YOUTH,14,10,1,Sueño y salud,Diario voluntario de energía · Control,pendiente_revision_individual,pendiente
+Y14-W11,ABC YOUTH,14,11,1,Nutrición e hidratación,Alimentación suficiente y variada · Control,pendiente_revision_individual,pendiente
+Y14-W12,ABC YOUTH,14,12,1,Psicología y cooperación,Confianza y error · Control,pendiente_revision_individual,pendiente
+Y14-W13,ABC YOUTH,14,13,1,Autonomía y proyecto,Meta personal y evaluación · Control,pendiente_revision_individual,pendiente
+Y14-W14,ABC YOUTH,14,14,2,Evaluación formativa,Perfil de capacidades · Control,pendiente_revision_individual,pendiente
+Y14-W15,ABC YOUTH,14,15,2,Técnica de movimiento,"Empuje, tracción y apoyos · Control",pendiente_revision_individual,pendiente
+Y14-W16,ABC YOUTH,14,16,2,Equilibrio y control,Desaceleración controlada · Control,pendiente_revision_individual,pendiente
+Y14-W17,ABC YOUTH,14,17,2,Velocidad y dirección,Aceleración y frenado · Control,pendiente_revision_individual,pendiente
+Y14-W18,ABC YOUTH,14,18,2,Coordinación deportiva,Pases con desplazamiento · Control,pendiente_revision_individual,pendiente
+Y14-W19,ABC YOUTH,14,19,2,Fuerza general,Control excéntrico básico · Control,pendiente_revision_individual,pendiente
+Y14-W20,ABC YOUTH,14,20,2,Capacidad aeróbica,Intervalos lúdicos autoseleccionados · Control,pendiente_revision_individual,pendiente
+Y14-W21,ABC YOUTH,14,21,2,Movilidad y preparación,Movilidad específica · Control,pendiente_revision_individual,pendiente
+Y14-W22,ABC YOUTH,14,22,2,Carga y recuperación,Fatiga y descanso · Control,pendiente_revision_individual,pendiente
+Y14-W23,ABC YOUTH,14,23,2,Sueño y salud,Hábitos de descanso · Control,pendiente_revision_individual,pendiente
+Y14-W24,ABC YOUTH,14,24,2,Nutrición e hidratación,Elecciones antes de actividad · Control,pendiente_revision_individual,pendiente
+Y14-W25,ABC YOUTH,14,25,2,Psicología y cooperación,Comunicación en equipo · Control,pendiente_revision_individual,pendiente
+Y14-W26,ABC YOUTH,14,26,2,Autonomía y proyecto,Diseño de actividad segura · Control,pendiente_revision_individual,pendiente
+Y14-W27,ABC YOUTH,14,27,3,Evaluación formativa,Revisión de metas · Control,pendiente_revision_individual,pendiente
+Y14-W28,ABC YOUTH,14,28,3,Técnica de movimiento,Patrones combinados · Control,pendiente_revision_individual,pendiente
+Y14-W29,ABC YOUTH,14,29,3,Equilibrio y control,Control ante perturbaciones leves · Control,pendiente_revision_individual,pendiente
+Y14-W30,ABC YOUTH,14,30,3,Velocidad y dirección,Cambio de dirección reactivo · Control,pendiente_revision_individual,pendiente
+Y14-W31,ABC YOUTH,14,31,3,Coordinación deportiva,Recepción y decisión · Control,pendiente_revision_individual,pendiente
+Y14-W32,ABC YOUTH,14,32,3,Fuerza general,Resistencia externa ligera supervisada · Control,pendiente_revision_individual,pendiente
+Y14-W33,ABC YOUTH,14,33,3,Capacidad aeróbica,Esfuerzos en equipo · Control,pendiente_revision_individual,pendiente
+Y14-W34,ABC YOUTH,14,34,3,Movilidad y preparación,Preparación para un juego · Control,pendiente_revision_individual,pendiente
+Y14-W35,ABC YOUTH,14,35,3,Carga y recuperación,Carga deportiva total · Control,pendiente_revision_individual,pendiente
+Y14-W36,ABC YOUTH,14,36,3,Sueño y salud,Sueño y escuela/deporte · Control,pendiente_revision_individual,pendiente
+Y14-W37,ABC YOUTH,14,37,3,Nutrición e hidratación,Hidratación y calor · Control,pendiente_revision_individual,pendiente
+Y14-W38,ABC YOUTH,14,38,3,Psicología y cooperación,Motivación y presión · Control,pendiente_revision_individual,pendiente
+Y14-W39,ABC YOUTH,14,39,3,Autonomía y proyecto,Conducción de juego cooperativo · Control,pendiente_revision_individual,pendiente
+Y14-W40,ABC YOUTH,14,40,4,Evaluación formativa,Balance del ciclo · Control,pendiente_revision_individual,pendiente
+Y14-W41,ABC YOUTH,14,41,4,Técnica de movimiento,Análisis de una secuencia · Control,pendiente_revision_individual,pendiente
+Y14-W42,ABC YOUTH,14,42,4,Equilibrio y control,Transferencia al juego · Control,pendiente_revision_individual,pendiente
+Y14-W43,ABC YOUTH,14,43,4,Velocidad y dirección,Lectura de situaciones · Control,pendiente_revision_individual,pendiente
+Y14-W44,ABC YOUTH,14,44,4,Coordinación deportiva,Resolución multideportiva · Control,pendiente_revision_individual,pendiente
+Y14-W45,ABC YOUTH,14,45,4,Fuerza general,Selección de variantes · Control,pendiente_revision_individual,pendiente
+Y14-W46,ABC YOUTH,14,46,4,Capacidad aeróbica,Plan de participación aeróbica · Control,pendiente_revision_individual,pendiente
+Y14-W47,ABC YOUTH,14,47,4,Movilidad y preparación,Diseño de calentamiento · Control,pendiente_revision_individual,pendiente
+Y14-W48,ABC YOUTH,14,48,4,Carga y recuperación,Ajuste por bienestar · Control,pendiente_revision_individual,pendiente
+Y14-W49,ABC YOUTH,14,49,4,Sueño y salud,Plan de autocuidado · Control,pendiente_revision_individual,pendiente
+Y14-W50,ABC YOUTH,14,50,4,Nutrición e hidratación,Caso de nutrición deportiva general · Control,pendiente_revision_individual,pendiente
+Y14-W51,ABC YOUTH,14,51,4,Psicología y cooperación,Liderazgo inclusivo · Control,pendiente_revision_individual,pendiente
+Y14-W52,ABC YOUTH,14,52,4,Autonomía y proyecto,Presentación de proyecto anual · Control,pendiente_revision_individual,pendiente
+Y15-W01,ABC YOUTH,15,1,1,Evaluación formativa,Autoevaluación de movimiento · Develop,pendiente_revision_individual,pendiente
+Y15-W02,ABC YOUTH,15,2,1,Técnica de movimiento,Bisagra y sentadilla sin carga · Develop,pendiente_revision_individual,pendiente
+Y15-W03,ABC YOUTH,15,3,1,Equilibrio y control,Estabilidad en apoyos · Develop,pendiente_revision_individual,pendiente
+Y15-W04,ABC YOUTH,15,4,1,Velocidad y dirección,Salidas desde señales · Develop,pendiente_revision_individual,pendiente
+Y15-W05,ABC YOUTH,15,5,1,Coordinación deportiva,Lanzamiento a precisión · Develop,pendiente_revision_individual,pendiente
+Y15-W06,ABC YOUTH,15,6,1,Fuerza general,Circuito de autocarga · Develop,pendiente_revision_individual,pendiente
+Y15-W07,ABC YOUTH,15,7,1,Capacidad aeróbica,Ritmos conversacionales · Develop,pendiente_revision_individual,pendiente
+Y15-W08,ABC YOUTH,15,8,1,Movilidad y preparación,Calentamiento dinámico · Develop,pendiente_revision_individual,pendiente
+Y15-W09,ABC YOUTH,15,9,1,Carga y recuperación,Mapa de actividades semanales · Develop,pendiente_revision_individual,pendiente
+Y15-W10,ABC YOUTH,15,10,1,Sueño y salud,Diario voluntario de energía · Develop,pendiente_revision_individual,pendiente
+Y15-W11,ABC YOUTH,15,11,1,Nutrición e hidratación,Alimentación suficiente y variada · Develop,pendiente_revision_individual,pendiente
+Y15-W12,ABC YOUTH,15,12,1,Psicología y cooperación,Confianza y error · Develop,pendiente_revision_individual,pendiente
+Y15-W13,ABC YOUTH,15,13,1,Autonomía y proyecto,Meta personal y evaluación · Develop,pendiente_revision_individual,pendiente
+Y15-W14,ABC YOUTH,15,14,2,Evaluación formativa,Perfil de capacidades · Develop,pendiente_revision_individual,pendiente
+Y15-W15,ABC YOUTH,15,15,2,Técnica de movimiento,"Empuje, tracción y apoyos · Develop",pendiente_revision_individual,pendiente
+Y15-W16,ABC YOUTH,15,16,2,Equilibrio y control,Desaceleración controlada · Develop,pendiente_revision_individual,pendiente
+Y15-W17,ABC YOUTH,15,17,2,Velocidad y dirección,Aceleración y frenado · Develop,pendiente_revision_individual,pendiente
+Y15-W18,ABC YOUTH,15,18,2,Coordinación deportiva,Pases con desplazamiento · Develop,pendiente_revision_individual,pendiente
+Y15-W19,ABC YOUTH,15,19,2,Fuerza general,Control excéntrico básico · Develop,pendiente_revision_individual,pendiente
+Y15-W20,ABC YOUTH,15,20,2,Capacidad aeróbica,Intervalos lúdicos autoseleccionados · Develop,pendiente_revision_individual,pendiente
+Y15-W21,ABC YOUTH,15,21,2,Movilidad y preparación,Movilidad específica · Develop,pendiente_revision_individual,pendiente
+Y15-W22,ABC YOUTH,15,22,2,Carga y recuperación,Fatiga y descanso · Develop,pendiente_revision_individual,pendiente
+Y15-W23,ABC YOUTH,15,23,2,Sueño y salud,Hábitos de descanso · Develop,pendiente_revision_individual,pendiente
+Y15-W24,ABC YOUTH,15,24,2,Nutrición e hidratación,Elecciones antes de actividad · Develop,pendiente_revision_individual,pendiente
+Y15-W25,ABC YOUTH,15,25,2,Psicología y cooperación,Comunicación en equipo · Develop,pendiente_revision_individual,pendiente
+Y15-W26,ABC YOUTH,15,26,2,Autonomía y proyecto,Diseño de actividad segura · Develop,pendiente_revision_individual,pendiente
+Y15-W27,ABC YOUTH,15,27,3,Evaluación formativa,Revisión de metas · Develop,pendiente_revision_individual,pendiente
+Y15-W28,ABC YOUTH,15,28,3,Técnica de movimiento,Patrones combinados · Develop,pendiente_revision_individual,pendiente
+Y15-W29,ABC YOUTH,15,29,3,Equilibrio y control,Control ante perturbaciones leves · Develop,pendiente_revision_individual,pendiente
+Y15-W30,ABC YOUTH,15,30,3,Velocidad y dirección,Cambio de dirección reactivo · Develop,pendiente_revision_individual,pendiente
+Y15-W31,ABC YOUTH,15,31,3,Coordinación deportiva,Recepción y decisión · Develop,pendiente_revision_individual,pendiente
+Y15-W32,ABC YOUTH,15,32,3,Fuerza general,Resistencia externa ligera supervisada · Develop,pendiente_revision_individual,pendiente
+Y15-W33,ABC YOUTH,15,33,3,Capacidad aeróbica,Esfuerzos en equipo · Develop,pendiente_revision_individual,pendiente
+Y15-W34,ABC YOUTH,15,34,3,Movilidad y preparación,Preparación para un juego · Develop,pendiente_revision_individual,pendiente
+Y15-W35,ABC YOUTH,15,35,3,Carga y recuperación,Carga deportiva total · Develop,pendiente_revision_individual,pendiente
+Y15-W36,ABC YOUTH,15,36,3,Sueño y salud,Sueño y escuela/deporte · Develop,pendiente_revision_individual,pendiente
+Y15-W37,ABC YOUTH,15,37,3,Nutrición e hidratación,Hidratación y calor · Develop,pendiente_revision_individual,pendiente
+Y15-W38,ABC YOUTH,15,38,3,Psicología y cooperación,Motivación y presión · Develop,pendiente_revision_individual,pendiente
+Y15-W39,ABC YOUTH,15,39,3,Autonomía y proyecto,Conducción de juego cooperativo · Develop,pendiente_revision_individual,pendiente
+Y15-W40,ABC YOUTH,15,40,4,Evaluación formativa,Balance del ciclo · Develop,pendiente_revision_individual,pendiente
+Y15-W41,ABC YOUTH,15,41,4,Técnica de movimiento,Análisis de una secuencia · Develop,pendiente_revision_individual,pendiente
+Y15-W42,ABC YOUTH,15,42,4,Equilibrio y control,Transferencia al juego · Develop,pendiente_revision_individual,pendiente
+Y15-W43,ABC YOUTH,15,43,4,Velocidad y dirección,Lectura de situaciones · Develop,pendiente_revision_individual,pendiente
+Y15-W44,ABC YOUTH,15,44,4,Coordinación deportiva,Resolución multideportiva · Develop,pendiente_revision_individual,pendiente
+Y15-W45,ABC YOUTH,15,45,4,Fuerza general,Selección de variantes · Develop,pendiente_revision_individual,pendiente
+Y15-W46,ABC YOUTH,15,46,4,Capacidad aeróbica,Plan de participación aeróbica · Develop,pendiente_revision_individual,pendiente
+Y15-W47,ABC YOUTH,15,47,4,Movilidad y preparación,Diseño de calentamiento · Develop,pendiente_revision_individual,pendiente
+Y15-W48,ABC YOUTH,15,48,4,Carga y recuperación,Ajuste por bienestar · Develop,pendiente_revision_individual,pendiente
+Y15-W49,ABC YOUTH,15,49,4,Sueño y salud,Plan de autocuidado · Develop,pendiente_revision_individual,pendiente
+Y15-W50,ABC YOUTH,15,50,4,Nutrición e hidratación,Caso de nutrición deportiva general · Develop,pendiente_revision_individual,pendiente
+Y15-W51,ABC YOUTH,15,51,4,Psicología y cooperación,Liderazgo inclusivo · Develop,pendiente_revision_individual,pendiente
+Y15-W52,ABC YOUTH,15,52,4,Autonomía y proyecto,Presentación de proyecto anual · Develop,pendiente_revision_individual,pendiente
+Y16-W01,ABC YOUTH,16,1,1,Evaluación formativa,Autoevaluación de movimiento · Application,pendiente_revision_individual,pendiente
+Y16-W02,ABC YOUTH,16,2,1,Técnica de movimiento,Bisagra y sentadilla sin carga · Application,pendiente_revision_individual,pendiente
+Y16-W03,ABC YOUTH,16,3,1,Equilibrio y control,Estabilidad en apoyos · Application,pendiente_revision_individual,pendiente
+Y16-W04,ABC YOUTH,16,4,1,Velocidad y dirección,Salidas desde señales · Application,pendiente_revision_individual,pendiente
+Y16-W05,ABC YOUTH,16,5,1,Coordinación deportiva,Lanzamiento a precisión · Application,pendiente_revision_individual,pendiente
+Y16-W06,ABC YOUTH,16,6,1,Fuerza general,Circuito de autocarga · Application,pendiente_revision_individual,pendiente
+Y16-W07,ABC YOUTH,16,7,1,Capacidad aeróbica,Ritmos conversacionales · Application,pendiente_revision_individual,pendiente
+Y16-W08,ABC YOUTH,16,8,1,Movilidad y preparación,Calentamiento dinámico · Application,pendiente_revision_individual,pendiente
+Y16-W09,ABC YOUTH,16,9,1,Carga y recuperación,Mapa de actividades semanales · Application,pendiente_revision_individual,pendiente
+Y16-W10,ABC YOUTH,16,10,1,Sueño y salud,Diario voluntario de energía · Application,pendiente_revision_individual,pendiente
+Y16-W11,ABC YOUTH,16,11,1,Nutrición e hidratación,Alimentación suficiente y variada · Application,pendiente_revision_individual,pendiente
+Y16-W12,ABC YOUTH,16,12,1,Psicología y cooperación,Confianza y error · Application,pendiente_revision_individual,pendiente
+Y16-W13,ABC YOUTH,16,13,1,Autonomía y proyecto,Meta personal y evaluación · Application,pendiente_revision_individual,pendiente
+Y16-W14,ABC YOUTH,16,14,2,Evaluación formativa,Perfil de capacidades · Application,pendiente_revision_individual,pendiente
+Y16-W15,ABC YOUTH,16,15,2,Técnica de movimiento,"Empuje, tracción y apoyos · Application",pendiente_revision_individual,pendiente
+Y16-W16,ABC YOUTH,16,16,2,Equilibrio y control,Desaceleración controlada · Application,pendiente_revision_individual,pendiente
+Y16-W17,ABC YOUTH,16,17,2,Velocidad y dirección,Aceleración y frenado · Application,pendiente_revision_individual,pendiente
+Y16-W18,ABC YOUTH,16,18,2,Coordinación deportiva,Pases con desplazamiento · Application,pendiente_revision_individual,pendiente
+Y16-W19,ABC YOUTH,16,19,2,Fuerza general,Control excéntrico básico · Application,pendiente_revision_individual,pendiente
+Y16-W20,ABC YOUTH,16,20,2,Capacidad aeróbica,Intervalos lúdicos autoseleccionados · Application,pendiente_revision_individual,pendiente
+Y16-W21,ABC YOUTH,16,21,2,Movilidad y preparación,Movilidad específica · Application,pendiente_revision_individual,pendiente
+Y16-W22,ABC YOUTH,16,22,2,Carga y recuperación,Fatiga y descanso · Application,pendiente_revision_individual,pendiente
+Y16-W23,ABC YOUTH,16,23,2,Sueño y salud,Hábitos de descanso · Application,pendiente_revision_individual,pendiente
+Y16-W24,ABC YOUTH,16,24,2,Nutrición e hidratación,Elecciones antes de actividad · Application,pendiente_revision_individual,pendiente
+Y16-W25,ABC YOUTH,16,25,2,Psicología y cooperación,Comunicación en equipo · Application,pendiente_revision_individual,pendiente
+Y16-W26,ABC YOUTH,16,26,2,Autonomía y proyecto,Diseño de actividad segura · Application,pendiente_revision_individual,pendiente
+Y16-W27,ABC YOUTH,16,27,3,Evaluación formativa,Revisión de metas · Application,pendiente_revision_individual,pendiente
+Y16-W28,ABC YOUTH,16,28,3,Técnica de movimiento,Patrones combinados · Application,pendiente_revision_individual,pendiente
+Y16-W29,ABC YOUTH,16,29,3,Equilibrio y control,Control ante perturbaciones leves · Application,pendiente_revision_individual,pendiente
+Y16-W30,ABC YOUTH,16,30,3,Velocidad y dirección,Cambio de dirección reactivo · Application,pendiente_revision_individual,pendiente
+Y16-W31,ABC YOUTH,16,31,3,Coordinación deportiva,Recepción y decisión · Application,pendiente_revision_individual,pendiente
+Y16-W32,ABC YOUTH,16,32,3,Fuerza general,Resistencia externa ligera supervisada · Application,pendiente_revision_individual,pendiente
+Y16-W33,ABC YOUTH,16,33,3,Capacidad aeróbica,Esfuerzos en equipo · Application,pendiente_revision_individual,pendiente
+Y16-W34,ABC YOUTH,16,34,3,Movilidad y preparación,Preparación para un juego · Application,pendiente_revision_individual,pendiente
+Y16-W35,ABC YOUTH,16,35,3,Carga y recuperación,Carga deportiva total · Application,pendiente_revision_individual,pendiente
+Y16-W36,ABC YOUTH,16,36,3,Sueño y salud,Sueño y escuela/deporte · Application,pendiente_revision_individual,pendiente
+Y16-W37,ABC YOUTH,16,37,3,Nutrición e hidratación,Hidratación y calor · Application,pendiente_revision_individual,pendiente
+Y16-W38,ABC YOUTH,16,38,3,Psicología y cooperación,Motivación y presión · Application,pendiente_revision_individual,pendiente
+Y16-W39,ABC YOUTH,16,39,3,Autonomía y proyecto,Conducción de juego cooperativo · Application,pendiente_revision_individual,pendiente
+Y16-W40,ABC YOUTH,16,40,4,Evaluación formativa,Balance del ciclo · Application,pendiente_revision_individual,pendiente
+Y16-W41,ABC YOUTH,16,41,4,Técnica de movimiento,Análisis de una secuencia · Application,pendiente_revision_individual,pendiente
+Y16-W42,ABC YOUTH,16,42,4,Equilibrio y control,Transferencia al juego · Application,pendiente_revision_individual,pendiente
+Y16-W43,ABC YOUTH,16,43,4,Velocidad y dirección,Lectura de situaciones · Application,pendiente_revision_individual,pendiente
+Y16-W44,ABC YOUTH,16,44,4,Coordinación deportiva,Resolución multideportiva · Application,pendiente_revision_individual,pendiente
+Y16-W45,ABC YOUTH,16,45,4,Fuerza general,Selección de variantes · Application,pendiente_revision_individual,pendiente
+Y16-W46,ABC YOUTH,16,46,4,Capacidad aeróbica,Plan de participación aeróbica · Application,pendiente_revision_individual,pendiente
+Y16-W47,ABC YOUTH,16,47,4,Movilidad y preparación,Diseño de calentamiento · Application,pendiente_revision_individual,pendiente
+Y16-W48,ABC YOUTH,16,48,4,Carga y recuperación,Ajuste por bienestar · Application,pendiente_revision_individual,pendiente
+Y16-W49,ABC YOUTH,16,49,4,Sueño y salud,Plan de autocuidado · Application,pendiente_revision_individual,pendiente
+Y16-W50,ABC YOUTH,16,50,4,Nutrición e hidratación,Caso de nutrición deportiva general · Application,pendiente_revision_individual,pendiente
+Y16-W51,ABC YOUTH,16,51,4,Psicología y cooperación,Liderazgo inclusivo · Application,pendiente_revision_individual,pendiente
+Y16-W52,ABC YOUTH,16,52,4,Autonomía y proyecto,Presentación de proyecto anual · Application,pendiente_revision_individual,pendiente
+Y17-W01,ABC YOUTH,17,1,1,Evaluación formativa,Autoevaluación de movimiento · Planning,pendiente_revision_individual,pendiente
+Y17-W02,ABC YOUTH,17,2,1,Técnica de movimiento,Bisagra y sentadilla sin carga · Planning,pendiente_revision_individual,pendiente
+Y17-W03,ABC YOUTH,17,3,1,Equilibrio y control,Estabilidad en apoyos · Planning,pendiente_revision_individual,pendiente
+Y17-W04,ABC YOUTH,17,4,1,Velocidad y dirección,Salidas desde señales · Planning,pendiente_revision_individual,pendiente
+Y17-W05,ABC YOUTH,17,5,1,Coordinación deportiva,Lanzamiento a precisión · Planning,pendiente_revision_individual,pendiente
+Y17-W06,ABC YOUTH,17,6,1,Fuerza general,Circuito de autocarga · Planning,pendiente_revision_individual,pendiente
+Y17-W07,ABC YOUTH,17,7,1,Capacidad aeróbica,Ritmos conversacionales · Planning,pendiente_revision_individual,pendiente
+Y17-W08,ABC YOUTH,17,8,1,Movilidad y preparación,Calentamiento dinámico · Planning,pendiente_revision_individual,pendiente
+Y17-W09,ABC YOUTH,17,9,1,Carga y recuperación,Mapa de actividades semanales · Planning,pendiente_revision_individual,pendiente
+Y17-W10,ABC YOUTH,17,10,1,Sueño y salud,Diario voluntario de energía · Planning,pendiente_revision_individual,pendiente
+Y17-W11,ABC YOUTH,17,11,1,Nutrición e hidratación,Alimentación suficiente y variada · Planning,pendiente_revision_individual,pendiente
+Y17-W12,ABC YOUTH,17,12,1,Psicología y cooperación,Confianza y error · Planning,pendiente_revision_individual,pendiente
+Y17-W13,ABC YOUTH,17,13,1,Autonomía y proyecto,Meta personal y evaluación · Planning,pendiente_revision_individual,pendiente
+Y17-W14,ABC YOUTH,17,14,2,Evaluación formativa,Perfil de capacidades · Planning,pendiente_revision_individual,pendiente
+Y17-W15,ABC YOUTH,17,15,2,Técnica de movimiento,"Empuje, tracción y apoyos · Planning",pendiente_revision_individual,pendiente
+Y17-W16,ABC YOUTH,17,16,2,Equilibrio y control,Desaceleración controlada · Planning,pendiente_revision_individual,pendiente
+Y17-W17,ABC YOUTH,17,17,2,Velocidad y dirección,Aceleración y frenado · Planning,pendiente_revision_individual,pendiente
+Y17-W18,ABC YOUTH,17,18,2,Coordinación deportiva,Pases con desplazamiento · Planning,pendiente_revision_individual,pendiente
+Y17-W19,ABC YOUTH,17,19,2,Fuerza general,Control excéntrico básico · Planning,pendiente_revision_individual,pendiente
+Y17-W20,ABC YOUTH,17,20,2,Capacidad aeróbica,Intervalos lúdicos autoseleccionados · Planning,pendiente_revision_individual,pendiente
+Y17-W21,ABC YOUTH,17,21,2,Movilidad y preparación,Movilidad específica · Planning,pendiente_revision_individual,pendiente
+Y17-W22,ABC YOUTH,17,22,2,Carga y recuperación,Fatiga y descanso · Planning,pendiente_revision_individual,pendiente
+Y17-W23,ABC YOUTH,17,23,2,Sueño y salud,Hábitos de descanso · Planning,pendiente_revision_individual,pendiente
+Y17-W24,ABC YOUTH,17,24,2,Nutrición e hidratación,Elecciones antes de actividad · Planning,pendiente_revision_individual,pendiente
+Y17-W25,ABC YOUTH,17,25,2,Psicología y cooperación,Comunicación en equipo · Planning,pendiente_revision_individual,pendiente
+Y17-W26,ABC YOUTH,17,26,2,Autonomía y proyecto,Diseño de actividad segura · Planning,pendiente_revision_individual,pendiente
+Y17-W27,ABC YOUTH,17,27,3,Evaluación formativa,Revisión de metas · Planning,pendiente_revision_individual,pendiente
+Y17-W28,ABC YOUTH,17,28,3,Técnica de movimiento,Patrones combinados · Planning,pendiente_revision_individual,pendiente
+Y17-W29,ABC YOUTH,17,29,3,Equilibrio y control,Control ante perturbaciones leves · Planning,pendiente_revision_individual,pendiente
+Y17-W30,ABC YOUTH,17,30,3,Velocidad y dirección,Cambio de dirección reactivo · Planning,pendiente_revision_individual,pendiente
+Y17-W31,ABC YOUTH,17,31,3,Coordinación deportiva,Recepción y decisión · Planning,pendiente_revision_individual,pendiente
+Y17-W32,ABC YOUTH,17,32,3,Fuerza general,Resistencia externa ligera supervisada · Planning,pendiente_revision_individual,pendiente
+Y17-W33,ABC YOUTH,17,33,3,Capacidad aeróbica,Esfuerzos en equipo · Planning,pendiente_revision_individual,pendiente
+Y17-W34,ABC YOUTH,17,34,3,Movilidad y preparación,Preparación para un juego · Planning,pendiente_revision_individual,pendiente
+Y17-W35,ABC YOUTH,17,35,3,Carga y recuperación,Carga deportiva total · Planning,pendiente_revision_individual,pendiente
+Y17-W36,ABC YOUTH,17,36,3,Sueño y salud,Sueño y escuela/deporte · Planning,pendiente_revision_individual,pendiente
+Y17-W37,ABC YOUTH,17,37,3,Nutrición e hidratación,Hidratación y calor · Planning,pendiente_revision_individual,pendiente
+Y17-W38,ABC YOUTH,17,38,3,Psicología y cooperación,Motivación y presión · Planning,pendiente_revision_individual,pendiente
+Y17-W39,ABC YOUTH,17,39,3,Autonomía y proyecto,Conducción de juego cooperativo · Planning,pendiente_revision_individual,pendiente
+Y17-W40,ABC YOUTH,17,40,4,Evaluación formativa,Balance del ciclo · Planning,pendiente_revision_individual,pendiente
+Y17-W41,ABC YOUTH,17,41,4,Técnica de movimiento,Análisis de una secuencia · Planning,pendiente_revision_individual,pendiente
+Y17-W42,ABC YOUTH,17,42,4,Equilibrio y control,Transferencia al juego · Planning,pendiente_revision_individual,pendiente
+Y17-W43,ABC YOUTH,17,43,4,Velocidad y dirección,Lectura de situaciones · Planning,pendiente_revision_individual,pendiente
+Y17-W44,ABC YOUTH,17,44,4,Coordinación deportiva,Resolución multideportiva · Planning,pendiente_revision_individual,pendiente
+Y17-W45,ABC YOUTH,17,45,4,Fuerza general,Selección de variantes · Planning,pendiente_revision_individual,pendiente
+Y17-W46,ABC YOUTH,17,46,4,Capacidad aeróbica,Plan de participación aeróbica · Planning,pendiente_revision_individual,pendiente
+Y17-W47,ABC YOUTH,17,47,4,Movilidad y preparación,Diseño de calentamiento · Planning,pendiente_revision_individual,pendiente
+Y17-W48,ABC YOUTH,17,48,4,Carga y recuperación,Ajuste por bienestar · Planning,pendiente_revision_individual,pendiente
+Y17-W49,ABC YOUTH,17,49,4,Sueño y salud,Plan de autocuidado · Planning,pendiente_revision_individual,pendiente
+Y17-W50,ABC YOUTH,17,50,4,Nutrición e hidratación,Caso de nutrición deportiva general · Planning,pendiente_revision_individual,pendiente
+Y17-W51,ABC YOUTH,17,51,4,Psicología y cooperación,Liderazgo inclusivo · Planning,pendiente_revision_individual,pendiente
+Y17-W52,ABC YOUTH,17,52,4,Autonomía y proyecto,Presentación de proyecto anual · Planning,pendiente_revision_individual,pendiente
+Y18-W01,ABC YOUTH,18,1,1,Evaluación formativa,Autoevaluación de movimiento · Autonomy,pendiente_revision_individual,pendiente
+Y18-W02,ABC YOUTH,18,2,1,Técnica de movimiento,Bisagra y sentadilla sin carga · Autonomy,pendiente_revision_individual,pendiente
+Y18-W03,ABC YOUTH,18,3,1,Equilibrio y control,Estabilidad en apoyos · Autonomy,pendiente_revision_individual,pendiente
+Y18-W04,ABC YOUTH,18,4,1,Velocidad y dirección,Salidas desde señales · Autonomy,pendiente_revision_individual,pendiente
+Y18-W05,ABC YOUTH,18,5,1,Coordinación deportiva,Lanzamiento a precisión · Autonomy,pendiente_revision_individual,pendiente
+Y18-W06,ABC YOUTH,18,6,1,Fuerza general,Circuito de autocarga · Autonomy,pendiente_revision_individual,pendiente
+Y18-W07,ABC YOUTH,18,7,1,Capacidad aeróbica,Ritmos conversacionales · Autonomy,pendiente_revision_individual,pendiente
+Y18-W08,ABC YOUTH,18,8,1,Movilidad y preparación,Calentamiento dinámico · Autonomy,pendiente_revision_individual,pendiente
+Y18-W09,ABC YOUTH,18,9,1,Carga y recuperación,Mapa de actividades semanales · Autonomy,pendiente_revision_individual,pendiente
+Y18-W10,ABC YOUTH,18,10,1,Sueño y salud,Diario voluntario de energía · Autonomy,pendiente_revision_individual,pendiente
+Y18-W11,ABC YOUTH,18,11,1,Nutrición e hidratación,Alimentación suficiente y variada · Autonomy,pendiente_revision_individual,pendiente
+Y18-W12,ABC YOUTH,18,12,1,Psicología y cooperación,Confianza y error · Autonomy,pendiente_revision_individual,pendiente
+Y18-W13,ABC YOUTH,18,13,1,Autonomía y proyecto,Meta personal y evaluación · Autonomy,pendiente_revision_individual,pendiente
+Y18-W14,ABC YOUTH,18,14,2,Evaluación formativa,Perfil de capacidades · Autonomy,pendiente_revision_individual,pendiente
+Y18-W15,ABC YOUTH,18,15,2,Técnica de movimiento,"Empuje, tracción y apoyos · Autonomy",pendiente_revision_individual,pendiente
+Y18-W16,ABC YOUTH,18,16,2,Equilibrio y control,Desaceleración controlada · Autonomy,pendiente_revision_individual,pendiente
+Y18-W17,ABC YOUTH,18,17,2,Velocidad y dirección,Aceleración y frenado · Autonomy,pendiente_revision_individual,pendiente
+Y18-W18,ABC YOUTH,18,18,2,Coordinación deportiva,Pases con desplazamiento · Autonomy,pendiente_revision_individual,pendiente
+Y18-W19,ABC YOUTH,18,19,2,Fuerza general,Control excéntrico básico · Autonomy,pendiente_revision_individual,pendiente
+Y18-W20,ABC YOUTH,18,20,2,Capacidad aeróbica,Intervalos lúdicos autoseleccionados · Autonomy,pendiente_revision_individual,pendiente
+Y18-W21,ABC YOUTH,18,21,2,Movilidad y preparación,Movilidad específica · Autonomy,pendiente_revision_individual,pendiente
+Y18-W22,ABC YOUTH,18,22,2,Carga y recuperación,Fatiga y descanso · Autonomy,pendiente_revision_individual,pendiente
+Y18-W23,ABC YOUTH,18,23,2,Sueño y salud,Hábitos de descanso · Autonomy,pendiente_revision_individual,pendiente
+Y18-W24,ABC YOUTH,18,24,2,Nutrición e hidratación,Elecciones antes de actividad · Autonomy,pendiente_revision_individual,pendiente
+Y18-W25,ABC YOUTH,18,25,2,Psicología y cooperación,Comunicación en equipo · Autonomy,pendiente_revision_individual,pendiente
+Y18-W26,ABC YOUTH,18,26,2,Autonomía y proyecto,Diseño de actividad segura · Autonomy,pendiente_revision_individual,pendiente
+Y18-W27,ABC YOUTH,18,27,3,Evaluación formativa,Revisión de metas · Autonomy,pendiente_revision_individual,pendiente
+Y18-W28,ABC YOUTH,18,28,3,Técnica de movimiento,Patrones combinados · Autonomy,pendiente_revision_individual,pendiente
+Y18-W29,ABC YOUTH,18,29,3,Equilibrio y control,Control ante perturbaciones leves · Autonomy,pendiente_revision_individual,pendiente
+Y18-W30,ABC YOUTH,18,30,3,Velocidad y dirección,Cambio de dirección reactivo · Autonomy,pendiente_revision_individual,pendiente
+Y18-W31,ABC YOUTH,18,31,3,Coordinación deportiva,Recepción y decisión · Autonomy,pendiente_revision_individual,pendiente
+Y18-W32,ABC YOUTH,18,32,3,Fuerza general,Resistencia externa ligera supervisada · Autonomy,pendiente_revision_individual,pendiente
+Y18-W33,ABC YOUTH,18,33,3,Capacidad aeróbica,Esfuerzos en equipo · Autonomy,pendiente_revision_individual,pendiente
+Y18-W34,ABC YOUTH,18,34,3,Movilidad y preparación,Preparación para un juego · Autonomy,pendiente_revision_individual,pendiente
+Y18-W35,ABC YOUTH,18,35,3,Carga y recuperación,Carga deportiva total · Autonomy,pendiente_revision_individual,pendiente
+Y18-W36,ABC YOUTH,18,36,3,Sueño y salud,Sueño y escuela/deporte · Autonomy,pendiente_revision_individual,pendiente
+Y18-W37,ABC YOUTH,18,37,3,Nutrición e hidratación,Hidratación y calor · Autonomy,pendiente_revision_individual,pendiente
+Y18-W38,ABC YOUTH,18,38,3,Psicología y cooperación,Motivación y presión · Autonomy,pendiente_revision_individual,pendiente
+Y18-W39,ABC YOUTH,18,39,3,Autonomía y proyecto,Conducción de juego cooperativo · Autonomy,pendiente_revision_individual,pendiente
+Y18-W40,ABC YOUTH,18,40,4,Evaluación formativa,Balance del ciclo · Autonomy,pendiente_revision_individual,pendiente
+Y18-W41,ABC YOUTH,18,41,4,Técnica de movimiento,Análisis de una secuencia · Autonomy,pendiente_revision_individual,pendiente
+Y18-W42,ABC YOUTH,18,42,4,Equilibrio y control,Transferencia al juego · Autonomy,pendiente_revision_individual,pendiente
+Y18-W43,ABC YOUTH,18,43,4,Velocidad y dirección,Lectura de situaciones · Autonomy,pendiente_revision_individual,pendiente
+Y18-W44,ABC YOUTH,18,44,4,Coordinación deportiva,Resolución multideportiva · Autonomy,pendiente_revision_individual,pendiente
+Y18-W45,ABC YOUTH,18,45,4,Fuerza general,Selección de variantes · Autonomy,pendiente_revision_individual,pendiente
+Y18-W46,ABC YOUTH,18,46,4,Capacidad aeróbica,Plan de participación aeróbica · Autonomy,pendiente_revision_individual,pendiente
+Y18-W47,ABC YOUTH,18,47,4,Movilidad y preparación,Diseño de calentamiento · Autonomy,pendiente_revision_individual,pendiente
+Y18-W48,ABC YOUTH,18,48,4,Carga y recuperación,Ajuste por bienestar · Autonomy,pendiente_revision_individual,pendiente
+Y18-W49,ABC YOUTH,18,49,4,Sueño y salud,Plan de autocuidado · Autonomy,pendiente_revision_individual,pendiente
+Y18-W50,ABC YOUTH,18,50,4,Nutrición e hidratación,Caso de nutrición deportiva general · Autonomy,pendiente_revision_individual,pendiente
+Y18-W51,ABC YOUTH,18,51,4,Psicología y cooperación,Liderazgo inclusivo · Autonomy,pendiente_revision_individual,pendiente
+Y18-W52,ABC YOUTH,18,52,4,Autonomía y proyecto,Presentación de proyecto anual · Autonomy,pendiente_revision_individual,pendiente
+ATH-joven-W01,ABC ATHLETE,13,1,1,Evaluación funcional,Evaluación funcional · explorar,pendiente_revision_individual,pendiente
+ATH-joven-W02,ABC ATHLETE,13,2,1,Preparación y calentamiento,Preparación y calentamiento · explorar,pendiente_revision_individual,pendiente
+ATH-joven-W03,ABC ATHLETE,13,3,1,Fuerza básica,Fuerza básica · explorar,pendiente_revision_individual,pendiente
+ATH-joven-W04,ABC ATHLETE,13,4,1,Aceleración,Aceleración · explorar,pendiente_revision_individual,pendiente
+ATH-joven-W05,ABC ATHLETE,13,5,1,Desaceleración,Desaceleración · explorar,pendiente_revision_individual,pendiente
+ATH-joven-W06,ABC ATHLETE,13,6,1,Saltos y aterrizaje,Saltos y aterrizaje · explorar,pendiente_revision_individual,pendiente
+ATH-joven-W07,ABC ATHLETE,13,7,1,Agilidad perceptiva,Agilidad perceptiva · explorar,pendiente_revision_individual,pendiente
+ATH-joven-W08,ABC ATHLETE,13,8,1,Capacidad aeróbica,Capacidad aeróbica · explorar,pendiente_revision_individual,pendiente
+ATH-joven-W09,ABC ATHLETE,13,9,1,Movilidad específica,Movilidad específica · explorar,pendiente_revision_individual,pendiente
+ATH-joven-W10,ABC ATHLETE,13,10,1,Recuperación,Recuperación · explorar,pendiente_revision_individual,pendiente
+ATH-joven-W11,ABC ATHLETE,13,11,1,Nutrición deportiva básica,Nutrición deportiva básica · explorar,pendiente_revision_individual,pendiente
+ATH-joven-W12,ABC ATHLETE,13,12,1,Estrategia y cooperación,Estrategia y cooperación · explorar,pendiente_revision_individual,pendiente
+ATH-joven-W13,ABC ATHLETE,13,13,1,Plan de rendimiento responsable,Plan de rendimiento responsable · explorar,pendiente_revision_individual,pendiente
+ATH-joven-W14,ABC ATHLETE,13,14,2,Evaluación funcional,Evaluación funcional · consolidar,pendiente_revision_individual,pendiente
+ATH-joven-W15,ABC ATHLETE,13,15,2,Preparación y calentamiento,Preparación y calentamiento · consolidar,pendiente_revision_individual,pendiente
+ATH-joven-W16,ABC ATHLETE,13,16,2,Fuerza básica,Fuerza básica · consolidar,pendiente_revision_individual,pendiente
+ATH-joven-W17,ABC ATHLETE,13,17,2,Aceleración,Aceleración · consolidar,pendiente_revision_individual,pendiente
+ATH-joven-W18,ABC ATHLETE,13,18,2,Desaceleración,Desaceleración · consolidar,pendiente_revision_individual,pendiente
+ATH-joven-W19,ABC ATHLETE,13,19,2,Saltos y aterrizaje,Saltos y aterrizaje · consolidar,pendiente_revision_individual,pendiente
+ATH-joven-W20,ABC ATHLETE,13,20,2,Agilidad perceptiva,Agilidad perceptiva · consolidar,pendiente_revision_individual,pendiente
+ATH-joven-W21,ABC ATHLETE,13,21,2,Capacidad aeróbica,Capacidad aeróbica · consolidar,pendiente_revision_individual,pendiente
+ATH-joven-W22,ABC ATHLETE,13,22,2,Movilidad específica,Movilidad específica · consolidar,pendiente_revision_individual,pendiente
+ATH-joven-W23,ABC ATHLETE,13,23,2,Recuperación,Recuperación · consolidar,pendiente_revision_individual,pendiente
+ATH-joven-W24,ABC ATHLETE,13,24,2,Nutrición deportiva básica,Nutrición deportiva básica · consolidar,pendiente_revision_individual,pendiente
+ATH-joven-W25,ABC ATHLETE,13,25,2,Estrategia y cooperación,Estrategia y cooperación · consolidar,pendiente_revision_individual,pendiente
+ATH-joven-W26,ABC ATHLETE,13,26,2,Plan de rendimiento responsable,Plan de rendimiento responsable · consolidar,pendiente_revision_individual,pendiente
+ATH-joven-W27,ABC ATHLETE,13,27,3,Evaluación funcional,Evaluación funcional · transferir,pendiente_revision_individual,pendiente
+ATH-joven-W28,ABC ATHLETE,13,28,3,Preparación y calentamiento,Preparación y calentamiento · transferir,pendiente_revision_individual,pendiente
+ATH-joven-W29,ABC ATHLETE,13,29,3,Fuerza básica,Fuerza básica · transferir,pendiente_revision_individual,pendiente
+ATH-joven-W30,ABC ATHLETE,13,30,3,Aceleración,Aceleración · transferir,pendiente_revision_individual,pendiente
+ATH-joven-W31,ABC ATHLETE,13,31,3,Desaceleración,Desaceleración · transferir,pendiente_revision_individual,pendiente
+ATH-joven-W32,ABC ATHLETE,13,32,3,Saltos y aterrizaje,Saltos y aterrizaje · transferir,pendiente_revision_individual,pendiente
+ATH-joven-W33,ABC ATHLETE,13,33,3,Agilidad perceptiva,Agilidad perceptiva · transferir,pendiente_revision_individual,pendiente
+ATH-joven-W34,ABC ATHLETE,13,34,3,Capacidad aeróbica,Capacidad aeróbica · transferir,pendiente_revision_individual,pendiente
+ATH-joven-W35,ABC ATHLETE,13,35,3,Movilidad específica,Movilidad específica · transferir,pendiente_revision_individual,pendiente
+ATH-joven-W36,ABC ATHLETE,13,36,3,Recuperación,Recuperación · transferir,pendiente_revision_individual,pendiente
+ATH-joven-W37,ABC ATHLETE,13,37,3,Nutrición deportiva básica,Nutrición deportiva básica · transferir,pendiente_revision_individual,pendiente
+ATH-joven-W38,ABC ATHLETE,13,38,3,Estrategia y cooperación,Estrategia y cooperación · transferir,pendiente_revision_individual,pendiente
+ATH-joven-W39,ABC ATHLETE,13,39,3,Plan de rendimiento responsable,Plan de rendimiento responsable · transferir,pendiente_revision_individual,pendiente
+ATH-joven-W40,ABC ATHLETE,13,40,4,Evaluación funcional,Evaluación funcional · autonomía,pendiente_revision_individual,pendiente
+ATH-joven-W41,ABC ATHLETE,13,41,4,Preparación y calentamiento,Preparación y calentamiento · autonomía,pendiente_revision_individual,pendiente
+ATH-joven-W42,ABC ATHLETE,13,42,4,Fuerza básica,Fuerza básica · autonomía,pendiente_revision_individual,pendiente
+ATH-joven-W43,ABC ATHLETE,13,43,4,Aceleración,Aceleración · autonomía,pendiente_revision_individual,pendiente
+ATH-joven-W44,ABC ATHLETE,13,44,4,Desaceleración,Desaceleración · autonomía,pendiente_revision_individual,pendiente
+ATH-joven-W45,ABC ATHLETE,13,45,4,Saltos y aterrizaje,Saltos y aterrizaje · autonomía,pendiente_revision_individual,pendiente
+ATH-joven-W46,ABC ATHLETE,13,46,4,Agilidad perceptiva,Agilidad perceptiva · autonomía,pendiente_revision_individual,pendiente
+ATH-joven-W47,ABC ATHLETE,13,47,4,Capacidad aeróbica,Capacidad aeróbica · autonomía,pendiente_revision_individual,pendiente
+ATH-joven-W48,ABC ATHLETE,13,48,4,Movilidad específica,Movilidad específica · autonomía,pendiente_revision_individual,pendiente
+ATH-joven-W49,ABC ATHLETE,13,49,4,Recuperación,Recuperación · autonomía,pendiente_revision_individual,pendiente
+ATH-joven-W50,ABC ATHLETE,13,50,4,Nutrición deportiva básica,Nutrición deportiva básica · autonomía,pendiente_revision_individual,pendiente
+ATH-joven-W51,ABC ATHLETE,13,51,4,Estrategia y cooperación,Estrategia y cooperación · autonomía,pendiente_revision_individual,pendiente
+ATH-joven-W52,ABC ATHLETE,13,52,4,Plan de rendimiento responsable,Plan de rendimiento responsable · autonomía,pendiente_revision_individual,pendiente
+ATH-adulto-W01,ABC ATHLETE,18,1,1,Evaluación funcional,Evaluación funcional · explorar,pendiente_revision_individual,pendiente
+ATH-adulto-W02,ABC ATHLETE,18,2,1,Preparación y calentamiento,Preparación y calentamiento · explorar,pendiente_revision_individual,pendiente
+ATH-adulto-W03,ABC ATHLETE,18,3,1,Fuerza básica,Fuerza básica · explorar,pendiente_revision_individual,pendiente
+ATH-adulto-W04,ABC ATHLETE,18,4,1,Aceleración,Aceleración · explorar,pendiente_revision_individual,pendiente
+ATH-adulto-W05,ABC ATHLETE,18,5,1,Desaceleración,Desaceleración · explorar,pendiente_revision_individual,pendiente
+ATH-adulto-W06,ABC ATHLETE,18,6,1,Saltos y aterrizaje,Saltos y aterrizaje · explorar,pendiente_revision_individual,pendiente
+ATH-adulto-W07,ABC ATHLETE,18,7,1,Agilidad perceptiva,Agilidad perceptiva · explorar,pendiente_revision_individual,pendiente
+ATH-adulto-W08,ABC ATHLETE,18,8,1,Capacidad aeróbica,Capacidad aeróbica · explorar,pendiente_revision_individual,pendiente
+ATH-adulto-W09,ABC ATHLETE,18,9,1,Movilidad específica,Movilidad específica · explorar,pendiente_revision_individual,pendiente
+ATH-adulto-W10,ABC ATHLETE,18,10,1,Recuperación,Recuperación · explorar,pendiente_revision_individual,pendiente
+ATH-adulto-W11,ABC ATHLETE,18,11,1,Nutrición deportiva básica,Nutrición deportiva básica · explorar,pendiente_revision_individual,pendiente
+ATH-adulto-W12,ABC ATHLETE,18,12,1,Estrategia y cooperación,Estrategia y cooperación · explorar,pendiente_revision_individual,pendiente
+ATH-adulto-W13,ABC ATHLETE,18,13,1,Plan de rendimiento responsable,Plan de rendimiento responsable · explorar,pendiente_revision_individual,pendiente
+ATH-adulto-W14,ABC ATHLETE,18,14,2,Evaluación funcional,Evaluación funcional · consolidar,pendiente_revision_individual,pendiente
+ATH-adulto-W15,ABC ATHLETE,18,15,2,Preparación y calentamiento,Preparación y calentamiento · consolidar,pendiente_revision_individual,pendiente
+ATH-adulto-W16,ABC ATHLETE,18,16,2,Fuerza básica,Fuerza básica · consolidar,pendiente_revision_individual,pendiente
+ATH-adulto-W17,ABC ATHLETE,18,17,2,Aceleración,Aceleración · consolidar,pendiente_revision_individual,pendiente
+ATH-adulto-W18,ABC ATHLETE,18,18,2,Desaceleración,Desaceleración · consolidar,pendiente_revision_individual,pendiente
+ATH-adulto-W19,ABC ATHLETE,18,19,2,Saltos y aterrizaje,Saltos y aterrizaje · consolidar,pendiente_revision_individual,pendiente
+ATH-adulto-W20,ABC ATHLETE,18,20,2,Agilidad perceptiva,Agilidad perceptiva · consolidar,pendiente_revision_individual,pendiente
+ATH-adulto-W21,ABC ATHLETE,18,21,2,Capacidad aeróbica,Capacidad aeróbica · consolidar,pendiente_revision_individual,pendiente
+ATH-adulto-W22,ABC ATHLETE,18,22,2,Movilidad específica,Movilidad específica · consolidar,pendiente_revision_individual,pendiente
+ATH-adulto-W23,ABC ATHLETE,18,23,2,Recuperación,Recuperación · consolidar,pendiente_revision_individual,pendiente
+ATH-adulto-W24,ABC ATHLETE,18,24,2,Nutrición deportiva básica,Nutrición deportiva básica · consolidar,pendiente_revision_individual,pendiente
+ATH-adulto-W25,ABC ATHLETE,18,25,2,Estrategia y cooperación,Estrategia y cooperación · consolidar,pendiente_revision_individual,pendiente
+ATH-adulto-W26,ABC ATHLETE,18,26,2,Plan de rendimiento responsable,Plan de rendimiento responsable · consolidar,pendiente_revision_individual,pendiente
+ATH-adulto-W27,ABC ATHLETE,18,27,3,Evaluación funcional,Evaluación funcional · transferir,pendiente_revision_individual,pendiente
+ATH-adulto-W28,ABC ATHLETE,18,28,3,Preparación y calentamiento,Preparación y calentamiento · transferir,pendiente_revision_individual,pendiente
+ATH-adulto-W29,ABC ATHLETE,18,29,3,Fuerza básica,Fuerza básica · transferir,pendiente_revision_individual,pendiente
+ATH-adulto-W30,ABC ATHLETE,18,30,3,Aceleración,Aceleración · transferir,pendiente_revision_individual,pendiente
+ATH-adulto-W31,ABC ATHLETE,18,31,3,Desaceleración,Desaceleración · transferir,pendiente_revision_individual,pendiente
+ATH-adulto-W32,ABC ATHLETE,18,32,3,Saltos y aterrizaje,Saltos y aterrizaje · transferir,pendiente_revision_individual,pendiente
+ATH-adulto-W33,ABC ATHLETE,18,33,3,Agilidad perceptiva,Agilidad perceptiva · transferir,pendiente_revision_individual,pendiente
+ATH-adulto-W34,ABC ATHLETE,18,34,3,Capacidad aeróbica,Capacidad aeróbica · transferir,pendiente_revision_individual,pendiente
+ATH-adulto-W35,ABC ATHLETE,18,35,3,Movilidad específica,Movilidad específica · transferir,pendiente_revision_individual,pendiente
+ATH-adulto-W36,ABC ATHLETE,18,36,3,Recuperación,Recuperación · transferir,pendiente_revision_individual,pendiente
+ATH-adulto-W37,ABC ATHLETE,18,37,3,Nutrición deportiva básica,Nutrición deportiva básica · transferir,pendiente_revision_individual,pendiente
+ATH-adulto-W38,ABC ATHLETE,18,38,3,Estrategia y cooperación,Estrategia y cooperación · transferir,pendiente_revision_individual,pendiente
+ATH-adulto-W39,ABC ATHLETE,18,39,3,Plan de rendimiento responsable,Plan de rendimiento responsable · transferir,pendiente_revision_individual,pendiente
+ATH-adulto-W40,ABC ATHLETE,18,40,4,Evaluación funcional,Evaluación funcional · autonomía,pendiente_revision_individual,pendiente
+ATH-adulto-W41,ABC ATHLETE,18,41,4,Preparación y calentamiento,Preparación y calentamiento · autonomía,pendiente_revision_individual,pendiente
+ATH-adulto-W42,ABC ATHLETE,18,42,4,Fuerza básica,Fuerza básica · autonomía,pendiente_revision_individual,pendiente
+ATH-adulto-W43,ABC ATHLETE,18,43,4,Aceleración,Aceleración · autonomía,pendiente_revision_individual,pendiente
+ATH-adulto-W44,ABC ATHLETE,18,44,4,Desaceleración,Desaceleración · autonomía,pendiente_revision_individual,pendiente
+ATH-adulto-W45,ABC ATHLETE,18,45,4,Saltos y aterrizaje,Saltos y aterrizaje · autonomía,pendiente_revision_individual,pendiente
+ATH-adulto-W46,ABC ATHLETE,18,46,4,Agilidad perceptiva,Agilidad perceptiva · autonomía,pendiente_revision_individual,pendiente
+ATH-adulto-W47,ABC ATHLETE,18,47,4,Capacidad aeróbica,Capacidad aeróbica · autonomía,pendiente_revision_individual,pendiente
+ATH-adulto-W48,ABC ATHLETE,18,48,4,Movilidad específica,Movilidad específica · autonomía,pendiente_revision_individual,pendiente
+ATH-adulto-W49,ABC ATHLETE,18,49,4,Recuperación,Recuperación · autonomía,pendiente_revision_individual,pendiente
+ATH-adulto-W50,ABC ATHLETE,18,50,4,Nutrición deportiva básica,Nutrición deportiva básica · autonomía,pendiente_revision_individual,pendiente
+ATH-adulto-W51,ABC ATHLETE,18,51,4,Estrategia y cooperación,Estrategia y cooperación · autonomía,pendiente_revision_individual,pendiente
+ATH-adulto-W52,ABC ATHLETE,18,52,4,Plan de rendimiento responsable,Plan de rendimiento responsable · autonomía,pendiente_revision_individual,pendiente
+ATH-master-W01,ABC ATHLETE,40,1,1,Evaluación funcional,Evaluación funcional · explorar,pendiente_revision_individual,pendiente
+ATH-master-W02,ABC ATHLETE,40,2,1,Preparación y calentamiento,Preparación y calentamiento · explorar,pendiente_revision_individual,pendiente
+ATH-master-W03,ABC ATHLETE,40,3,1,Fuerza básica,Fuerza básica · explorar,pendiente_revision_individual,pendiente
+ATH-master-W04,ABC ATHLETE,40,4,1,Aceleración,Aceleración · explorar,pendiente_revision_individual,pendiente
+ATH-master-W05,ABC ATHLETE,40,5,1,Desaceleración,Desaceleración · explorar,pendiente_revision_individual,pendiente
+ATH-master-W06,ABC ATHLETE,40,6,1,Saltos y aterrizaje,Saltos y aterrizaje · explorar,pendiente_revision_individual,pendiente
+ATH-master-W07,ABC ATHLETE,40,7,1,Agilidad perceptiva,Agilidad perceptiva · explorar,pendiente_revision_individual,pendiente
+ATH-master-W08,ABC ATHLETE,40,8,1,Capacidad aeróbica,Capacidad aeróbica · explorar,pendiente_revision_individual,pendiente
+ATH-master-W09,ABC ATHLETE,40,9,1,Movilidad específica,Movilidad específica · explorar,pendiente_revision_individual,pendiente
+ATH-master-W10,ABC ATHLETE,40,10,1,Recuperación,Recuperación · explorar,pendiente_revision_individual,pendiente
+ATH-master-W11,ABC ATHLETE,40,11,1,Nutrición deportiva básica,Nutrición deportiva básica · explorar,pendiente_revision_individual,pendiente
+ATH-master-W12,ABC ATHLETE,40,12,1,Estrategia y cooperación,Estrategia y cooperación · explorar,pendiente_revision_individual,pendiente
+ATH-master-W13,ABC ATHLETE,40,13,1,Plan de rendimiento responsable,Plan de rendimiento responsable · explorar,pendiente_revision_individual,pendiente
+ATH-master-W14,ABC ATHLETE,40,14,2,Evaluación funcional,Evaluación funcional · consolidar,pendiente_revision_individual,pendiente
+ATH-master-W15,ABC ATHLETE,40,15,2,Preparación y calentamiento,Preparación y calentamiento · consolidar,pendiente_revision_individual,pendiente
+ATH-master-W16,ABC ATHLETE,40,16,2,Fuerza básica,Fuerza básica · consolidar,pendiente_revision_individual,pendiente
+ATH-master-W17,ABC ATHLETE,40,17,2,Aceleración,Aceleración · consolidar,pendiente_revision_individual,pendiente
+ATH-master-W18,ABC ATHLETE,40,18,2,Desaceleración,Desaceleración · consolidar,pendiente_revision_individual,pendiente
+ATH-master-W19,ABC ATHLETE,40,19,2,Saltos y aterrizaje,Saltos y aterrizaje · consolidar,pendiente_revision_individual,pendiente
+ATH-master-W20,ABC ATHLETE,40,20,2,Agilidad perceptiva,Agilidad perceptiva · consolidar,pendiente_revision_individual,pendiente
+ATH-master-W21,ABC ATHLETE,40,21,2,Capacidad aeróbica,Capacidad aeróbica · consolidar,pendiente_revision_individual,pendiente
+ATH-master-W22,ABC ATHLETE,40,22,2,Movilidad específica,Movilidad específica · consolidar,pendiente_revision_individual,pendiente
+ATH-master-W23,ABC ATHLETE,40,23,2,Recuperación,Recuperación · consolidar,pendiente_revision_individual,pendiente
+ATH-master-W24,ABC ATHLETE,40,24,2,Nutrición deportiva básica,Nutrición deportiva básica · consolidar,pendiente_revision_individual,pendiente
+ATH-master-W25,ABC ATHLETE,40,25,2,Estrategia y cooperación,Estrategia y cooperación · consolidar,pendiente_revision_individual,pendiente
+ATH-master-W26,ABC ATHLETE,40,26,2,Plan de rendimiento responsable,Plan de rendimiento responsable · consolidar,pendiente_revision_individual,pendiente
+ATH-master-W27,ABC ATHLETE,40,27,3,Evaluación funcional,Evaluación funcional · transferir,pendiente_revision_individual,pendiente
+ATH-master-W28,ABC ATHLETE,40,28,3,Preparación y calentamiento,Preparación y calentamiento · transferir,pendiente_revision_individual,pendiente
+ATH-master-W29,ABC ATHLETE,40,29,3,Fuerza básica,Fuerza básica · transferir,pendiente_revision_individual,pendiente
+ATH-master-W30,ABC ATHLETE,40,30,3,Aceleración,Aceleración · transferir,pendiente_revision_individual,pendiente
+ATH-master-W31,ABC ATHLETE,40,31,3,Desaceleración,Desaceleración · transferir,pendiente_revision_individual,pendiente
+ATH-master-W32,ABC ATHLETE,40,32,3,Saltos y aterrizaje,Saltos y aterrizaje · transferir,pendiente_revision_individual,pendiente
+ATH-master-W33,ABC ATHLETE,40,33,3,Agilidad perceptiva,Agilidad perceptiva · transferir,pendiente_revision_individual,pendiente
+ATH-master-W34,ABC ATHLETE,40,34,3,Capacidad aeróbica,Capacidad aeróbica · transferir,pendiente_revision_individual,pendiente
+ATH-master-W35,ABC ATHLETE,40,35,3,Movilidad específica,Movilidad específica · transferir,pendiente_revision_individual,pendiente
+ATH-master-W36,ABC ATHLETE,40,36,3,Recuperación,Recuperación · transferir,pendiente_revision_individual,pendiente
+ATH-master-W37,ABC ATHLETE,40,37,3,Nutrición deportiva básica,Nutrición deportiva básica · transferir,pendiente_revision_individual,pendiente
+ATH-master-W38,ABC ATHLETE,40,38,3,Estrategia y cooperación,Estrategia y cooperación · transferir,pendiente_revision_individual,pendiente
+ATH-master-W39,ABC ATHLETE,40,39,3,Plan de rendimiento responsable,Plan de rendimiento responsable · transferir,pendiente_revision_individual,pendiente
+ATH-master-W40,ABC ATHLETE,40,40,4,Evaluación funcional,Evaluación funcional · autonomía,pendiente_revision_individual,pendiente
+ATH-master-W41,ABC ATHLETE,40,41,4,Preparación y calentamiento,Preparación y calentamiento · autonomía,pendiente_revision_individual,pendiente
+ATH-master-W42,ABC ATHLETE,40,42,4,Fuerza básica,Fuerza básica · autonomía,pendiente_revision_individual,pendiente
+ATH-master-W43,ABC ATHLETE,40,43,4,Aceleración,Aceleración · autonomía,pendiente_revision_individual,pendiente
+ATH-master-W44,ABC ATHLETE,40,44,4,Desaceleración,Desaceleración · autonomía,pendiente_revision_individual,pendiente
+ATH-master-W45,ABC ATHLETE,40,45,4,Saltos y aterrizaje,Saltos y aterrizaje · autonomía,pendiente_revision_individual,pendiente
+ATH-master-W46,ABC ATHLETE,40,46,4,Agilidad perceptiva,Agilidad perceptiva · autonomía,pendiente_revision_individual,pendiente
+ATH-master-W47,ABC ATHLETE,40,47,4,Capacidad aeróbica,Capacidad aeróbica · autonomía,pendiente_revision_individual,pendiente
+ATH-master-W48,ABC ATHLETE,40,48,4,Movilidad específica,Movilidad específica · autonomía,pendiente_revision_individual,pendiente
+ATH-master-W49,ABC ATHLETE,40,49,4,Recuperación,Recuperación · autonomía,pendiente_revision_individual,pendiente
+ATH-master-W50,ABC ATHLETE,40,50,4,Nutrición deportiva básica,Nutrición deportiva básica · autonomía,pendiente_revision_individual,pendiente
+ATH-master-W51,ABC ATHLETE,40,51,4,Estrategia y cooperación,Estrategia y cooperación · autonomía,pendiente_revision_individual,pendiente
+ATH-master-W52,ABC ATHLETE,40,52,4,Plan de rendimiento responsable,Plan de rendimiento responsable · autonomía,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W01,ABC ACTIVE,18,1,1,Mapa de hábitos,Mapa de hábitos · explorar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W02,ABC ACTIVE,18,2,1,Movilidad cotidiana,Movilidad cotidiana · explorar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W03,ABC ACTIVE,18,3,1,Caminar con intención,Caminar con intención · explorar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W04,ABC ACTIVE,18,4,1,Fuerza de tren inferior,Fuerza de tren inferior · explorar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W05,ABC ACTIVE,18,5,1,Fuerza de tren superior,Fuerza de tren superior · explorar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W06,ABC ACTIVE,18,6,1,Equilibrio funcional,Equilibrio funcional · explorar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W07,ABC ACTIVE,18,7,1,Resistencia progresiva,Resistencia progresiva · explorar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W08,ABC ACTIVE,18,8,1,Pausas activas,Pausas activas · explorar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W09,ABC ACTIVE,18,9,1,Habilidades con objetos,Habilidades con objetos · explorar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W10,ABC ACTIVE,18,10,1,Actividad recreativa,Actividad recreativa · explorar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W11,ABC ACTIVE,18,11,1,Descanso y estrés,Descanso y estrés · explorar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W12,ABC ACTIVE,18,12,1,Autonomía y accesibilidad,Autonomía y accesibilidad · explorar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W13,ABC ACTIVE,18,13,1,Plan personal sostenible,Plan personal sostenible · explorar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W14,ABC ACTIVE,18,14,2,Mapa de hábitos,Mapa de hábitos · consolidar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W15,ABC ACTIVE,18,15,2,Movilidad cotidiana,Movilidad cotidiana · consolidar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W16,ABC ACTIVE,18,16,2,Caminar con intención,Caminar con intención · consolidar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W17,ABC ACTIVE,18,17,2,Fuerza de tren inferior,Fuerza de tren inferior · consolidar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W18,ABC ACTIVE,18,18,2,Fuerza de tren superior,Fuerza de tren superior · consolidar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W19,ABC ACTIVE,18,19,2,Equilibrio funcional,Equilibrio funcional · consolidar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W20,ABC ACTIVE,18,20,2,Resistencia progresiva,Resistencia progresiva · consolidar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W21,ABC ACTIVE,18,21,2,Pausas activas,Pausas activas · consolidar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W22,ABC ACTIVE,18,22,2,Habilidades con objetos,Habilidades con objetos · consolidar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W23,ABC ACTIVE,18,23,2,Actividad recreativa,Actividad recreativa · consolidar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W24,ABC ACTIVE,18,24,2,Descanso y estrés,Descanso y estrés · consolidar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W25,ABC ACTIVE,18,25,2,Autonomía y accesibilidad,Autonomía y accesibilidad · consolidar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W26,ABC ACTIVE,18,26,2,Plan personal sostenible,Plan personal sostenible · consolidar,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W27,ABC ACTIVE,18,27,3,Mapa de hábitos,Mapa de hábitos · transferir,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W28,ABC ACTIVE,18,28,3,Movilidad cotidiana,Movilidad cotidiana · transferir,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W29,ABC ACTIVE,18,29,3,Caminar con intención,Caminar con intención · transferir,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W30,ABC ACTIVE,18,30,3,Fuerza de tren inferior,Fuerza de tren inferior · transferir,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W31,ABC ACTIVE,18,31,3,Fuerza de tren superior,Fuerza de tren superior · transferir,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W32,ABC ACTIVE,18,32,3,Equilibrio funcional,Equilibrio funcional · transferir,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W33,ABC ACTIVE,18,33,3,Resistencia progresiva,Resistencia progresiva · transferir,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W34,ABC ACTIVE,18,34,3,Pausas activas,Pausas activas · transferir,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W35,ABC ACTIVE,18,35,3,Habilidades con objetos,Habilidades con objetos · transferir,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W36,ABC ACTIVE,18,36,3,Actividad recreativa,Actividad recreativa · transferir,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W37,ABC ACTIVE,18,37,3,Descanso y estrés,Descanso y estrés · transferir,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W38,ABC ACTIVE,18,38,3,Autonomía y accesibilidad,Autonomía y accesibilidad · transferir,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W39,ABC ACTIVE,18,39,3,Plan personal sostenible,Plan personal sostenible · transferir,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W40,ABC ACTIVE,18,40,4,Mapa de hábitos,Mapa de hábitos · autonomía,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W41,ABC ACTIVE,18,41,4,Movilidad cotidiana,Movilidad cotidiana · autonomía,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W42,ABC ACTIVE,18,42,4,Caminar con intención,Caminar con intención · autonomía,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W43,ABC ACTIVE,18,43,4,Fuerza de tren inferior,Fuerza de tren inferior · autonomía,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W44,ABC ACTIVE,18,44,4,Fuerza de tren superior,Fuerza de tren superior · autonomía,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W45,ABC ACTIVE,18,45,4,Equilibrio funcional,Equilibrio funcional · autonomía,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W46,ABC ACTIVE,18,46,4,Resistencia progresiva,Resistencia progresiva · autonomía,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W47,ABC ACTIVE,18,47,4,Pausas activas,Pausas activas · autonomía,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W48,ABC ACTIVE,18,48,4,Habilidades con objetos,Habilidades con objetos · autonomía,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W49,ABC ACTIVE,18,49,4,Actividad recreativa,Actividad recreativa · autonomía,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W50,ABC ACTIVE,18,50,4,Descanso y estrés,Descanso y estrés · autonomía,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W51,ABC ACTIVE,18,51,4,Autonomía y accesibilidad,Autonomía y accesibilidad · autonomía,pendiente_revision_individual,pendiente
+ACT-joven_adulto-W52,ABC ACTIVE,18,52,4,Plan personal sostenible,Plan personal sostenible · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W01,ABC ACTIVE,40,1,1,Mapa de hábitos,Mapa de hábitos · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W02,ABC ACTIVE,40,2,1,Movilidad cotidiana,Movilidad cotidiana · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W03,ABC ACTIVE,40,3,1,Caminar con intención,Caminar con intención · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W04,ABC ACTIVE,40,4,1,Fuerza de tren inferior,Fuerza de tren inferior · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W05,ABC ACTIVE,40,5,1,Fuerza de tren superior,Fuerza de tren superior · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W06,ABC ACTIVE,40,6,1,Equilibrio funcional,Equilibrio funcional · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W07,ABC ACTIVE,40,7,1,Resistencia progresiva,Resistencia progresiva · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W08,ABC ACTIVE,40,8,1,Pausas activas,Pausas activas · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W09,ABC ACTIVE,40,9,1,Habilidades con objetos,Habilidades con objetos · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W10,ABC ACTIVE,40,10,1,Actividad recreativa,Actividad recreativa · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W11,ABC ACTIVE,40,11,1,Descanso y estrés,Descanso y estrés · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W12,ABC ACTIVE,40,12,1,Autonomía y accesibilidad,Autonomía y accesibilidad · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W13,ABC ACTIVE,40,13,1,Plan personal sostenible,Plan personal sostenible · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W14,ABC ACTIVE,40,14,2,Mapa de hábitos,Mapa de hábitos · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W15,ABC ACTIVE,40,15,2,Movilidad cotidiana,Movilidad cotidiana · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W16,ABC ACTIVE,40,16,2,Caminar con intención,Caminar con intención · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W17,ABC ACTIVE,40,17,2,Fuerza de tren inferior,Fuerza de tren inferior · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W18,ABC ACTIVE,40,18,2,Fuerza de tren superior,Fuerza de tren superior · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W19,ABC ACTIVE,40,19,2,Equilibrio funcional,Equilibrio funcional · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W20,ABC ACTIVE,40,20,2,Resistencia progresiva,Resistencia progresiva · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W21,ABC ACTIVE,40,21,2,Pausas activas,Pausas activas · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W22,ABC ACTIVE,40,22,2,Habilidades con objetos,Habilidades con objetos · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W23,ABC ACTIVE,40,23,2,Actividad recreativa,Actividad recreativa · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W24,ABC ACTIVE,40,24,2,Descanso y estrés,Descanso y estrés · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W25,ABC ACTIVE,40,25,2,Autonomía y accesibilidad,Autonomía y accesibilidad · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W26,ABC ACTIVE,40,26,2,Plan personal sostenible,Plan personal sostenible · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W27,ABC ACTIVE,40,27,3,Mapa de hábitos,Mapa de hábitos · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W28,ABC ACTIVE,40,28,3,Movilidad cotidiana,Movilidad cotidiana · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W29,ABC ACTIVE,40,29,3,Caminar con intención,Caminar con intención · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W30,ABC ACTIVE,40,30,3,Fuerza de tren inferior,Fuerza de tren inferior · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W31,ABC ACTIVE,40,31,3,Fuerza de tren superior,Fuerza de tren superior · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W32,ABC ACTIVE,40,32,3,Equilibrio funcional,Equilibrio funcional · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W33,ABC ACTIVE,40,33,3,Resistencia progresiva,Resistencia progresiva · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W34,ABC ACTIVE,40,34,3,Pausas activas,Pausas activas · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W35,ABC ACTIVE,40,35,3,Habilidades con objetos,Habilidades con objetos · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W36,ABC ACTIVE,40,36,3,Actividad recreativa,Actividad recreativa · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W37,ABC ACTIVE,40,37,3,Descanso y estrés,Descanso y estrés · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W38,ABC ACTIVE,40,38,3,Autonomía y accesibilidad,Autonomía y accesibilidad · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W39,ABC ACTIVE,40,39,3,Plan personal sostenible,Plan personal sostenible · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W40,ABC ACTIVE,40,40,4,Mapa de hábitos,Mapa de hábitos · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W41,ABC ACTIVE,40,41,4,Movilidad cotidiana,Movilidad cotidiana · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W42,ABC ACTIVE,40,42,4,Caminar con intención,Caminar con intención · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W43,ABC ACTIVE,40,43,4,Fuerza de tren inferior,Fuerza de tren inferior · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W44,ABC ACTIVE,40,44,4,Fuerza de tren superior,Fuerza de tren superior · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W45,ABC ACTIVE,40,45,4,Equilibrio funcional,Equilibrio funcional · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W46,ABC ACTIVE,40,46,4,Resistencia progresiva,Resistencia progresiva · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W47,ABC ACTIVE,40,47,4,Pausas activas,Pausas activas · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W48,ABC ACTIVE,40,48,4,Habilidades con objetos,Habilidades con objetos · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W49,ABC ACTIVE,40,49,4,Actividad recreativa,Actividad recreativa · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W50,ABC ACTIVE,40,50,4,Descanso y estrés,Descanso y estrés · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W51,ABC ACTIVE,40,51,4,Autonomía y accesibilidad,Autonomía y accesibilidad · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_medio-W52,ABC ACTIVE,40,52,4,Plan personal sostenible,Plan personal sostenible · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W01,ABC ACTIVE,60,1,1,Mapa de hábitos,Mapa de hábitos · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W02,ABC ACTIVE,60,2,1,Movilidad cotidiana,Movilidad cotidiana · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W03,ABC ACTIVE,60,3,1,Caminar con intención,Caminar con intención · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W04,ABC ACTIVE,60,4,1,Fuerza de tren inferior,Fuerza de tren inferior · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W05,ABC ACTIVE,60,5,1,Fuerza de tren superior,Fuerza de tren superior · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W06,ABC ACTIVE,60,6,1,Equilibrio funcional,Equilibrio funcional · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W07,ABC ACTIVE,60,7,1,Resistencia progresiva,Resistencia progresiva · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W08,ABC ACTIVE,60,8,1,Pausas activas,Pausas activas · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W09,ABC ACTIVE,60,9,1,Habilidades con objetos,Habilidades con objetos · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W10,ABC ACTIVE,60,10,1,Actividad recreativa,Actividad recreativa · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W11,ABC ACTIVE,60,11,1,Descanso y estrés,Descanso y estrés · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W12,ABC ACTIVE,60,12,1,Autonomía y accesibilidad,Autonomía y accesibilidad · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W13,ABC ACTIVE,60,13,1,Plan personal sostenible,Plan personal sostenible · explorar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W14,ABC ACTIVE,60,14,2,Mapa de hábitos,Mapa de hábitos · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W15,ABC ACTIVE,60,15,2,Movilidad cotidiana,Movilidad cotidiana · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W16,ABC ACTIVE,60,16,2,Caminar con intención,Caminar con intención · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W17,ABC ACTIVE,60,17,2,Fuerza de tren inferior,Fuerza de tren inferior · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W18,ABC ACTIVE,60,18,2,Fuerza de tren superior,Fuerza de tren superior · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W19,ABC ACTIVE,60,19,2,Equilibrio funcional,Equilibrio funcional · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W20,ABC ACTIVE,60,20,2,Resistencia progresiva,Resistencia progresiva · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W21,ABC ACTIVE,60,21,2,Pausas activas,Pausas activas · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W22,ABC ACTIVE,60,22,2,Habilidades con objetos,Habilidades con objetos · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W23,ABC ACTIVE,60,23,2,Actividad recreativa,Actividad recreativa · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W24,ABC ACTIVE,60,24,2,Descanso y estrés,Descanso y estrés · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W25,ABC ACTIVE,60,25,2,Autonomía y accesibilidad,Autonomía y accesibilidad · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W26,ABC ACTIVE,60,26,2,Plan personal sostenible,Plan personal sostenible · consolidar,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W27,ABC ACTIVE,60,27,3,Mapa de hábitos,Mapa de hábitos · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W28,ABC ACTIVE,60,28,3,Movilidad cotidiana,Movilidad cotidiana · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W29,ABC ACTIVE,60,29,3,Caminar con intención,Caminar con intención · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W30,ABC ACTIVE,60,30,3,Fuerza de tren inferior,Fuerza de tren inferior · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W31,ABC ACTIVE,60,31,3,Fuerza de tren superior,Fuerza de tren superior · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W32,ABC ACTIVE,60,32,3,Equilibrio funcional,Equilibrio funcional · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W33,ABC ACTIVE,60,33,3,Resistencia progresiva,Resistencia progresiva · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W34,ABC ACTIVE,60,34,3,Pausas activas,Pausas activas · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W35,ABC ACTIVE,60,35,3,Habilidades con objetos,Habilidades con objetos · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W36,ABC ACTIVE,60,36,3,Actividad recreativa,Actividad recreativa · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W37,ABC ACTIVE,60,37,3,Descanso y estrés,Descanso y estrés · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W38,ABC ACTIVE,60,38,3,Autonomía y accesibilidad,Autonomía y accesibilidad · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W39,ABC ACTIVE,60,39,3,Plan personal sostenible,Plan personal sostenible · transferir,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W40,ABC ACTIVE,60,40,4,Mapa de hábitos,Mapa de hábitos · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W41,ABC ACTIVE,60,41,4,Movilidad cotidiana,Movilidad cotidiana · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W42,ABC ACTIVE,60,42,4,Caminar con intención,Caminar con intención · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W43,ABC ACTIVE,60,43,4,Fuerza de tren inferior,Fuerza de tren inferior · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W44,ABC ACTIVE,60,44,4,Fuerza de tren superior,Fuerza de tren superior · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W45,ABC ACTIVE,60,45,4,Equilibrio funcional,Equilibrio funcional · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W46,ABC ACTIVE,60,46,4,Resistencia progresiva,Resistencia progresiva · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W47,ABC ACTIVE,60,47,4,Pausas activas,Pausas activas · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W48,ABC ACTIVE,60,48,4,Habilidades con objetos,Habilidades con objetos · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W49,ABC ACTIVE,60,49,4,Actividad recreativa,Actividad recreativa · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W50,ABC ACTIVE,60,50,4,Descanso y estrés,Descanso y estrés · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W51,ABC ACTIVE,60,51,4,Autonomía y accesibilidad,Autonomía y accesibilidad · autonomía,pendiente_revision_individual,pendiente
+ACT-adulto_mayor-W52,ABC ACTIVE,60,52,4,Plan personal sostenible,Plan personal sostenible · autonomía,pendiente_revision_individual,pendiente
+LON-60_69-W01,ABC LONGEVITY,60,1,1,Seguridad y autonomía,Seguridad y autonomía · explorar,pendiente_revision_individual,pendiente
+LON-60_69-W02,ABC LONGEVITY,60,2,1,Sentarse y levantarse,Sentarse y levantarse · explorar,pendiente_revision_individual,pendiente
+LON-60_69-W03,ABC LONGEVITY,60,3,1,Marcha segura,Marcha segura · explorar,pendiente_revision_individual,pendiente
+LON-60_69-W04,ABC LONGEVITY,60,4,1,Equilibrio con apoyo,Equilibrio con apoyo · explorar,pendiente_revision_individual,pendiente
+LON-60_69-W05,ABC LONGEVITY,60,5,1,Fuerza de piernas,Fuerza de piernas · explorar,pendiente_revision_individual,pendiente
+LON-60_69-W06,ABC LONGEVITY,60,6,1,Fuerza de brazos,Fuerza de brazos · explorar,pendiente_revision_individual,pendiente
+LON-60_69-W07,ABC LONGEVITY,60,7,1,Alcance y coordinación,Alcance y coordinación · explorar,pendiente_revision_individual,pendiente
+LON-60_69-W08,ABC LONGEVITY,60,8,1,Movilidad articular,Movilidad articular · explorar,pendiente_revision_individual,pendiente
+LON-60_69-W09,ABC LONGEVITY,60,9,1,Resistencia cotidiana,Resistencia cotidiana · explorar,pendiente_revision_individual,pendiente
+LON-60_69-W10,ABC LONGEVITY,60,10,1,Doble tarea segura,Doble tarea segura · explorar,pendiente_revision_individual,pendiente
+LON-60_69-W11,ABC LONGEVITY,60,11,1,Prevención de caídas,Prevención de caídas · explorar,pendiente_revision_individual,pendiente
+LON-60_69-W12,ABC LONGEVITY,60,12,1,Participación social,Participación social · explorar,pendiente_revision_individual,pendiente
+LON-60_69-W13,ABC LONGEVITY,60,13,1,Plan de vida independiente,Plan de vida independiente · explorar,pendiente_revision_individual,pendiente
+LON-60_69-W14,ABC LONGEVITY,60,14,2,Seguridad y autonomía,Seguridad y autonomía · consolidar,pendiente_revision_individual,pendiente
+LON-60_69-W15,ABC LONGEVITY,60,15,2,Sentarse y levantarse,Sentarse y levantarse · consolidar,pendiente_revision_individual,pendiente
+LON-60_69-W16,ABC LONGEVITY,60,16,2,Marcha segura,Marcha segura · consolidar,pendiente_revision_individual,pendiente
+LON-60_69-W17,ABC LONGEVITY,60,17,2,Equilibrio con apoyo,Equilibrio con apoyo · consolidar,pendiente_revision_individual,pendiente
+LON-60_69-W18,ABC LONGEVITY,60,18,2,Fuerza de piernas,Fuerza de piernas · consolidar,pendiente_revision_individual,pendiente
+LON-60_69-W19,ABC LONGEVITY,60,19,2,Fuerza de brazos,Fuerza de brazos · consolidar,pendiente_revision_individual,pendiente
+LON-60_69-W20,ABC LONGEVITY,60,20,2,Alcance y coordinación,Alcance y coordinación · consolidar,pendiente_revision_individual,pendiente
+LON-60_69-W21,ABC LONGEVITY,60,21,2,Movilidad articular,Movilidad articular · consolidar,pendiente_revision_individual,pendiente
+LON-60_69-W22,ABC LONGEVITY,60,22,2,Resistencia cotidiana,Resistencia cotidiana · consolidar,pendiente_revision_individual,pendiente
+LON-60_69-W23,ABC LONGEVITY,60,23,2,Doble tarea segura,Doble tarea segura · consolidar,pendiente_revision_individual,pendiente
+LON-60_69-W24,ABC LONGEVITY,60,24,2,Prevención de caídas,Prevención de caídas · consolidar,pendiente_revision_individual,pendiente
+LON-60_69-W25,ABC LONGEVITY,60,25,2,Participación social,Participación social · consolidar,pendiente_revision_individual,pendiente
+LON-60_69-W26,ABC LONGEVITY,60,26,2,Plan de vida independiente,Plan de vida independiente · consolidar,pendiente_revision_individual,pendiente
+LON-60_69-W27,ABC LONGEVITY,60,27,3,Seguridad y autonomía,Seguridad y autonomía · transferir,pendiente_revision_individual,pendiente
+LON-60_69-W28,ABC LONGEVITY,60,28,3,Sentarse y levantarse,Sentarse y levantarse · transferir,pendiente_revision_individual,pendiente
+LON-60_69-W29,ABC LONGEVITY,60,29,3,Marcha segura,Marcha segura · transferir,pendiente_revision_individual,pendiente
+LON-60_69-W30,ABC LONGEVITY,60,30,3,Equilibrio con apoyo,Equilibrio con apoyo · transferir,pendiente_revision_individual,pendiente
+LON-60_69-W31,ABC LONGEVITY,60,31,3,Fuerza de piernas,Fuerza de piernas · transferir,pendiente_revision_individual,pendiente
+LON-60_69-W32,ABC LONGEVITY,60,32,3,Fuerza de brazos,Fuerza de brazos · transferir,pendiente_revision_individual,pendiente
+LON-60_69-W33,ABC LONGEVITY,60,33,3,Alcance y coordinación,Alcance y coordinación · transferir,pendiente_revision_individual,pendiente
+LON-60_69-W34,ABC LONGEVITY,60,34,3,Movilidad articular,Movilidad articular · transferir,pendiente_revision_individual,pendiente
+LON-60_69-W35,ABC LONGEVITY,60,35,3,Resistencia cotidiana,Resistencia cotidiana · transferir,pendiente_revision_individual,pendiente
+LON-60_69-W36,ABC LONGEVITY,60,36,3,Doble tarea segura,Doble tarea segura · transferir,pendiente_revision_individual,pendiente
+LON-60_69-W37,ABC LONGEVITY,60,37,3,Prevención de caídas,Prevención de caídas · transferir,pendiente_revision_individual,pendiente
+LON-60_69-W38,ABC LONGEVITY,60,38,3,Participación social,Participación social · transferir,pendiente_revision_individual,pendiente
+LON-60_69-W39,ABC LONGEVITY,60,39,3,Plan de vida independiente,Plan de vida independiente · transferir,pendiente_revision_individual,pendiente
+LON-60_69-W40,ABC LONGEVITY,60,40,4,Seguridad y autonomía,Seguridad y autonomía · autonomía,pendiente_revision_individual,pendiente
+LON-60_69-W41,ABC LONGEVITY,60,41,4,Sentarse y levantarse,Sentarse y levantarse · autonomía,pendiente_revision_individual,pendiente
+LON-60_69-W42,ABC LONGEVITY,60,42,4,Marcha segura,Marcha segura · autonomía,pendiente_revision_individual,pendiente
+LON-60_69-W43,ABC LONGEVITY,60,43,4,Equilibrio con apoyo,Equilibrio con apoyo · autonomía,pendiente_revision_individual,pendiente
+LON-60_69-W44,ABC LONGEVITY,60,44,4,Fuerza de piernas,Fuerza de piernas · autonomía,pendiente_revision_individual,pendiente
+LON-60_69-W45,ABC LONGEVITY,60,45,4,Fuerza de brazos,Fuerza de brazos · autonomía,pendiente_revision_individual,pendiente
+LON-60_69-W46,ABC LONGEVITY,60,46,4,Alcance y coordinación,Alcance y coordinación · autonomía,pendiente_revision_individual,pendiente
+LON-60_69-W47,ABC LONGEVITY,60,47,4,Movilidad articular,Movilidad articular · autonomía,pendiente_revision_individual,pendiente
+LON-60_69-W48,ABC LONGEVITY,60,48,4,Resistencia cotidiana,Resistencia cotidiana · autonomía,pendiente_revision_individual,pendiente
+LON-60_69-W49,ABC LONGEVITY,60,49,4,Doble tarea segura,Doble tarea segura · autonomía,pendiente_revision_individual,pendiente
+LON-60_69-W50,ABC LONGEVITY,60,50,4,Prevención de caídas,Prevención de caídas · autonomía,pendiente_revision_individual,pendiente
+LON-60_69-W51,ABC LONGEVITY,60,51,4,Participación social,Participación social · autonomía,pendiente_revision_individual,pendiente
+LON-60_69-W52,ABC LONGEVITY,60,52,4,Plan de vida independiente,Plan de vida independiente · autonomía,pendiente_revision_individual,pendiente
+LON-70_79-W01,ABC LONGEVITY,70,1,1,Seguridad y autonomía,Seguridad y autonomía · explorar,pendiente_revision_individual,pendiente
+LON-70_79-W02,ABC LONGEVITY,70,2,1,Sentarse y levantarse,Sentarse y levantarse · explorar,pendiente_revision_individual,pendiente
+LON-70_79-W03,ABC LONGEVITY,70,3,1,Marcha segura,Marcha segura · explorar,pendiente_revision_individual,pendiente
+LON-70_79-W04,ABC LONGEVITY,70,4,1,Equilibrio con apoyo,Equilibrio con apoyo · explorar,pendiente_revision_individual,pendiente
+LON-70_79-W05,ABC LONGEVITY,70,5,1,Fuerza de piernas,Fuerza de piernas · explorar,pendiente_revision_individual,pendiente
+LON-70_79-W06,ABC LONGEVITY,70,6,1,Fuerza de brazos,Fuerza de brazos · explorar,pendiente_revision_individual,pendiente
+LON-70_79-W07,ABC LONGEVITY,70,7,1,Alcance y coordinación,Alcance y coordinación · explorar,pendiente_revision_individual,pendiente
+LON-70_79-W08,ABC LONGEVITY,70,8,1,Movilidad articular,Movilidad articular · explorar,pendiente_revision_individual,pendiente
+LON-70_79-W09,ABC LONGEVITY,70,9,1,Resistencia cotidiana,Resistencia cotidiana · explorar,pendiente_revision_individual,pendiente
+LON-70_79-W10,ABC LONGEVITY,70,10,1,Doble tarea segura,Doble tarea segura · explorar,pendiente_revision_individual,pendiente
+LON-70_79-W11,ABC LONGEVITY,70,11,1,Prevención de caídas,Prevención de caídas · explorar,pendiente_revision_individual,pendiente
+LON-70_79-W12,ABC LONGEVITY,70,12,1,Participación social,Participación social · explorar,pendiente_revision_individual,pendiente
+LON-70_79-W13,ABC LONGEVITY,70,13,1,Plan de vida independiente,Plan de vida independiente · explorar,pendiente_revision_individual,pendiente
+LON-70_79-W14,ABC LONGEVITY,70,14,2,Seguridad y autonomía,Seguridad y autonomía · consolidar,pendiente_revision_individual,pendiente
+LON-70_79-W15,ABC LONGEVITY,70,15,2,Sentarse y levantarse,Sentarse y levantarse · consolidar,pendiente_revision_individual,pendiente
+LON-70_79-W16,ABC LONGEVITY,70,16,2,Marcha segura,Marcha segura · consolidar,pendiente_revision_individual,pendiente
+LON-70_79-W17,ABC LONGEVITY,70,17,2,Equilibrio con apoyo,Equilibrio con apoyo · consolidar,pendiente_revision_individual,pendiente
+LON-70_79-W18,ABC LONGEVITY,70,18,2,Fuerza de piernas,Fuerza de piernas · consolidar,pendiente_revision_individual,pendiente
+LON-70_79-W19,ABC LONGEVITY,70,19,2,Fuerza de brazos,Fuerza de brazos · consolidar,pendiente_revision_individual,pendiente
+LON-70_79-W20,ABC LONGEVITY,70,20,2,Alcance y coordinación,Alcance y coordinación · consolidar,pendiente_revision_individual,pendiente
+LON-70_79-W21,ABC LONGEVITY,70,21,2,Movilidad articular,Movilidad articular · consolidar,pendiente_revision_individual,pendiente
+LON-70_79-W22,ABC LONGEVITY,70,22,2,Resistencia cotidiana,Resistencia cotidiana · consolidar,pendiente_revision_individual,pendiente
+LON-70_79-W23,ABC LONGEVITY,70,23,2,Doble tarea segura,Doble tarea segura · consolidar,pendiente_revision_individual,pendiente
+LON-70_79-W24,ABC LONGEVITY,70,24,2,Prevención de caídas,Prevención de caídas · consolidar,pendiente_revision_individual,pendiente
+LON-70_79-W25,ABC LONGEVITY,70,25,2,Participación social,Participación social · consolidar,pendiente_revision_individual,pendiente
+LON-70_79-W26,ABC LONGEVITY,70,26,2,Plan de vida independiente,Plan de vida independiente · consolidar,pendiente_revision_individual,pendiente
+LON-70_79-W27,ABC LONGEVITY,70,27,3,Seguridad y autonomía,Seguridad y autonomía · transferir,pendiente_revision_individual,pendiente
+LON-70_79-W28,ABC LONGEVITY,70,28,3,Sentarse y levantarse,Sentarse y levantarse · transferir,pendiente_revision_individual,pendiente
+LON-70_79-W29,ABC LONGEVITY,70,29,3,Marcha segura,Marcha segura · transferir,pendiente_revision_individual,pendiente
+LON-70_79-W30,ABC LONGEVITY,70,30,3,Equilibrio con apoyo,Equilibrio con apoyo · transferir,pendiente_revision_individual,pendiente
+LON-70_79-W31,ABC LONGEVITY,70,31,3,Fuerza de piernas,Fuerza de piernas · transferir,pendiente_revision_individual,pendiente
+LON-70_79-W32,ABC LONGEVITY,70,32,3,Fuerza de brazos,Fuerza de brazos · transferir,pendiente_revision_individual,pendiente
+LON-70_79-W33,ABC LONGEVITY,70,33,3,Alcance y coordinación,Alcance y coordinación · transferir,pendiente_revision_individual,pendiente
+LON-70_79-W34,ABC LONGEVITY,70,34,3,Movilidad articular,Movilidad articular · transferir,pendiente_revision_individual,pendiente
+LON-70_79-W35,ABC LONGEVITY,70,35,3,Resistencia cotidiana,Resistencia cotidiana · transferir,pendiente_revision_individual,pendiente
+LON-70_79-W36,ABC LONGEVITY,70,36,3,Doble tarea segura,Doble tarea segura · transferir,pendiente_revision_individual,pendiente
+LON-70_79-W37,ABC LONGEVITY,70,37,3,Prevención de caídas,Prevención de caídas · transferir,pendiente_revision_individual,pendiente
+LON-70_79-W38,ABC LONGEVITY,70,38,3,Participación social,Participación social · transferir,pendiente_revision_individual,pendiente
+LON-70_79-W39,ABC LONGEVITY,70,39,3,Plan de vida independiente,Plan de vida independiente · transferir,pendiente_revision_individual,pendiente
+LON-70_79-W40,ABC LONGEVITY,70,40,4,Seguridad y autonomía,Seguridad y autonomía · autonomía,pendiente_revision_individual,pendiente
+LON-70_79-W41,ABC LONGEVITY,70,41,4,Sentarse y levantarse,Sentarse y levantarse · autonomía,pendiente_revision_individual,pendiente
+LON-70_79-W42,ABC LONGEVITY,70,42,4,Marcha segura,Marcha segura · autonomía,pendiente_revision_individual,pendiente
+LON-70_79-W43,ABC LONGEVITY,70,43,4,Equilibrio con apoyo,Equilibrio con apoyo · autonomía,pendiente_revision_individual,pendiente
+LON-70_79-W44,ABC LONGEVITY,70,44,4,Fuerza de piernas,Fuerza de piernas · autonomía,pendiente_revision_individual,pendiente
+LON-70_79-W45,ABC LONGEVITY,70,45,4,Fuerza de brazos,Fuerza de brazos · autonomía,pendiente_revision_individual,pendiente
+LON-70_79-W46,ABC LONGEVITY,70,46,4,Alcance y coordinación,Alcance y coordinación · autonomía,pendiente_revision_individual,pendiente
+LON-70_79-W47,ABC LONGEVITY,70,47,4,Movilidad articular,Movilidad articular · autonomía,pendiente_revision_individual,pendiente
+LON-70_79-W48,ABC LONGEVITY,70,48,4,Resistencia cotidiana,Resistencia cotidiana · autonomía,pendiente_revision_individual,pendiente
+LON-70_79-W49,ABC LONGEVITY,70,49,4,Doble tarea segura,Doble tarea segura · autonomía,pendiente_revision_individual,pendiente
+LON-70_79-W50,ABC LONGEVITY,70,50,4,Prevención de caídas,Prevención de caídas · autonomía,pendiente_revision_individual,pendiente
+LON-70_79-W51,ABC LONGEVITY,70,51,4,Participación social,Participación social · autonomía,pendiente_revision_individual,pendiente
+LON-70_79-W52,ABC LONGEVITY,70,52,4,Plan de vida independiente,Plan de vida independiente · autonomía,pendiente_revision_individual,pendiente
+LON-80_plus-W01,ABC LONGEVITY,80,1,1,Seguridad y autonomía,Seguridad y autonomía · explorar,pendiente_revision_individual,pendiente
+LON-80_plus-W02,ABC LONGEVITY,80,2,1,Sentarse y levantarse,Sentarse y levantarse · explorar,pendiente_revision_individual,pendiente
+LON-80_plus-W03,ABC LONGEVITY,80,3,1,Marcha segura,Marcha segura · explorar,pendiente_revision_individual,pendiente
+LON-80_plus-W04,ABC LONGEVITY,80,4,1,Equilibrio con apoyo,Equilibrio con apoyo · explorar,pendiente_revision_individual,pendiente
+LON-80_plus-W05,ABC LONGEVITY,80,5,1,Fuerza de piernas,Fuerza de piernas · explorar,pendiente_revision_individual,pendiente
+LON-80_plus-W06,ABC LONGEVITY,80,6,1,Fuerza de brazos,Fuerza de brazos · explorar,pendiente_revision_individual,pendiente
+LON-80_plus-W07,ABC LONGEVITY,80,7,1,Alcance y coordinación,Alcance y coordinación · explorar,pendiente_revision_individual,pendiente
+LON-80_plus-W08,ABC LONGEVITY,80,8,1,Movilidad articular,Movilidad articular · explorar,pendiente_revision_individual,pendiente
+LON-80_plus-W09,ABC LONGEVITY,80,9,1,Resistencia cotidiana,Resistencia cotidiana · explorar,pendiente_revision_individual,pendiente
+LON-80_plus-W10,ABC LONGEVITY,80,10,1,Doble tarea segura,Doble tarea segura · explorar,pendiente_revision_individual,pendiente
+LON-80_plus-W11,ABC LONGEVITY,80,11,1,Prevención de caídas,Prevención de caídas · explorar,pendiente_revision_individual,pendiente
+LON-80_plus-W12,ABC LONGEVITY,80,12,1,Participación social,Participación social · explorar,pendiente_revision_individual,pendiente
+LON-80_plus-W13,ABC LONGEVITY,80,13,1,Plan de vida independiente,Plan de vida independiente · explorar,pendiente_revision_individual,pendiente
+LON-80_plus-W14,ABC LONGEVITY,80,14,2,Seguridad y autonomía,Seguridad y autonomía · consolidar,pendiente_revision_individual,pendiente
+LON-80_plus-W15,ABC LONGEVITY,80,15,2,Sentarse y levantarse,Sentarse y levantarse · consolidar,pendiente_revision_individual,pendiente
+LON-80_plus-W16,ABC LONGEVITY,80,16,2,Marcha segura,Marcha segura · consolidar,pendiente_revision_individual,pendiente
+LON-80_plus-W17,ABC LONGEVITY,80,17,2,Equilibrio con apoyo,Equilibrio con apoyo · consolidar,pendiente_revision_individual,pendiente
+LON-80_plus-W18,ABC LONGEVITY,80,18,2,Fuerza de piernas,Fuerza de piernas · consolidar,pendiente_revision_individual,pendiente
+LON-80_plus-W19,ABC LONGEVITY,80,19,2,Fuerza de brazos,Fuerza de brazos · consolidar,pendiente_revision_individual,pendiente
+LON-80_plus-W20,ABC LONGEVITY,80,20,2,Alcance y coordinación,Alcance y coordinación · consolidar,pendiente_revision_individual,pendiente
+LON-80_plus-W21,ABC LONGEVITY,80,21,2,Movilidad articular,Movilidad articular · consolidar,pendiente_revision_individual,pendiente
+LON-80_plus-W22,ABC LONGEVITY,80,22,2,Resistencia cotidiana,Resistencia cotidiana · consolidar,pendiente_revision_individual,pendiente
+LON-80_plus-W23,ABC LONGEVITY,80,23,2,Doble tarea segura,Doble tarea segura · consolidar,pendiente_revision_individual,pendiente
+LON-80_plus-W24,ABC LONGEVITY,80,24,2,Prevención de caídas,Prevención de caídas · consolidar,pendiente_revision_individual,pendiente
+LON-80_plus-W25,ABC LONGEVITY,80,25,2,Participación social,Participación social · consolidar,pendiente_revision_individual,pendiente
+LON-80_plus-W26,ABC LONGEVITY,80,26,2,Plan de vida independiente,Plan de vida independiente · consolidar,pendiente_revision_individual,pendiente
+LON-80_plus-W27,ABC LONGEVITY,80,27,3,Seguridad y autonomía,Seguridad y autonomía · transferir,pendiente_revision_individual,pendiente
+LON-80_plus-W28,ABC LONGEVITY,80,28,3,Sentarse y levantarse,Sentarse y levantarse · transferir,pendiente_revision_individual,pendiente
+LON-80_plus-W29,ABC LONGEVITY,80,29,3,Marcha segura,Marcha segura · transferir,pendiente_revision_individual,pendiente
+LON-80_plus-W30,ABC LONGEVITY,80,30,3,Equilibrio con apoyo,Equilibrio con apoyo · transferir,pendiente_revision_individual,pendiente
+LON-80_plus-W31,ABC LONGEVITY,80,31,3,Fuerza de piernas,Fuerza de piernas · transferir,pendiente_revision_individual,pendiente
+LON-80_plus-W32,ABC LONGEVITY,80,32,3,Fuerza de brazos,Fuerza de brazos · transferir,pendiente_revision_individual,pendiente
+LON-80_plus-W33,ABC LONGEVITY,80,33,3,Alcance y coordinación,Alcance y coordinación · transferir,pendiente_revision_individual,pendiente
+LON-80_plus-W34,ABC LONGEVITY,80,34,3,Movilidad articular,Movilidad articular · transferir,pendiente_revision_individual,pendiente
+LON-80_plus-W35,ABC LONGEVITY,80,35,3,Resistencia cotidiana,Resistencia cotidiana · transferir,pendiente_revision_individual,pendiente
+LON-80_plus-W36,ABC LONGEVITY,80,36,3,Doble tarea segura,Doble tarea segura · transferir,pendiente_revision_individual,pendiente
+LON-80_plus-W37,ABC LONGEVITY,80,37,3,Prevención de caídas,Prevención de caídas · transferir,pendiente_revision_individual,pendiente
+LON-80_plus-W38,ABC LONGEVITY,80,38,3,Participación social,Participación social · transferir,pendiente_revision_individual,pendiente
+LON-80_plus-W39,ABC LONGEVITY,80,39,3,Plan de vida independiente,Plan de vida independiente · transferir,pendiente_revision_individual,pendiente
+LON-80_plus-W40,ABC LONGEVITY,80,40,4,Seguridad y autonomía,Seguridad y autonomía · autonomía,pendiente_revision_individual,pendiente
+LON-80_plus-W41,ABC LONGEVITY,80,41,4,Sentarse y levantarse,Sentarse y levantarse · autonomía,pendiente_revision_individual,pendiente
+LON-80_plus-W42,ABC LONGEVITY,80,42,4,Marcha segura,Marcha segura · autonomía,pendiente_revision_individual,pendiente
+LON-80_plus-W43,ABC LONGEVITY,80,43,4,Equilibrio con apoyo,Equilibrio con apoyo · autonomía,pendiente_revision_individual,pendiente
+LON-80_plus-W44,ABC LONGEVITY,80,44,4,Fuerza de piernas,Fuerza de piernas · autonomía,pendiente_revision_individual,pendiente
+LON-80_plus-W45,ABC LONGEVITY,80,45,4,Fuerza de brazos,Fuerza de brazos · autonomía,pendiente_revision_individual,pendiente
+LON-80_plus-W46,ABC LONGEVITY,80,46,4,Alcance y coordinación,Alcance y coordinación · autonomía,pendiente_revision_individual,pendiente
+LON-80_plus-W47,ABC LONGEVITY,80,47,4,Movilidad articular,Movilidad articular · autonomía,pendiente_revision_individual,pendiente
+LON-80_plus-W48,ABC LONGEVITY,80,48,4,Resistencia cotidiana,Resistencia cotidiana · autonomía,pendiente_revision_individual,pendiente
+LON-80_plus-W49,ABC LONGEVITY,80,49,4,Doble tarea segura,Doble tarea segura · autonomía,pendiente_revision_individual,pendiente
+LON-80_plus-W50,ABC LONGEVITY,80,50,4,Prevención de caídas,Prevención de caídas · autonomía,pendiente_revision_individual,pendiente
+LON-80_plus-W51,ABC LONGEVITY,80,51,4,Participación social,Participación social · autonomía,pendiente_revision_individual,pendiente
+LON-80_plus-W52,ABC LONGEVITY,80,52,4,Plan de vida independiente,Plan de vida independiente · autonomía,pendiente_revision_individual,pendiente
