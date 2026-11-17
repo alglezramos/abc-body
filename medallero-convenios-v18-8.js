@@ -1,4 +1,5 @@
-/* ABC BODY V18.8 — Medallero + Convenios locales. */
+/* ABC BODY V18.8 — Medallero + Convenios locales.
+   V18.9: insignias de sesiones/racha/familia (window.ABC9) y Convenios muestra solo alianzas confirmadas. */
 (()=>{
 'use strict';
 const medal=document.getElementById('medallero'), nav=document.getElementById('nav');
@@ -15,7 +16,7 @@ const metrics=()=>{
  cycle:w.slice(0,13).filter(a=>ac(a).reviewed&&hasPr(a)).length,
  validated:domains.filter(d=>{const v=validationFor(d);return v&&['competente','consolidada'].includes(v.nivel)}).length
  }};
-const achievements=m=>[
+const achievements=m=>[...(window.ABC9?ABC9.extraAchievements():[]),
  ['primer-paso','Primer paso','✦','Participación',m.practice,1,'Registrar una práctica.'],
  ['constancia','Constancia','↗','Práctica',m.practice,4,'Registrar prácticas en cuatro semanas diferentes.'],
  ['curiosidad','Curiosidad activa','▤','Aprendizaje',m.theory,4,'Revisar cuatro lecciones en Academia.'],
@@ -30,6 +31,7 @@ tab.onclick=()=>show('convenios');
 let filter='Todos';
 const cats=['Deporte y movimiento','Bienestar','Educación','Comunidad'];
 const featured=[
+ /* Organizaciones de referencia: ocultas hasta tener convenio firmado (signed:true). */
  {id:'ref-ccdr-santa-ana',name:'Comité Cantonal de Deportes y Recreación de Santa Ana',category:'Comunidad',description:'Organización deportiva y recreativa del cantón de Santa Ana.',logoIndex:0},
  {id:'ref-san-francisco-judo',name:'Asociación San Francisco Judo Costa Rica',category:'Deporte y movimiento',description:'Asociación vinculada a la práctica del judo.',logoIndex:1},
  {id:'ref-icoder',name:'ICODER',category:'Deporte y movimiento',description:'Instituto Costarricense del Deporte y la Recreación.',logoIndex:2},
@@ -49,13 +51,13 @@ function medalView(){
  custom.querySelector('#cvGoPartners')?.addEventListener('click',()=>show('convenios'));
 }
 function partnersView(){
- const stored=records(),entries=[...featured,...stored],view=filter==='Todos'?entries:entries.filter(x=>x.category===filter);
- panel.innerHTML=`<section class="cv"><header class="cv-hero"><span class="cv-kicker">ABC BODY / CONVENIOS</span><h2>Conexiones para ir más lejos.</h2><p>Organizaciones de referencia y posibles colaboraciones. La exhibición de sus logotipos no implica convenio, patrocinio ni beneficios confirmados.</p></header>
- <div class="cv-head"><div><span class="cv-kicker">EXPLORA</span><h3>Organizaciones y convenios</h3></div><span>${featured.length} organizaciones de referencia · ${stored.length} registros locales</span></div>
- <div class="cv-filters">${['Todos',...cats].map(c=>`<button data-cv-filter="${esc(c)}" class="${filter===c?'selected':''}">${esc(c)}</button>`).join('')}</div>
- ${view.length?`<div class="cv-partners">${view.map(p=>`<article class="cv-partner" data-featured="${Number.isInteger(p.logoIndex)}"><div class="cv-partner-logo">${Number.isInteger(p.logoIndex)?`<span class="cv-logo-sprite" role="img" aria-label="Logotipo de ${esc(p.name)}" style="--cv-pos:${p.logoIndex*25}%"></span>`:p.logo?.startsWith('data:image/')?`<img alt="Logotipo de ${esc(p.name)}" src="${esc(p.logo)}">`:'<span aria-hidden="true">◇</span>'}</div><span class="cv-kicker">${esc(p.category||'Convenio')}</span><h4>${esc(p.name)}</h4><p>${esc(p.description||'Sin descripción registrada')}</p><small>${Number.isInteger(p.logoIndex)?'Organización de referencia · Vínculo por confirmar':'En desarrollo · No verificado'}</small><div class="cv-partner-actions"><label>Agregar logo<input type="file" accept="image/png,image/jpeg,image/webp,image/svg+xml" data-cv-logo="${esc(p.id)}" hidden></label><button data-cv-delete="${esc(p.id)}">Eliminar</button></div></article>`).join('')}</div>`:'<div class="cv-empty"><strong>Agrega aquí las organizaciones</strong><p>Utiliza sus nombres y logotipos originales; las condiciones comerciales se definirán cuando haya convenios confirmados.</p></div>'}
- <details class="cv-editor"><summary>+ Registrar organización</summary><form id="cvForm"><label>Nombre<input name="name" required maxlength="90" placeholder="Nombre del aliado"></label><label>Categoría<select name="category">${cats.map(c=>`<option>${c}</option>`).join('')}</select></label><label>Descripción<textarea name="description" maxlength="320" rows="3" placeholder="Posible colaboración o propósito"></textarea></label><label>Logotipo (opcional)<input name="logo" type="file" accept="image/png,image/jpeg,image/webp,image/svg+xml"></label><button class="cv-action" type="submit">Guardar registro</button><p id="cvStatus" role="status"></p></form></details>
- <p class="cv-disclaimer">Los logos pertenecen a sus respectivas organizaciones. Aparecen solo como registros de desarrollo y no implican patrocinio, convenio vigente ni beneficio disponible. Todo se guarda localmente; exporta respaldos desde Perfil.</p></section>`;
+ const confirmed=featured.filter(x=>x.signed),stored=records(),entries=[...confirmed,...stored],view=filter==='Todos'?entries:entries.filter(x=>x.category===filter);
+ panel.innerHTML=`<section class="cv"><header class="cv-hero"><span class="cv-kicker">ABC BODY / CONVENIOS</span><h2>Alianzas para ir más lejos.</h2><p>Estamos sumando clubes, comités deportivos y organizaciones educativas. Aquí verás únicamente convenios confirmados y sus beneficios para tu familia.</p></header>
+ <div class="cv-head"><div><span class="cv-kicker">EXPLORA</span><h3>Organizaciones y convenios</h3></div><span>${confirmed.length+stored.length} ${confirmed.length+stored.length===1?'alianza':'alianzas'}</span></div>
+ ${entries.length?`<div class="cv-filters">${['Todos',...cats].map(c=>`<button data-cv-filter="${esc(c)}" class="${filter===c?'selected':''}">${esc(c)}</button>`).join('')}</div>`:''}
+ ${view.length?`<div class="cv-partners">${view.map(p=>`<article class="cv-partner" data-featured="${Number.isInteger(p.logoIndex)}"><div class="cv-partner-logo">${Number.isInteger(p.logoIndex)?`<span class="cv-logo-sprite" role="img" aria-label="Logotipo de ${esc(p.name)}" style="--cv-pos:${p.logoIndex*25}%"></span>`:p.logo?.startsWith('data:image/')?`<img alt="Logotipo de ${esc(p.name)}" src="${esc(p.logo)}">`:'<span aria-hidden="true">◇</span>'}</div><span class="cv-kicker">${esc(p.category||'Convenio')}</span><h4>${esc(p.name)}</h4><p>${esc(p.description||'Sin descripción registrada')}</p><small>${Number.isInteger(p.logoIndex)?'Organización de referencia · Vínculo por confirmar':'En desarrollo · No verificado'}</small><div class="cv-partner-actions"><label>Agregar logo<input type="file" accept="image/png,image/jpeg,image/webp,image/svg+xml" data-cv-logo="${esc(p.id)}" hidden></label><button data-cv-delete="${esc(p.id)}">Eliminar</button></div></article>`).join('')}</div>`:'<div class="cv-empty"><strong>Próximamente</strong><p>Estamos conversando con organizaciones deportivas y educativas. Cuando un convenio esté firmado, aparecerá aquí con sus beneficios.</p></div>'}
+ <details class="cv-editor"><summary>Administración · registrar alianza</summary><form id="cvForm"><label>Nombre<input name="name" required maxlength="90" placeholder="Nombre del aliado"></label><label>Categoría<select name="category">${cats.map(c=>`<option>${c}</option>`).join('')}</select></label><label>Descripción<textarea name="description" maxlength="320" rows="3" placeholder="Posible colaboración o propósito"></textarea></label><label>Logotipo (opcional)<input name="logo" type="file" accept="image/png,image/jpeg,image/webp,image/svg+xml"></label><button class="cv-action" type="submit">Guardar registro</button><p id="cvStatus" role="status"></p></form></details>
+ <p class="cv-disclaimer">Los logos pertenecen a sus respectivas organizaciones. Solo se publican alianzas con convenio firmado.</p></section>`;
  panel.querySelectorAll('[data-cv-filter]').forEach(b=>b.onclick=()=>{filter=b.dataset.cvFilter;partnersView()});
  panel.querySelectorAll('[data-cv-delete]').forEach(b=>b.onclick=()=>{s.convenios=stored.filter(x=>x.id!==b.dataset.cvDelete);persist();partnersView()});
  panel.querySelectorAll('[data-cv-logo]').forEach(input=>input.onchange=async()=>{const p=entries.find(x=>x.id===input.dataset.cvLogo);if(!p||!input.files?.[0])return;try{p.logo=await readLogo(input.files[0]);persist();partnersView()}catch(e){alert(e.message)}});

@@ -87,3 +87,30 @@
 1. Sube `learning-flow-v18-5.js`, `learning-flow-v18-5.css` y `README.md` a `main` (o por pull request).
 2. El workflow «Publish ABC BODY guided learning V18.5» se ejecuta, comprueba el JS y no toca `index.html` (ya enlaza estos archivos).
 3. Abre la app, entra a Academia → Comprueba y verifica que el pie diga V18.6.
+
+## V18.9 — Panel Familia, sesiones en casa, deporte favorito y progreso tipo juego (Claude)
+
+### Teoría: qué cambió y por qué
+- **Panel Familia** (pestaña ♥ Familia): lo que un padre necesita ver en 30 segundos. Muestra las sesiones, los minutos, los días activos y la racha de la semana; un gráfico de minutos de las últimas 6 semanas; qué está aprendiendo y para qué le sirve en su deporte; los logros (incluidas las competencias validadas por un docente, con nombre y fecha); su última reflexión; qué viene y qué material necesita; el reto familiar y tres consejos según la edad. También tiene un botón **Imprimir o guardar PDF**. El correo semanal queda para una versión con servidor.
+- **Sesiones de 10–15 minutos**: cada semana se divide en 3 sesiones para hacer en casa (Aprende y prueba · Practica y mejora · Reto de la semana). Cada sesión tiene un temporizador por bloques (calienta 2 min, actividad principal, reto 2 min, vuelta a la calma 1 min), la lista de lo que se necesita (detectada en la ficha: pelota, aro, marcadores…) y la nota de seguridad. La duración es de 10 min para KIDS de 6 a 8 años, 12 min para KIDS de 9 a 12 y 15 min para el resto.
+- **Deporte favorito**: fútbol, baloncesto, voleibol, natación, atletismo, artes marciales, tenis, gimnasia, ciclismo o varios. Cada habilidad muestra una frase de cómo sirve en ese deporte (14 categorías × 10 deportes). Se elige en Inicio o en Perfil.
+- **Progreso tipo juego**: avatar (8 animales) con nivel y XP, racha de días, habilidades que se desbloquean al completar semanas, 8 insignias nuevas de corto plazo en el Medallero y un reto familiar semanal.
+- **Sin avisos de prototipo**: textos de «modo local», «simulada», «de prueba» y «pendiente de validación» reescritos; edades agrupadas por etapa; Convenios ya no muestra logos de organizaciones sin convenio firmado (el campo `signed:true` las vuelve visibles).
+- Las semanas con sesiones cuentan como «con actividad» en Inicio y Ruta Anual.
+
+### Herramienta: archivos
+- `familia-v18-9.js` / `familia-v18-9.css` (nuevos, enlazados al final de `index.html`).
+- `index.html`: solo textos, agrupación de edades y los dos enlaces nuevos. El currículo no cambia (`curriculumVersion` sigue igual, validador en verde).
+- `medallero-convenios-v18-8.js`: insignias nuevas mediante `window.ABC9` y Convenios solo confirmados.
+- `learning-flow-v18-5.js`: sin aviso de «pendiente de revisión pedagógica».
+- Datos nuevos en el mismo perfil local: `s.sessions`, `s.sport`, `s.avatar`, `s.familyDone`. Se incluyen en el respaldo JSON.
+
+### Límites conocidos
+- Las fichas están escritas para clase (rondas, compañeros, equipos). La sesión en casa las adapta automáticamente; conviene redactar versiones «en casa» de las actividades principales.
+- Las frases por deporte y los retos familiares son una propuesta inicial: revisarlas con un entrenador.
+- Todo sigue guardándose en un solo dispositivo: para cobrar hacen falta cuentas y sincronización.
+
+### Tutorial: publicar
+1. Sube los archivos de esta versión respetando las rutas, en una rama nueva, y abre un pull request.
+2. El workflow «Validar currículo» debe quedar en verde.
+3. Después de fusionar, abre la app y recarga sin caché (Ctrl+Shift+R): el pie debe decir V18.9 y debe aparecer la pestaña ♥ Familia.
