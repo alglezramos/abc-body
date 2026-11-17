@@ -1,0 +1,66 @@
+/* ABC BODY V18.8 — Medallero + Convenios locales. */
+(()=>{
+'use strict';
+const medal=document.getElementById('medallero'), nav=document.getElementById('nav');
+if(!medal||!nav||document.getElementById('convenios'))return;
+const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const weeks=()=>currentWeeks(), ac=w=>s.academy?.[w.id]||{};
+const hasPr=w=>s.submissions.some(a=>a.id===w.id);
+const metrics=()=>{
+ const w=weeks(),domains=[...new Set(w.map(a=>a.domain_id))];
+ return {
+ practice:w.filter(hasPr).length,
+ theory:w.filter(a=>ac(a).reviewed).length,
+ both:w.filter(a=>ac(a).reviewed&&hasPr(a)).length,
+ cycle:w.slice(0,13).filter(a=>ac(a).reviewed&&hasPr(a)).length,
+ validated:domains.filter(d=>{const v=validationFor(d);return v&&['competente','consolidada'].includes(v.nivel)}).length
+ }};
+const achievements=m=>[
+ ['primer-paso','Primer paso','✦','Participación',m.practice,1,'Registrar una práctica.'],
+ ['constancia','Constancia','↗','Práctica',m.practice,4,'Registrar prácticas en cuatro semanas diferentes.'],
+ ['curiosidad','Curiosidad activa','▤','Aprendizaje',m.theory,4,'Revisar cuatro lecciones en Academia.'],
+ ['ciclo','Ciclo de aprendizaje','◈','Trayectoria',m.cycle,13,'Revisar teoría y registrar prácticas en las 13 semanas del ciclo 1.'],
+ ['docente','Competencia validada','✓','Evaluación docente',m.validated,1,'Obtener una competencia validada por docente.']
+].map(([id,name,icon,category,value,goal,description])=>({id,name,icon,category,value,goal,description,earned:value>=goal,pct:Math.min(100,Math.round(value/goal*100))}));
+const custom=document.createElement('div');custom.id='medalleroNuevo';medal.append(custom);
+const tab=document.createElement('button');tab.className='nav';tab.type='button';tab.dataset.view='convenios';tab.textContent='◇ Convenios';
+(nav.querySelector('[data-view="medallero"]')||nav.lastElementChild).insertAdjacentElement('afterend',tab);
+const panel=document.createElement('div');panel.id='convenios';panel.className='view';medal.insertAdjacentElement('afterend',panel);
+tab.onclick=()=>show('convenios');
+let filter='Todos';
+const cats=['Deporte y movimiento','Bienestar','Educación','Comunidad'];
+const records=()=>{if(!Array.isArray(s.convenios))s.convenios=[];return s.convenios.filter(x=>x&&x.name).slice(0,100)};
+function medalView(){
+ const m=metrics(),arr=achievements(m),earned=arr.filter(x=>x.earned).length;
+ const next=arr.filter(x=>!x.earned).sort((a,b)=>b.pct-a.pct)[0];
+ custom.innerHTML=`<section class="cv"><header class="cv-hero"><div class="cv-kicker">ABC BODY / MEDALLERO</div><h2>Tu esfuerzo cuenta.</h2><p>Reconocemos el aprendizaje, la constancia y las competencias observadas.</p><div class="cv-hero-stats"><strong>${earned}<small> / ${arr.length}</small></strong><span>Insignias conseguidas</span></div></header>
+ <div class="cv-stats"><article><strong>${m.practice}</strong><span>Semanas con práctica</span></article><article><strong>${m.theory}</strong><span>Lecciones revisadas</span></article><article><strong>${m.both}</strong><span>Teoría + práctica</span></article><article><strong>${m.validated}</strong><span>Competencias validadas</span></article></div>
+ ${next?`<section class="cv-next"><div><span class="cv-kicker">SIGUIENTE LOGRO</span><h3>${esc(next.name)}</h3><p>${esc(next.description)}</p><div class="cv-bar"><i style="width:${next.pct}%"></i></div><small>${next.value} / ${next.goal}</small></div><button id="cvContinue" class="cv-action">Seguir aprendiendo</button></section>`:''}
+ <h3>Mi colección de insignias</h3><div class="cv-medals">${arr.map(a=>`<article class="cv-medal ${a.earned?'earned':''}"><span class="cv-symbol">${a.icon}</span><strong>${esc(a.name)}</strong><small>${esc(a.category)}</small><p>${esc(a.description)}</p><div class="cv-bar"><i style="width:${a.pct}%"></i></div><span>${Math.min(a.value,a.goal)} / ${a.goal} · ${a.earned?'Conseguida':'Por conseguir'}</span></article>`).join('')}</div><div class="cv-note"><strong>Reglas claras</strong><p>Las insignias por participación no equivalen a dominio. Las competencias validadas requieren evaluación docente y no se conceden al subir un video.</p><button id="cvGoPartners">Explorar Convenios</button></div></section>`;
+ custom.querySelector('#cvContinue')?.addEventListener('click',()=>show('academia'));
+ custom.querySelector('#cvGoPartners')?.addEventListener('click',()=>show('convenios'));
+}
+function partnersView(){
+ const entries=records(),view=filter==='Todos'?entries:entries.filter(x=>x.category===filter);
+ panel.innerHTML=`<section class="cv"><header class="cv-hero"><span class="cv-kicker">ABC BODY / CONVENIOS</span><h2>Conexiones para ir más lejos.</h2><p>Organizaciones y oportunidades en desarrollo. Ningún registro representa un acuerdo activo ni un descuento confirmado.</p></header>
+ <div class="cv-head"><div><span class="cv-kicker">EXPLORA</span><h3>Organizaciones y convenios</h3></div><span>${entries.length} registros locales</span></div>
+ <div class="cv-filters">${['Todos',...cats].map(c=>`<button data-cv-filter="${esc(c)}" class="${filter===c?'selected':''}">${esc(c)}</button>`).join('')}</div>
+ ${view.length?`<div class="cv-partners">${view.map(p=>`<article class="cv-partner"><div class="cv-partner-logo">${p.logo?.startsWith('data:image/')?`<img alt="Logotipo de ${esc(p.name)}" src="${esc(p.logo)}">`:'<span aria-hidden="true">◇</span>'}</div><span class="cv-kicker">${esc(p.category||'Convenio')}</span><h4>${esc(p.name)}</h4><p>${esc(p.description||'Sin descripción registrada')}</p><small>En desarrollo · No verificado</small><div class="cv-partner-actions"><label>Agregar logo<input type="file" accept="image/png,image/jpeg,image/webp,image/svg+xml" data-cv-logo="${esc(p.id)}" hidden></label><button data-cv-delete="${esc(p.id)}">Eliminar</button></div></article>`).join('')}</div>`:'<div class="cv-empty"><strong>Agrega aquí las organizaciones</strong><p>Utiliza sus nombres y logotipos originales; las condiciones comerciales se definirán cuando haya convenios confirmados.</p></div>'}
+ <details class="cv-editor"><summary>+ Registrar organización</summary><form id="cvForm"><label>Nombre<input name="name" required maxlength="90" placeholder="Nombre del aliado"></label><label>Categoría<select name="category">${cats.map(c=>`<option>${c}</option>`).join('')}</select></label><label>Descripción<textarea name="description" maxlength="320" rows="3" placeholder="Posible colaboración o propósito"></textarea></label><label>Logotipo (opcional)<input name="logo" type="file" accept="image/png,image/jpeg,image/webp,image/svg+xml"></label><button class="cv-action" type="submit">Guardar registro</button><p id="cvStatus" role="status"></p></form></details>
+ <p class="cv-disclaimer">Los logos pertenecen a sus respectivas organizaciones. Aparecen solo como registros de desarrollo y no implican patrocinio, convenio vigente ni beneficio disponible. Todo se guarda localmente; exporta respaldos desde Perfil.</p></section>`;
+ panel.querySelectorAll('[data-cv-filter]').forEach(b=>b.onclick=()=>{filter=b.dataset.cvFilter;partnersView()});
+ panel.querySelectorAll('[data-cv-delete]').forEach(b=>b.onclick=()=>{s.convenios=entries.filter(x=>x.id!==b.dataset.cvDelete);persist();partnersView()});
+ panel.querySelectorAll('[data-cv-logo]').forEach(input=>input.onchange=async()=>{const p=entries.find(x=>x.id===input.dataset.cvLogo);if(!p||!input.files?.[0])return;try{p.logo=await readLogo(input.files[0]);persist();partnersView()}catch(e){alert(e.message)}});
+ panel.querySelector('#cvForm').onsubmit=async e=>{e.preventDefault();const f=e.currentTarget,form=f.elements;let logo='';try{if(form.logo.files?.[0])logo=await readLogo(form.logo.files[0]);let name=form.name.value.trim();if(!name)return;s.convenios=[...entries,{id:'partner-'+Date.now(),name,category:form.category.value,description:form.description.value.trim(),logo,status:'Borrador'}];if(persist())partnersView();else panel.querySelector('#cvStatus').textContent='No se pudo guardar. Revisa el espacio local.'}catch(err){panel.querySelector('#cvStatus').textContent=err.message}};
+}
+async function readLogo(file){
+ if(file.size>180000)throw Error('El logo debe pesar menos de 180 KB para incluirlo en el respaldo local.');
+ if(!['image/png','image/jpeg','image/webp','image/svg+xml'].includes(file.type))throw Error('Elige PNG, JPG, WebP o SVG.');
+ // SVG is not accepted in this demo, to avoid active content inside inline data URLs.
+ if(file.type==='image/svg+xml')throw Error('Por seguridad, convierte el SVG a PNG antes de guardarlo.');
+ return await new Promise((resolve,reject)=>{const r=new FileReader();r.onload=()=>resolve(r.result);r.onerror=()=>reject(Error('No se pudo leer el archivo'));r.readAsDataURL(file)});
+}
+const oldMedals=renderMedals;renderMedals=function(){oldMedals();medalView()};
+const oldShow=show;show=function(view){oldShow(view);if(view==='convenios')partnersView()};
+medalView();
+})();
