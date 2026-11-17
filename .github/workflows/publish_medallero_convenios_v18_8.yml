@@ -1,0 +1,41 @@
+name: Publish ABC BODY Medallero & Convenios V18.8
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish_medallero_convenios_v18_8.yml'
+      - 'tools/install_medallero_convenios_v18_8.py'
+      - 'medallero-convenios-v18-8.js'
+      - 'medallero-convenios-v18-8.css'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: abc-body-medallero-convenios
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install V18.8
+        run: python3 tools/install_medallero_convenios_v18_8.py
+      - name: Validate modules and curriculum
+        run: |
+          node --check medallero-convenios-v18-8.js
+          python3 - <<'PY'
+          from pathlib import Path
+          t=Path('index.html').read_text()
+          assert t.count('id="dataset"')==1
+          assert t.count('id="curriculum-meta"')==1
+          assert t.count('medallero-convenios-v18-8.js')==1
+          assert t.count('medallero-convenios-v18-8.css')==1
+          print('V18.8 includes new Medallero/Convenios and preserved curriculum')
+          PY
+          git diff --check
+      - name: Publish to GitHub Pages main
+        run: |
+          git add index.html
+          if git diff --cached --quiet; then echo 'Already published'; exit 0; fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "feat(body): publish Medallero and Convenios V18.8"
+          git push origin HEAD:main
