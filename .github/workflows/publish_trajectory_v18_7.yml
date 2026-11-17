@@ -1,0 +1,44 @@
+name: Publish ABC BODY trajectory V18.7
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish_trajectory_v18_7.yml'
+      - 'tools/install_trajectory_v18_7.py'
+      - 'tools/trajectory_v18_7_payload.b64'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: abc-body-trajectory-v18-7
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recover and install verified visual assets
+        run: python3 tools/install_trajectory_v18_7.py
+      - name: Check script and preserved data
+        run: |
+          node --check trayectoria-v18-7.js
+          python3 - <<'PY'
+          from pathlib import Path
+          t=Path('index.html').read_text()
+          assert t.count('id="dataset"')==1
+          assert t.count('id="curriculum-meta"')==1
+          assert t.count('id="trayectoria"')==1
+          assert t.count('trayectoria-v18-7.css')==1
+          assert t.count('trayectoria-v18-7.js')==1
+          print('Verified curriculum anchors and external design assets.')
+          PY
+          git diff --check
+      - name: Commit visual trajectory implementation
+        run: |
+          git add index.html trayectoria-v18-7.js trayectoria-v18-7.css
+          if git diff --cached --quiet; then echo "Already published"; exit 0; fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "feat(trajectory): publish V18.7 progress dashboard"
+          git push origin HEAD:main
