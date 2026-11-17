@@ -1,0 +1,58 @@
+/* ABC BODY V18.8 · Medallero y Convenios · Manual ABC HUMAN */
+#medallero>.card{display:none!important}
+.cv{font-family:Lato,'Segoe UI',Arial,sans-serif;color:#1B2A39}
+.cv-hero{background:#0B2438;color:#fff;border-radius:20px;padding:clamp(24px,4vw,44px);position:relative;overflow:hidden}
+.cv-hero:after{content:"";position:absolute;width:190px;height:400px;right:14%;top:-110px;transform:skewX(-23deg);background:rgba(255,112,67,.09);pointer-events:none}
+.cv-kicker{color:#C95B3A;font-size:11px;letter-spacing:1.4px;font-weight:900}
+.cv-hero .cv-kicker{color:#FF9977}
+.cv-hero h2{color:#fff;font-size:clamp(27px,4vw,41px);margin:10px 0;letter-spacing:-1.2px}
+.cv-hero p{color:#CBD9E3;max-width:650px;line-height:1.65}
+.cv-hero-stats{display:flex;align-items:center;gap:14px;position:relative;z-index:1;margin-top:25px}
+.cv-hero-stats strong{font-size:46px;font-weight:900;color:#FF7043}
+.cv-hero-stats strong small{font-size:18px;color:#C9D7E0}
+.cv-hero-stats span{color:#E4EDF2;font-size:13px}
+.cv-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:16px 0 27px}
+.cv-stats article{background:#fff;border:1px solid #DCE5EC;border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:4px}
+.cv-stats strong{font-size:31px;color:#0B2438;font-weight:900}
+.cv-stats span{font-size:12px;color:#60798A}
+.cv-next{background:#F2F6F8;border:1px solid #D9E4EA;border-radius:16px;padding:24px;display:flex;justify-content:space-between;align-items:center;gap:22px;margin-bottom:28px}
+.cv-next h3{font-size:23px;color:#0B2438;margin:8px 0}.cv-next p{color:#536A7C;margin:0 0 14px}
+.cv-bar{height:9px;border-radius:20px;overflow:hidden;background:#DCE6ED;margin:10px 0}
+.cv-bar i{background:#FF7043;height:100%;display:block;border-radius:20px}
+.cv-action{background:#FF7043;color:#0B2438;font-weight:900;border:0;border-radius:10px;padding:14px 19px;cursor:pointer}
+.cv>h3,.cv-head h3{color:#0B2438;font-size:22px;margin:12px 0}
+.cv-medals{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:13px}
+.cv-medal{background:#fff;border:1px solid #D8E4EA;border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:7px}
+.cv-medal:not(.earned){opacity:.8}
+.cv-medal.earned{border-color:#FFB99F;background:#FFF9F6}
+.cv-symbol{width:61px;height:61px;background:#EDF2F5;border-radius:50%;display:grid;place-items:center;font-size:29px;color:#617887}
+.cv-medal.earned .cv-symbol{background:#FF7043;color:#0B2438}
+.cv-medal strong{font-size:17px;color:#0B2438}.cv-medal small{color:#8C5C48;font-weight:800}
+.cv-medal p{font-size:13px;color:#637789;flex:1;line-height:1.55}
+.cv-medal>span:last-child{font-size:12px;color:#607588}
+.cv-note,.cv-disclaimer{margin-top:22px;padding:20px;border-radius:13px;background:#F2F6F8;color:#526C7B;line-height:1.6}
+.cv-note strong{color:#0B2438}
+.cv-note button{color:#AD4526;font-weight:900;border:0;background:none;cursor:pointer}
+.cv-head{display:flex;justify-content:space-between;align-items:end;gap:15px;margin:28px 0 13px}.cv-head>span{color:#687F91;font-size:12px}
+.cv-filters{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:20px}
+.cv-filters button{background:#fff;border:1px solid #D5E2EA;border-radius:9px;padding:10px 14px;color:#3D5566;cursor:pointer}
+.cv-filters button.selected{background:#0B2438;color:#fff;border-color:#0B2438}
+.cv-partners{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.cv-partner{background:white;border:1px solid #DCE5EA;border-radius:15px;padding:20px;min-width:0;display:flex;flex-direction:column;gap:7px}
+.cv-partner-logo{height:112px;border-radius:11px;background:#F4F7FA;display:grid;place-items:center;margin-bottom:12px;padding:15px}
+.cv-partner-logo img{max-width:100%;max-height:100%;object-fit:contain}
+.cv-partner-logo span{font-size:42px;color:#A3B6C3}
+.cv-partner h4{font-size:20px;margin:0;color:#0B2438}.cv-partner p{color:#526B7C;line-height:1.5;flex:1}.cv-partner small{color:#AA4B2C}
+.cv-partner-actions{border-top:1px solid #E6EEF2;padding-top:12px;display:flex;justify-content:space-between;align-items:center;gap:9px}
+.cv-partner-actions label{cursor:pointer;color:#B64C2C;font-weight:800}
+.cv-partner-actions button{border:0;background:#F2F5F7;color:#506879;padding:8px 11px;border-radius:8px;cursor:pointer}
+.cv-empty{padding:42px 20px;background:#fff;border:1px dashed #BFD0DA;border-radius:15px;text-align:center}.cv-empty p{max-width:440px;margin:10px auto 0;color:#657F90}
+.cv-editor{background:#fff;border:1px solid #DCE5EA;border-radius:14px;padding:20px;margin-top:22px}
+.cv-editor summary{font-weight:900;color:#0B2438;cursor:pointer}
+.cv-editor form{display:grid;gap:14px;margin-top:17px}
+.cv-editor label{display:grid;gap:5px;color:#274355;font-weight:700}
+.cv-editor input,.cv-editor textarea,.cv-editor select{width:100%;box-sizing:border-box;padding:12px;border:1px solid #C9D9E1;border-radius:9px;font:inherit;background:white}
+.cv-editor input[type=file]{background:#F4F7FA}
+.cv-editor button{justify-self:start}
+@media(max-width:900px){.cv-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.cv-next{flex-direction:column;align-items:stretch}.cv-head{align-items:start;flex-direction:column}}
+@media(max-width:480px){.cv-hero{padding:25px}.cv-stats{gap:9px}.cv-stats article{padding:13px}.cv-stats strong{font-size:25px}.cv-medals{grid-template-columns:1fr}.cv-partners{grid-template-columns:1fr}}
