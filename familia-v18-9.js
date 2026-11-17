@@ -141,7 +141,7 @@ function stats() {
   const family = Object.keys(s.familyDone).length;
   const validated = Object.values(s.validations || {}).filter(v => v && ['competente','consolidada'].includes(v.nivel)).length;
   const st = streaks();
-  const xp = ses.length*10 + weeksComplete*20 + quizPassed*10 + practices*15 + family*15 + validated*50;
+  const xp = ses.length*10 + weeksComplete*20 + quizPassed*10 + practices*15 + family*15 + validated*50 + (window.ABC10?.xp?.() || 0);
   return {ses, sessions:ses.length, minutes:ses.reduce((a,x)=>a+x.m,0), weeksComplete, quizPassed, practices, family, validated, xp, streak:st.cur, best:st.best, days:st.days};
 }
 const LEVELS = [[0,'Semilla'],[100,'Brote'],[250,'Explorador/a'],[500,'Aventurero/a'],[900,'Atleta en camino'],[1400,'Atleta ABC'],[2000,'Leyenda ABC']];

@@ -114,3 +114,38 @@
 1. Sube los archivos de esta versión respetando las rutas, en una rama nueva, y abre un pull request.
 2. El workflow «Validar currículo» debe quedar en verde.
 3. Después de fusionar, abre la app y recarga sin caché (Ctrl+Shift+R): el pie debe decir V18.9 y debe aparecer la pestaña ♥ Familia.
+
+## V19.0 — Pruebas físicas por ciclo (Claude)
+
+### Teoría: qué mide y por qué
+Al padre lo convence ver que su hijo mejora, no solo que participa. Cinco pruebas de campo sencillas, hechas en casa con un adulto que mide, al inicio de cada ciclo (semanas 1, 14, 27 y 40):
+
+| Prueba | Mide | Protocolo | Mejor |
+|---|---|---|---|
+| ⚡ Carrera de velocidad | Velocidad | 10 m (6–8 años) o 20 m (9–18), cronómetro manual | menor tiempo |
+| 🦘 Salto de longitud sin impulso | Fuerza de piernas | dos pies, medir hasta el talón más cercano | mayor distancia |
+| 🦩 Equilibrio en un pie | Equilibrio | manos en la cintura, máximo 60 s | más tiempo |
+| 🎾 Lanzar y atrapar contra la pared | Coordinación ojo-mano | a 1,5 m (6–8) o 2 m, 30 s | más atrapes |
+| ↔️ Saltos laterales | Agilidad | sobre una línea, 15 s | más saltos |
+
+- Son dos intentos y cuenta el mejor. Cada resultado se compara **solo con las marcas anteriores del mismo niño o niña** y con el mismo protocolo (la distancia queda guardada). No hay tablas de normas ni rankings.
+- Las pruebas son solo para ABC KIDS y ABC YOUTH (6–18 años). Para adultos y personas mayores hará falta una batería propia.
+
+### Herramienta
+- Pestaña **📏 Pruebas**: estado del ciclo (x/5), una tarjeta por prueba con la última marca y el cambio desde la primera, un historial por ciclo y el protocolo paso a paso con nota de seguridad.
+- Cronómetro integrado (velocidad, equilibrio con corte a 60 s) y cuenta regresiva con botón +1 (atrapar, saltos laterales). El resultado se pasa al intento 1 o 2 con un toque. Los valores fuera de rango se rechazan.
+- **Inicio**: aviso «Prueba física del ciclo N» mientras falten pruebas. **Panel Familia**: sección «¿Cuánto ha mejorado?» con primera → última marca por prueba.
+- **Progreso**: +5 XP por prueba y +10 XP por cada prueba con marca mejorada. Tres insignias nuevas: Primera evaluación, Nueva marca personal y Mejora completa.
+- Archivos: `pruebas-v19-0.js` y `pruebas-v19-0.css` (nuevos); `familia-v18-9.js` (suma el XP de las pruebas); `index.html` (dos enlaces y pie V19.0). Datos en `s.tests`, incluidos en el respaldo JSON.
+
+### Límites
+- Protocolos inspirados en baterías escolares de campo; conviene que un profesional de educación física los revise y defina cuántos intentos y qué descanso usar.
+- El tiempo manual tiene error humano (de unas décimas): sirve para ver tendencias, no para comparar a niños entre sí.
+
+### Tutorial: publicar
+Sube los archivos del zip respetando las rutas, en una rama nueva, y abre un pull request. Después de fusionar, recarga con Ctrl+Shift+R: el pie debe decir V19.0 y debe aparecer la pestaña 📏 Pruebas.
+
+### V19.0 · Convenios firmados
+- Ocho alianzas con convenio firmado: Athletic Advance, Perform, CrossFit 506, Academia de Fútbol Halcones D.C., Academia de Baloncesto Barva, Nutri Snacks, Goodlife y Gold's Gym. Se marcan como «✓ Convenio firmado» y se filtran por categoría.
+- Los logos van en un sprite WebP (8 casillas de 320×200) incrustado en `medallero-convenios-v18-8.css`, así no hace falta subir imágenes aparte.
+- Para añadir un beneficio para familias, completa el campo `benefit` de cada aliado en `medallero-convenios-v18-8.js` (aparece como «Para familias ABC: …»). Las descripciones actuales son genéricas: conviene sustituirlas por las de cada convenio.
