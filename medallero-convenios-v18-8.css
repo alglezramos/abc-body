@@ -56,3 +56,8 @@
 .cv-editor button{justify-self:start}
 @media(max-width:900px){.cv-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.cv-next{flex-direction:column;align-items:stretch}.cv-head{align-items:start;flex-direction:column}}
 @media(max-width:480px){.cv-hero{padding:25px}.cv-stats{gap:9px}.cv-stats article{padding:13px}.cv-stats strong{font-size:25px}.cv-medals{grid-template-columns:1fr}.cv-partners{grid-template-columns:1fr}}
+
+/* Logotipos aportados por el usuario: sprite estático independiente del almacenamiento local. */
+.cv-logo-sprite{display:block;width:104px;height:104px;max-width:100%;flex:none;background:#fff url('assets/convenios/convenios-sprite.webp') var(--cv-pos,0%) center / 500% 100% no-repeat;border-radius:6px;font-size:0!important}
+.cv-partner[data-featured="true"] .cv-partner-actions{display:none}
+.cv-partner[data-featured="true"] .cv-partner-logo{background:#fff;border:1px solid #e8eef1}
