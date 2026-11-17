@@ -1,0 +1,34 @@
+name: Stage exact ABC BODY V18.9
+on:
+  push:
+    branches: [v18-9-familia]
+    paths:
+      - '.github/workflows/install-v18-9.yml'
+      - 'tools/v189_package/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: abc-body-v18-9-stage
+  cancel-in-progress: false
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: v18-9-familia
+          persist-credentials: true
+      - name: Verify and reconstruct supplied release
+        run: python3 tools/v189_package/install.py
+      - name: Check curriculum quality
+        run: python3 tools/validar_curriculo.py
+      - name: Stage exact app files and remove temporary transfer payload
+        run: |
+          git add -- README.md index.html familia-v18-9.js familia-v18-9.css medallero-convenios-v18-8.js learning-flow-v18-5.js
+          git rm -r -q tools/v189_package .github/workflows/install-v18-9.yml
+          git diff --cached --check
+      - name: Commit V18.9 to review branch only
+        run: |
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "feat(app): stage ABC BODY V18.9 family features for review"
+          git push origin HEAD:v18-9-familia
