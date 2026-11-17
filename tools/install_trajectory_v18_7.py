@@ -6,7 +6,7 @@ only when reconstructed files match both original SHA-256 values exactly.
 Keep the curriculum and storage model unchanged.
 """
 from pathlib import Path
-import base64, gzip, hashlib, io, tarfile, re
+import base64, gzip, hashlib, io, tarfile, re, zlib
 
 ROOT=Path(__file__).resolve().parent.parent
 PACKAGE=ROOT/'tools/trajectory_v18_7_payload.b64'
@@ -35,7 +35,7 @@ def recover():
                 if verified(files):
                     print('Recovered verified payload at position',i)
                     return files
-            except (ValueError,EOFError,OSError,tarfile.TarError,KeyError,RuntimeError):
+            except (ValueError,EOFError,OSError,tarfile.TarError,KeyError,RuntimeError,zlib.error):
                 pass
     raise SystemExit('No reconstruction matches source hashes; refusing to publish')
 def git_blob(data):
