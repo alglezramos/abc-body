@@ -3,7 +3,7 @@
 from pathlib import Path
 import base64, hashlib, zipfile, io, json, re, subprocess
 
-root=Path(__file__).resolve().parent.parent
+root=Path(__file__).resolve().parents[2]
 pieces=sorted((root/"tools/v189_package").glob("part-*.txt"))
 assert len(pieces)==13, f"Expected 13 pieces, got {len(pieces)}"
 data=base64.b64decode("".join(p.read_text().strip() for p in pieces),validate=True)
